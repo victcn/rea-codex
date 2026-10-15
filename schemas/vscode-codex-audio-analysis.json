@@ -1,0 +1,93 @@
+{
+  "extension_id": "openai.codex-audio",
+  "version": "26.1007.21434",
+  "source_path": "/root/.vscode-server/extensions/openai.codex-audio-26.1007.21434",
+  "extracted_directory": "extracted-assets/vscode-codex-audio-extension",
+  "contributed_commands": [],
+  "contributed_configuration": {},
+  "detected_command_ids": [],
+  "worker_ipc_message_types": [
+    "any",
+    "array",
+    "bigint",
+    "boolean",
+    "catch",
+    "custom",
+    "date",
+    "default",
+    "enum",
+    "file",
+    "function",
+    "intersection",
+    "invalid_type",
+    "lazy",
+    "literal",
+    "map",
+    "nan",
+    "never",
+    "nonoptional",
+    "null",
+    "nullable",
+    "number",
+    "object",
+    "optional",
+    "pipe",
+    "prefault",
+    "promise",
+    "readonly",
+    "record",
+    "set",
+    "string",
+    "success",
+    "symbol",
+    "template_literal",
+    "transform",
+    "tuple",
+    "undefined",
+    "union",
+    "unknown",
+    "void"
+  ],
+  "bundles": [
+    {
+      "name": "out/extension.js",
+      "raw_bytes": 331312,
+      "formatted_lines": 6929,
+      "formatted_path": "extracted-assets/vscode-codex-audio-extension/extension.formatted.js"
+    },
+    {
+      "name": "out/recorder-worker.js",
+      "raw_bytes": 327700,
+      "formatted_lines": 6801,
+      "formatted_path": "extracted-assets/vscode-codex-audio-extension/recorder-worker.formatted.js"
+    }
+  ],
+  "native_pvrecorder_libraries": [
+    {
+      "relative_path": "vendor/pvrecorder/lib/linux/x86_64/pv_recorder.node",
+      "size_bytes": 889128,
+      "sha256": "f42752754975a0266c2b5ea0668b5c9508590273cd7a3baf38a678d5056918cc"
+    },
+    {
+      "relative_path": "vendor/pvrecorder/lib/mac/arm64/pv_recorder.node",
+      "size_bytes": 625648,
+      "sha256": "f5bc73a9e4e4506bc1882a1c3eb318f51848621c2620fb6eaa177faefc2fa648"
+    },
+    {
+      "relative_path": "vendor/pvrecorder/lib/mac/x86_64/pv_recorder.node",
+      "size_bytes": 687080,
+      "sha256": "5eb602765ad5ac29f3dc91f9f24fe92a0686c18e4b767cd802d9d6e8d19e9a1d"
+    },
+    {
+      "relative_path": "vendor/pvrecorder/lib/windows/amd64/pv_recorder.node",
+      "size_bytes": 981659,
+      "sha256": "4f6457d2b6b1fbe8bf33c259de6387b423c452ebaff791dfbdda7daedb90ac27"
+    },
+    {
+      "relative_path": "vendor/pvrecorder/lib/windows/arm64/pv_recorder.node",
+      "size_bytes": 722944,
+      "sha256": "9d4e0b64fde4028ccab0b513ee632a63a2527d755a0db00973623ed5de32f116"
+    }
+  ],
+  "rea_evidence_id": "ev_57a3879e3952330028d2217d1b8bc21f7532f21db1535fed49b9e4c6e6a4345e"
+}

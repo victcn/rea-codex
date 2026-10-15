@@ -1,0 +1,122 @@
+{
+  "target": "@openai/codex v0.162.1 (092d3acd6bec3e3a14bdc7e7a2810ab628ab759d)",
+  "total_tests": 19,
+  "passed_tests": 19,
+  "all_passed": true,
+  "results": [
+    {
+      "name": "1. Local ./bin/codex Version Verification",
+      "passed": true,
+      "detail": "codex-cli 0.162.1",
+      "elapsed_s": 0.107
+    },
+    {
+      "name": "2. Isolated Environment Runner (scripts/run-isolated.sh)",
+      "passed": true,
+      "detail": "Features listed in isolated CODEX_HOME: 167",
+      "elapsed_s": 0.118
+    },
+    {
+      "name": "3. Zstandard App-Server Protocol Bundles (Stable + Experimental)",
+      "passed": true,
+      "detail": "stable_ts=743, exp_ts=888, exp_json_schema=447, RolloutLine.json=True",
+      "elapsed_s": 0.001
+    },
+    {
+      "name": "4. Embedded Model Catalog & Hidden Models Verification",
+      "passed": true,
+      "detail": "models=11, hidden=['gpt-daybreak-blue-latest', 'gpt-daybreak-red-latest', 'codex-auto-review']",
+      "elapsed_s": 0.002
+    },
+    {
+      "name": "5. Embedded include_dir! System Skills Tree",
+      "passed": true,
+      "detail": "skills=['imagegen', 'openai-docs', 'review-agent', 'skill-creator', 'skill-installer'], files=48",
+      "elapsed_s": 0.0
+    },
+    {
+      "name": "6. SQLite Migrations SHA-384 Integrity Verification",
+      "passed": true,
+      "detail": "migrations=75, sha384_verified=True",
+      "elapsed_s": 0.001
+    },
+    {
+      "name": "7. Hooks Lifecycle Wire Protocol Schemas",
+      "passed": true,
+      "detail": "hook_schemas=23",
+      "elapsed_s": 0.0
+    },
+    {
+      "name": "8. Authentic Rust Workspace Source Tree (Zero sub_xxxx Placeholders)",
+      "passed": true,
+      "detail": "authentic_rs_files=5179, cargo_manifests=163, sub_placeholders=0",
+      "elapsed_s": 0.125
+    },
+    {
+      "name": "9. Binary Virtual Address <-> Real Rust Source Line Alignment",
+      "passed": true,
+      "detail": "mapped_functions=7340, location_alignment=16817/16817 (100.0%)",
+      "elapsed_s": 0.026
+    },
+    {
+      "name": "10. Voice Host Symbols & Serde Reflection Catalog",
+      "passed": true,
+      "detail": "voice_symbols=27892, serde_structs=1325, serde_variants=458",
+      "elapsed_s": 0.001
+    },
+    {
+      "name": "11. REA Canonical Evidence Bundle Integrity",
+      "passed": true,
+      "detail": "rea_evidence_records=16",
+      "elapsed_s": 0.049
+    },
+    {
+      "name": "12. codex-code-mode-host V8 Startup Snapshot (10.82 MB) & JS Combinators",
+      "passed": true,
+      "detail": "offset=0x2fb1980, bytes=10822192, symbols=6391",
+      "elapsed_s": 0.0
+    },
+    {
+      "name": "13. Syntect ThemeSet (32 Themes) & SyntaxSet (220 Syntaxes) Decompression",
+      "passed": true,
+      "detail": "themes=32 (358017B), syntaxes=220 (5331694B)",
+      "elapsed_s": 0.002
+    },
+    {
+      "name": "14. Companion Binaries Static ELF Analysis (zsh, bwrap, rg)",
+      "passed": true,
+      "detail": "binaries=['zsh', 'bwrap', 'rg']",
+      "elapsed_s": 0.0
+    },
+    {
+      "name": "15. Voice Host DWARF Compilation Units & Bundled GStreamer/Audio Libraries",
+      "passed": true,
+      "detail": "dwarf_cus=250, shared_libs=26",
+      "elapsed_s": 0.0
+    },
+    {
+      "name": "16. 6 Patched Git Fork Dependencies (100% Panic Location Alignment)",
+      "passed": true,
+      "detail": "forks=6, rs_files=445, panic_locs=1253/1253, mapped_fns=880",
+      "elapsed_s": 0.0
+    },
+    {
+      "name": "17. VS Code Extension openai.codex-audio Formatted JS & Native Matrix",
+      "passed": true,
+      "detail": "version=26.1007.21434, native_libs=5, formatted_bundles=2",
+      "elapsed_s": 0.0
+    },
+    {
+      "name": "18. 7 Official Bundled & Curated Plugins Archive",
+      "passed": true,
+      "detail": "plugins=['visualize', 'superpowers', 'openai-templates', 'plugin-management', 'product-design', 'sites', 'work-pets']",
+      "elapsed_s": 0.0
+    },
+    {
+      "name": "19. Binary Asset & Stripped Address Inspector CLI",
+      "passed": true,
+      "detail": "Verified 6 binary asset regions & resolved 0x1a08d90 -> src/cli/src/main.rs::run_debug_app_server_command (L941..L976)",
+      "elapsed_s": 0.095
+    }
+  ]
+}

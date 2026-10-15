@@ -1,0 +1,758 @@
+{
+  "binary_count": 3,
+  "binaries": [
+    {
+      "name": "zsh",
+      "path": "/usr/local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-resources/zsh/bin/zsh",
+      "role": "Custom patched Zsh with EXECVE_WRAPPER_FD / CODEX_EXECVE_WRAPPER_SOCKET support",
+      "size_bytes": 898480,
+      "sha256": "67faaaa89242c4a332e16e508a1977cffc24bf7fca31d4411cdfd101f3831ef3",
+      "build_id": "ddfdf60355191f807f41850df072ffd96c18b350",
+      "needed_shared_libraries": [
+        "libtinfo.so.6",
+        "libm.so.6",
+        "libc.so.6"
+      ],
+      "statically_linked": false,
+      "section_count": 29,
+      "sections": [
+        {
+          "name": ".interp",
+          "type": "PROGBITS",
+          "addr": "0x0000000000000318",
+          "off": "0x000318",
+          "size_bytes": 28
+        },
+        {
+          "name": ".note.gnu.property",
+          "type": "NOTE",
+          "addr": "0x0000000000000338",
+          "off": "0x000338",
+          "size_bytes": 48
+        },
+        {
+          "name": ".note.gnu.build-id",
+          "type": "NOTE",
+          "addr": "0x0000000000000368",
+          "off": "0x000368",
+          "size_bytes": 36
+        },
+        {
+          "name": ".note.ABI-tag",
+          "type": "NOTE",
+          "addr": "0x000000000000038c",
+          "off": "0x00038c",
+          "size_bytes": 32
+        },
+        {
+          "name": ".gnu.hash",
+          "type": "GNU_HASH",
+          "addr": "0x00000000000003b0",
+          "off": "0x0003b0",
+          "size_bytes": 9460
+        },
+        {
+          "name": ".dynsym",
+          "type": "DYNSYM",
+          "addr": "0x00000000000028a8",
+          "off": "0x0028a8",
+          "size_bytes": 30720
+        },
+        {
+          "name": ".dynstr",
+          "type": "STRTAB",
+          "addr": "0x000000000000a0a8",
+          "off": "0x00a0a8",
+          "size_bytes": 13252
+        },
+        {
+          "name": ".gnu.version",
+          "type": "VERSYM",
+          "addr": "0x000000000000d46c",
+          "off": "0x00d46c",
+          "size_bytes": 2560
+        },
+        {
+          "name": ".gnu.version_r",
+          "type": "VERNEED",
+          "addr": "0x000000000000de70",
+          "off": "0x00de70",
+          "size_bytes": 256
+        },
+        {
+          "name": ".rela.dyn",
+          "type": "RELA",
+          "addr": "0x000000000000df70",
+          "off": "0x00df70",
+          "size_bytes": 29448
+        },
+        {
+          "name": ".rela.plt",
+          "type": "RELA",
+          "addr": "0x0000000000015278",
+          "off": "0x015278",
+          "size_bytes": 4824
+        },
+        {
+          "name": ".init",
+          "type": "PROGBITS",
+          "addr": "0x0000000000017000",
+          "off": "0x017000",
+          "size_bytes": 27
+        },
+        {
+          "name": ".plt",
+          "type": "PROGBITS",
+          "addr": "0x0000000000017020",
+          "off": "0x017020",
+          "size_bytes": 3232
+        },
+        {
+          "name": ".plt.got",
+          "type": "PROGBITS",
+          "addr": "0x0000000000017cc0",
+          "off": "0x017cc0",
+          "size_bytes": 32
+        },
+        {
+          "name": ".plt.sec",
+          "type": "PROGBITS",
+          "addr": "0x0000000000017ce0",
+          "off": "0x017ce0",
+          "size_bytes": 3216
+        },
+        {
+          "name": ".text",
+          "type": "PROGBITS",
+          "addr": "0x0000000000018970",
+          "off": "0x018970",
+          "size_bytes": 651740
+        },
+        {
+          "name": ".fini",
+          "type": "PROGBITS",
+          "addr": "0x00000000000b7b4c",
+          "off": "0x0b7b4c",
+          "size_bytes": 13
+        },
+        {
+          "name": ".rodata",
+          "type": "PROGBITS",
+          "addr": "0x00000000000b8000",
+          "off": "0x0b8000",
+          "size_bytes": 39652
+        },
+        {
+          "name": ".eh_frame_hdr",
+          "type": "PROGBITS",
+          "addr": "0x00000000000c1ae4",
+          "off": "0x0c1ae4",
+          "size_bytes": 8772
+        },
+        {
+          "name": ".eh_frame",
+          "type": "PROGBITS",
+          "addr": "0x00000000000c3d28",
+          "off": "0x0c3d28",
+          "size_bytes": 60976
+        },
+        {
+          "name": ".init_array",
+          "type": "INIT_ARRAY",
+          "addr": "0x00000000000d3a30",
+          "off": "0x0d3a30",
+          "size_bytes": 8
+        },
+        {
+          "name": ".fini_array",
+          "type": "FINI_ARRAY",
+          "addr": "0x00000000000d3a38",
+          "off": "0x0d3a38",
+          "size_bytes": 8
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "PROGBITS",
+          "addr": "0x00000000000d3a40",
+          "off": "0x0d3a40",
+          "size_bytes": 3304
+        },
+        {
+          "name": ".dynamic",
+          "type": "DYNAMIC",
+          "addr": "0x00000000000d4728",
+          "off": "0x0d4728",
+          "size_bytes": 528
+        },
+        {
+          "name": ".got",
+          "type": "PROGBITS",
+          "addr": "0x00000000000d4938",
+          "off": "0x0d4938",
+          "size_bytes": 1720
+        },
+        {
+          "name": ".data",
+          "type": "PROGBITS",
+          "addr": "0x00000000000d5000",
+          "off": "0x0d5000",
+          "size_bytes": 23784
+        },
+        {
+          "name": ".bss",
+          "type": "NOBITS",
+          "addr": "0x00000000000dad00",
+          "off": "0x0dace8",
+          "size_bytes": 79136
+        },
+        {
+          "name": ".comment",
+          "type": "PROGBITS",
+          "addr": "0x0000000000000000",
+          "off": "0x0dace8",
+          "size_bytes": 45
+        },
+        {
+          "name": ".shstrtab",
+          "type": "STRTAB",
+          "addr": "0x0000000000000000",
+          "off": "0x0dad15",
+          "size_bytes": 279
+        }
+      ],
+      "notable_strings": [
+        "EXEC_WRAPPER",
+        "zsh-5.9.0.3-test-87-g77045ef",
+        "zwc file (%s) for zsh-%s",
+        "zwc file has wrong version (zsh-%s): %s"
+      ],
+      "elf_header_summary": [
+        "ELF Header:",
+        "Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00",
+        "Class:                             ELF64",
+        "Data:                              2's complement, little endian",
+        "Version:                           1 (current)",
+        "OS/ABI:                            UNIX - System V",
+        "ABI Version:                       0",
+        "Type:                              DYN (Position-Independent Executable file)",
+        "Machine:                           Advanced Micro Devices X86-64",
+        "Version:                           0x1",
+        "Entry point address:               0x189d0",
+        "Start of program headers:          64 (bytes into file)",
+        "Start of section headers:          896560 (bytes into file)",
+        "Flags:                             0x0",
+        "Size of this header:               64 (bytes)",
+        "Size of program headers:           56 (bytes)",
+        "Number of program headers:         13",
+        "Size of section headers:           64 (bytes)",
+        "Number of section headers:         30",
+        "Section header string table index: 29"
+      ]
+    },
+    {
+      "name": "bwrap",
+      "path": "/usr/local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-resources/bwrap",
+      "role": "Bundled Bubblewrap Linux namespace sandbox helper",
+      "size_bytes": 529776,
+      "sha256": "01fb705f067bd5365b63d8ad2323a61c8d007733ca5e649437e086f3fb9935d8",
+      "build_id": null,
+      "needed_shared_libraries": [],
+      "statically_linked": true,
+      "section_count": 26,
+      "sections": [
+        {
+          "name": ".hash",
+          "type": "HASH",
+          "addr": "0x0000000000000238",
+          "off": "0x000238",
+          "size_bytes": 12
+        },
+        {
+          "name": ".gnu.hash",
+          "type": "GNU_HASH",
+          "addr": "0x0000000000000248",
+          "off": "0x000248",
+          "size_bytes": 28
+        },
+        {
+          "name": ".dynsym",
+          "type": "DYNSYM",
+          "addr": "0x0000000000000268",
+          "off": "0x000268",
+          "size_bytes": 24
+        },
+        {
+          "name": ".dynstr",
+          "type": "STRTAB",
+          "addr": "0x0000000000000280",
+          "off": "0x000280",
+          "size_bytes": 1
+        },
+        {
+          "name": ".rela.dyn",
+          "type": "RELA",
+          "addr": "0x0000000000000288",
+          "off": "0x000288",
+          "size_bytes": 15576
+        },
+        {
+          "name": ".init",
+          "type": "PROGBITS",
+          "addr": "0x0000000000004000",
+          "off": "0x004000",
+          "size_bytes": 3
+        },
+        {
+          "name": ".plt",
+          "type": "PROGBITS",
+          "addr": "0x0000000000004010",
+          "off": "0x004010",
+          "size_bytes": 16
+        },
+        {
+          "name": ".plt.got",
+          "type": "PROGBITS",
+          "addr": "0x0000000000004020",
+          "off": "0x004020",
+          "size_bytes": 24
+        },
+        {
+          "name": ".text",
+          "type": "PROGBITS",
+          "addr": "0x0000000000004040",
+          "off": "0x004040",
+          "size_bytes": 403513
+        },
+        {
+          "name": ".fini",
+          "type": "PROGBITS",
+          "addr": "0x0000000000066879",
+          "off": "0x066879",
+          "size_bytes": 3
+        },
+        {
+          "name": ".rodata",
+          "type": "PROGBITS",
+          "addr": "0x0000000000067000",
+          "off": "0x067000",
+          "size_bytes": 52876
+        },
+        {
+          "name": ".debug_gdb_scripts",
+          "type": "PROGBITS",
+          "addr": "0x0000000000073e8c",
+          "off": "0x073e8c",
+          "size_bytes": 34
+        },
+        {
+          "name": ".eh_frame_hdr",
+          "type": "PROGBITS",
+          "addr": "0x0000000000073eb0",
+          "off": "0x073eb0",
+          "size_bytes": 5260
+        },
+        {
+          "name": ".eh_frame",
+          "type": "PROGBITS",
+          "addr": "0x0000000000075340",
+          "off": "0x075340",
+          "size_bytes": 28228
+        },
+        {
+          "name": ".gcc_except_table",
+          "type": "PROGBITS",
+          "addr": "0x000000000007c184",
+          "off": "0x07c184",
+          "size_bytes": 4172
+        },
+        {
+          "name": ".tdata",
+          "type": "PROGBITS",
+          "addr": "0x000000000007eac0",
+          "off": "0x07dac0",
+          "size_bytes": 32
+        },
+        {
+          "name": ".tbss",
+          "type": "NOBITS",
+          "addr": "0x000000000007eae0",
+          "off": "0x07dae0",
+          "size_bytes": 48
+        },
+        {
+          "name": ".init_array",
+          "type": "INIT_ARRAY",
+          "addr": "0x000000000007eae0",
+          "off": "0x07dae0",
+          "size_bytes": 16
+        },
+        {
+          "name": ".fini_array",
+          "type": "FINI_ARRAY",
+          "addr": "0x000000000007eaf0",
+          "off": "0x07daf0",
+          "size_bytes": 16
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "PROGBITS",
+          "addr": "0x000000000007eb00",
+          "off": "0x07db00",
+          "size_bytes": 7296
+        },
+        {
+          "name": ".dynamic",
+          "type": "DYNAMIC",
+          "addr": "0x0000000000080780",
+          "off": "0x07f780",
+          "size_bytes": 400
+        },
+        {
+          "name": ".got",
+          "type": "PROGBITS",
+          "addr": "0x0000000000080910",
+          "off": "0x07f910",
+          "size_bytes": 1760
+        },
+        {
+          "name": ".data",
+          "type": "PROGBITS",
+          "addr": "0x0000000000081000",
+          "off": "0x080000",
+          "size_bytes": 3320
+        },
+        {
+          "name": ".bss",
+          "type": "NOBITS",
+          "addr": "0x0000000000081d00",
+          "off": "0x080cf8",
+          "size_bytes": 7712
+        },
+        {
+          "name": ".comment",
+          "type": "PROGBITS",
+          "addr": "0x0000000000000000",
+          "off": "0x080cf8",
+          "size_bytes": 211
+        },
+        {
+          "name": ".shstrtab",
+          "type": "STRTAB",
+          "addr": "0x0000000000000000",
+          "off": "0x080dcb",
+          "size_bytes": 227
+        }
+      ],
+      "notable_strings": [
+        "    --assert-userns-disabled     Fail unless further use of user namespace inside sandbox is disabled",
+        "    --die-with-parent            Kills with SIGKILL child process (COMMAND) when bwrap or bwrap's parent dies.",
+        "    --disable-userns             Disable further use of user namespaces inside sandbox",
+        "    --exec-label LABEL           Exec label for the sandbox",
+        "    --file-label LABEL           File label for temporary sandbox content",
+        "    --gid GID                    Custom gid in the sandbox (requires --unshare-user or --userns)",
+        "    --hostname NAME              Custom hostname in the sandbox (requires --unshare-uts)",
+        "    --lock-file DEST             Take a lock on DEST while sandbox is running",
+        "    --sync-fd FD                 Keep this fd open while sandbox is running",
+        "    --uid UID                    Custom uid in the sandbox (requires --unshare-user or --userns)",
+        "Creating new namespace failed, likely because the kernel does not support user namespaces.  bwrap must be installed setu",
+        "bwrap",
+        "bwrap/src/main.rs",
+        "bwrap: "
+      ],
+      "elf_header_summary": [
+        "ELF Header:",
+        "Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00",
+        "Class:                             ELF64",
+        "Data:                              2's complement, little endian",
+        "Version:                           1 (current)",
+        "OS/ABI:                            UNIX - System V",
+        "ABI Version:                       0",
+        "Type:                              DYN (Position-Independent Executable file)",
+        "Machine:                           Advanced Micro Devices X86-64",
+        "Version:                           0x1",
+        "Entry point address:               0x946d",
+        "Start of program headers:          64 (bytes into file)",
+        "Start of section headers:          528048 (bytes into file)",
+        "Flags:                             0x0",
+        "Size of this header:               64 (bytes)",
+        "Size of program headers:           56 (bytes)",
+        "Number of program headers:         9",
+        "Size of section headers:           64 (bytes)",
+        "Number of section headers:         27",
+        "Section header string table index: 26"
+      ]
+    },
+    {
+      "name": "rg",
+      "path": "/usr/local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path/rg",
+      "role": "Bundled ripgrep (Rust musl static binary) for fast file/content search",
+      "size_bytes": 5408904,
+      "sha256": "e62198eb19b136b88c330af83647b5a962cb99b6b1f066758568f12de1974849",
+      "build_id": null,
+      "needed_shared_libraries": [],
+      "statically_linked": true,
+      "section_count": 25,
+      "sections": [
+        {
+          "name": ".hash",
+          "type": "HASH",
+          "addr": "0x00000000000001c8",
+          "off": "0x0001c8",
+          "size_bytes": 12
+        },
+        {
+          "name": ".gnu.hash",
+          "type": "GNU_HASH",
+          "addr": "0x00000000000001d8",
+          "off": "0x0001d8",
+          "size_bytes": 28
+        },
+        {
+          "name": ".dynsym",
+          "type": "DYNSYM",
+          "addr": "0x00000000000001f8",
+          "off": "0x0001f8",
+          "size_bytes": 24
+        },
+        {
+          "name": ".dynstr",
+          "type": "STRTAB",
+          "addr": "0x0000000000000210",
+          "off": "0x000210",
+          "size_bytes": 1
+        },
+        {
+          "name": ".rela.dyn",
+          "type": "RELA",
+          "addr": "0x0000000000000218",
+          "off": "0x000218",
+          "size_bytes": 320976
+        },
+        {
+          "name": ".init",
+          "type": "PROGBITS",
+          "addr": "0x000000000004e7e8",
+          "off": "0x04e7e8",
+          "size_bytes": 3
+        },
+        {
+          "name": ".plt",
+          "type": "PROGBITS",
+          "addr": "0x000000000004e7f0",
+          "off": "0x04e7f0",
+          "size_bytes": 16
+        },
+        {
+          "name": ".plt.got",
+          "type": "PROGBITS",
+          "addr": "0x000000000004e800",
+          "off": "0x04e800",
+          "size_bytes": 16
+        },
+        {
+          "name": ".text",
+          "type": "PROGBITS",
+          "addr": "0x000000000004e810",
+          "off": "0x04e810",
+          "size_bytes": 3684482
+        },
+        {
+          "name": ".fini",
+          "type": "PROGBITS",
+          "addr": "0x00000000003d2092",
+          "off": "0x3d2092",
+          "size_bytes": 3
+        },
+        {
+          "name": ".rodata",
+          "type": "PROGBITS",
+          "addr": "0x00000000003d20c0",
+          "off": "0x3d20c0",
+          "size_bytes": 850100
+        },
+        {
+          "name": ".eh_frame_hdr",
+          "type": "PROGBITS",
+          "addr": "0x00000000004a1974",
+          "off": "0x4a1974",
+          "size_bytes": 40164
+        },
+        {
+          "name": ".eh_frame",
+          "type": "PROGBITS",
+          "addr": "0x00000000004ab658",
+          "off": "0x4ab658",
+          "size_bytes": 254912
+        },
+        {
+          "name": ".gcc_except_table",
+          "type": "PROGBITS",
+          "addr": "0x00000000004e9a18",
+          "off": "0x4e9a18",
+          "size_bytes": 6632
+        },
+        {
+          "name": ".tdata",
+          "type": "PROGBITS",
+          "addr": "0x00000000006ec350",
+          "off": "0x4ec350",
+          "size_bytes": 2008
+        },
+        {
+          "name": ".tbss",
+          "type": "NOBITS",
+          "addr": "0x00000000006ecb28",
+          "off": "0x4ecb28",
+          "size_bytes": 120
+        },
+        {
+          "name": ".init_array",
+          "type": "INIT_ARRAY",
+          "addr": "0x00000000006ecb28",
+          "off": "0x4ecb28",
+          "size_bytes": 16
+        },
+        {
+          "name": ".fini_array",
+          "type": "FINI_ARRAY",
+          "addr": "0x00000000006ecb38",
+          "off": "0x4ecb38",
+          "size_bytes": 8
+        },
+        {
+          "name": ".data.rel.ro",
+          "type": "PROGBITS",
+          "addr": "0x00000000006ecb40",
+          "off": "0x4ecb40",
+          "size_bytes": 237216
+        },
+        {
+          "name": ".dynamic",
+          "type": "DYNAMIC",
+          "addr": "0x00000000007269e0",
+          "off": "0x5269e0",
+          "size_bytes": 416
+        },
+        {
+          "name": ".got",
+          "type": "PROGBITS",
+          "addr": "0x0000000000726b80",
+          "off": "0x526b80",
+          "size_bytes": 1128
+        },
+        {
+          "name": ".data",
+          "type": "PROGBITS",
+          "addr": "0x0000000000727000",
+          "off": "0x527000",
+          "size_bytes": 4320
+        },
+        {
+          "name": ".bss",
+          "type": "NOBITS",
+          "addr": "0x0000000000728100",
+          "off": "0x5280e0",
+          "size_bytes": 310432
+        },
+        {
+          "name": ".comment",
+          "type": "PROGBITS",
+          "addr": "0x0000000000000000",
+          "off": "0x5280e0",
+          "size_bytes": 86
+        },
+        {
+          "name": ".shstrtab",
+          "type": "STRTAB",
+          "addr": "0x0000000000000000",
+          "off": "0x528136",
+          "size_bytes": 208
+        }
+      ],
+      "notable_strings": [
+        "    '(: * -)'--pcre2-version'[print the version of PCRE2 used by ripgrep, if available]'",
+        "    RIPGREP_CONFIG_PATH=wherever/.ripgreprc rg foo",
+        "    RIPGREP_CONFIG_PATH=wherever/.ripgreprc rg foo \\-\\-case\\-sensitive",
+        "  # ripgrep has many options which negate the effect of a more common one ",
+        "#     * Neither the name of the zsh-users nor the",
+        "#  Completion script for ripgrep",
+        "# * https://github.com/zsh-users/zsh/blob/master/Etc/completion-style-guide",
+        "# Copyright (c) 2011 Github zsh-users - http://github.com/zsh-users",
+        "# Originally based on code from the zsh-users project ",
+        "# See https://github.com/BurntSushi/ripgrep/issues/2956",
+        "# See https://github.com/BurntSushi/ripgrep/pull/2957",
+        "# zsh completion function for ripgrep",
+        "(which is the default) causes ripgrep to choose the thread count using",
+        "A preprocessor is not run when ripgrep is searching stdin.",
+        "Alternatively, if the \\flag{binary} flag is used, then ripgrep will only quit",
+        "Any rules in \\fB.ignore\\fP. ripgrep will also respect \\fB.ignore\\fP files in",
+        "Any rules in \\fB.rgignore\\fP. ripgrep will also respect \\fB.rgignore\\fP files",
+        "As an example of how this flag might behave, ripgrep will attempt to use",
+        "At present, ripgrep does not enable hyperlinks by default. Users must opt into",
+        "By default, ripgrep will enable \"Unicode mode\" in all of its regexes. This has",
+        "By default, ripgrep will only respect filter rules from source control ignore",
+        "By default, ripgrep will respect your \\fB.gitignore\\fP and automatically skip",
+        "Do not print anything to stdout. If a match is found in a file, then ripgrep",
+        "Enabling this flag causes ripgrep to use \\fBNUL\\fP as a line terminator instead",
+        "Enabling this flag will cause ripgrep to search binary files. By default,",
+        "Enabling this option will cause ripgrep to stop reading a file once it",
+        "For each input \\fIPATH\\fP, this flag causes ripgrep to search the standard",
+        "For example, if your ripgreprc file contained a single line:",
+        "For more details on encoding and how ripgrep deals with it, see \\fBGUIDE.md\\fP.",
+        "Generates a manual page for ripgrep in the \\fBroff\\fP format.",
+        "If only one file is given to ripgrep, then only the count is printed if there",
+        "If ripgrep does transcoding, then the byte offset is in terms of the result",
+        "If ripgrep ever grows a feature to automatically read configuration files in",
+        "If ripgrep finds a match, then the exit status of the program is \\fB0\\fP.",
+        "If you want ripgrep to search a file without any special \\fBNUL\\fP byte",
+        "If you're using ripgrep with the \\fB\\-P/\\-\\-pcre2\\fP flag, then please consult",
+        "In contrast, when this flag is provided, ripgrep will continue searching a",
+        "In some cases, ripgrep and \\fBgit\\fP will not always be in sync in terms",
+        "In the future, ripgrep may adjust its heuristics for how it decides which",
+        "Like colors, when ripgrep detects that stdout is not connected to a tty, then",
+        "Like other tools such as \\fBls\\fP, ripgrep will alter its output depending on",
+        "No files were searched, which means ripgrep probably applied a filter you didn't expect.",
+        "Note that PCRE2 is an optional ripgrep feature. If PCRE2 wasn't included in",
+        "Note that ripgrep may abort unexpectedly when memory maps are used if it",
+        "Note that sorting results currently always forces ripgrep to abandon",
+        "Note that the \\fBpcre2\\fP engine is an optional ripgrep feature. If PCRE2",
+        "Note that this applies to each path argument given to ripgrep. For example, in",
+        "Note that this flag does not make ripgrep search archive formats as directory",
+        "Note that this must be passed to every invocation of ripgrep. Type settings are",
+        "One alternative to avoiding exorbitant memory usage is to force ripgrep into",
+        "Print ripgrep's version.FilesFilesWithoutMatchFixedStringsFollowGlobCaseInsensitiveHeadingNoIgnoreFilesNoIgnoreGlobalNoI",
+        "Print the version of PCRE2 that ripgrep uses.pcre2-versionCOMMANDno-prethere is no affirmative switch for --pre",
+        "Project home page: https://github.com/BurntSushi/ripgrep",
+        "Specify the text encoding that ripgrep will use on all files searched. The",
+        "The \\flag{binary} flag is a flag for controlling ripgrep's automatic filtering",
+        "The \\flag{debug} flag is generally useful for figuring out why ripgrep skipped",
+        "The case insensitivity rules used by ripgrep's default regex engine conform to",
+        "The default. ripgrep tries to be smart.",
+        "The encoding detection that ripgrep uses can be reverted to its automatic mode",
+        "The final message emitted by ripgrep that contains summary statistics about the"
+      ],
+      "elf_header_summary": [
+        "ELF Header:",
+        "Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00",
+        "Class:                             ELF64",
+        "Data:                              2's complement, little endian",
+        "Version:                           1 (current)",
+        "OS/ABI:                            UNIX - System V",
+        "ABI Version:                       0",
+        "Type:                              DYN (Position-Independent Executable file)",
+        "Machine:                           Advanced Micro Devices X86-64",
+        "Version:                           0x1",
+        "Entry point address:               0x67220",
+        "Start of program headers:          64 (bytes into file)",
+        "Start of section headers:          5407240 (bytes into file)",
+        "Flags:                             0x0",
+        "Size of this header:               64 (bytes)",
+        "Size of program headers:           56 (bytes)",
+        "Number of program headers:         7",
+        "Size of section headers:           64 (bytes)",
+        "Number of section headers:         26",
+        "Section header string table index: 25"
+      ]
+    }
+  ]
+}

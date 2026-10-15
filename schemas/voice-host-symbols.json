@@ -1,0 +1,2103 @@
+{
+  "binary": "codex-resources/voice/bin/codex-voice-host",
+  "stripped": false,
+  "total_defined_symbols": 27892,
+  "codex_voice_symbols_count": 419,
+  "codex_voice_symbols": [
+    {
+      "vaddr": "0x0000000000382ab0",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport_runtime::LimitedListener as webrtc::runtime::AsyncTcpListener>::local_addr"
+    },
+    {
+      "vaddr": "0x0000000000382ad0",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport_runtime::LimitedListener as webrtc::runtime::AsyncTcpListener>::accept"
+    },
+    {
+      "vaddr": "0x0000000000382b50",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport_runtime::LimitedListener as webrtc::runtime::AsyncTcpListener>::accept::{{closure}}"
+    },
+    {
+      "vaddr": "0x00000000003b6f30",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport::Events as webrtc::peer_connection::PeerConnectionEventHandler>::on_data_channel"
+    },
+    {
+      "vaddr": "0x00000000003b6fc0",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport::Events as webrtc::peer_connection::PeerConnectionEventHandler>::on_data_channel::{{closure}}"
+    },
+    {
+      "vaddr": "0x00000000003b7160",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport::Events as webrtc::peer_connection::PeerConnectionEventHandler>::on_ice_gathering_state_change"
+    },
+    {
+      "vaddr": "0x00000000003b71b0",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport::Events as webrtc::peer_connection::PeerConnectionEventHandler>::on_ice_gathering_state_change::{{closure}}"
+    },
+    {
+      "vaddr": "0x0000000000a02f28",
+      "type": "b",
+      "symbol": "<codex_voice_host::devices::audio_sink::imp::Sink as glib::subclass::types::ObjectSubclassType>::type_data::DATA"
+    },
+    {
+      "vaddr": "0x0000000000a01f30",
+      "type": "d",
+      "symbol": "<codex_voice_host::devices::audio_sink::imp::Sink as gstreamer::subclass::element::ElementImpl>::pad_templates::PADS"
+    },
+    {
+      "vaddr": "0x0000000000a01f50",
+      "type": "d",
+      "symbol": "<codex_voice_host::devices::audio_sink::imp::Sink as gstreamer::subclass::element::ElementImpl>::metadata::META"
+    },
+    {
+      "vaddr": "0x0000000000394270",
+      "type": "t",
+      "symbol": "<codex_voice_host::devices::audio_sink::imp::Sink as gstreamer_base::subclass::base_sink::BaseSinkImpl>::render"
+    },
+    {
+      "vaddr": "0x00000000003944c0",
+      "type": "t",
+      "symbol": "<codex_voice_host::devices::audio_sink::imp::Sink as gstreamer_base::subclass::base_sink::BaseSinkImpl>::unlock"
+    },
+    {
+      "vaddr": "0x0000000000394780",
+      "type": "t",
+      "symbol": "<codex_voice_host::devices::audio_sink::imp::Sink as gstreamer_base::subclass::base_sink::BaseSinkImpl>::set_caps"
+    },
+    {
+      "vaddr": "0x00000000004091c0",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::SessionDescription as core::convert::TryFrom<alloc::string::String>>::try_from"
+    },
+    {
+      "vaddr": "0x00000000003b9a50",
+      "type": "t",
+      "symbol": "codex_voice_host::audio_track::AudioTrack::new"
+    },
+    {
+      "vaddr": "0x00000000002e4a00",
+      "type": "t",
+      "symbol": "codex_voice_host::audio_track::AudioTrack::send::{{closure}}"
+    },
+    {
+      "vaddr": "0x00000000002ee1f0",
+      "type": "t",
+      "symbol": "codex_voice_host::audio_track::AudioTrack::send::{{closure}}"
+    },
+    {
+      "vaddr": "0x0000000000317890",
+      "type": "t",
+      "symbol": "codex_voice_host::audio_track::AudioTrack::send::{{closure}}"
+    },
+    {
+      "vaddr": "0x00000000003cc810",
+      "type": "t",
+      "symbol": "codex_voice_host::wait_for_control"
+    },
+    {
+      "vaddr": "0x00000000003dc9c0",
+      "type": "t",
+      "symbol": "codex_voice_host::run::{{closure}}"
+    },
+    {
+      "vaddr": "0x00000000003ccbd0",
+      "type": "t",
+      "symbol": "codex_voice_host::run::{{closure}}"
+    },
+    {
+      "vaddr": "0x00000000003ccca0",
+      "type": "t",
+      "symbol": "codex_voice_host::run::{{closure}}"
+    },
+    {
+      "vaddr": "0x00000000003ccd70",
+      "type": "t",
+      "symbol": "codex_voice_host::run::{{closure}}"
+    },
+    {
+      "vaddr": "0x00000000003cce30",
+      "type": "t",
+      "symbol": "codex_voice_host::main"
+    },
+    {
+      "vaddr": "0x00000000003cee00",
+      "type": "t",
+      "symbol": "codex_voice_host::main::{{closure}}"
+    },
+    {
+      "vaddr": "0x0000000000a01fd0",
+      "type": "d",
+      "symbol": "codex_voice_host::devices::audio_sink::imp::Sink::register_type::ONCE"
+    },
+    {
+      "vaddr": "0x0000000000376db0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::audio_sink::Sink::new"
+    },
+    {
+      "vaddr": "0x000000000035c0e0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::processing::Converter::new"
+    },
+    {
+      "vaddr": "0x000000000035c370",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::processing::Converter::next"
+    },
+    {
+      "vaddr": "0x000000000035c600",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::processing::Converter::push"
+    },
+    {
+      "vaddr": "0x000000000035c830",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::processing::Processor::set_render_rate"
+    },
+    {
+      "vaddr": "0x000000000035c980",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::processing::Processor::validate_callback_timing"
+    },
+    {
+      "vaddr": "0x000000000035cc00",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::processing::Processor::new"
+    },
+    {
+      "vaddr": "0x000000000035d000",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::processing::Processor::reset"
+    },
+    {
+      "vaddr": "0x000000000035d0f0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::processing::Processor::render"
+    },
+    {
+      "vaddr": "0x000000000035d290",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::processing::Processor::capture"
+    },
+    {
+      "vaddr": "0x000000000035d960",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_input"
+    },
+    {
+      "vaddr": "0x000000000035da80",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_input"
+    },
+    {
+      "vaddr": "0x000000000035dba0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_input"
+    },
+    {
+      "vaddr": "0x000000000035dcc0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_input"
+    },
+    {
+      "vaddr": "0x000000000035dde0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_input"
+    },
+    {
+      "vaddr": "0x000000000035df00",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_input"
+    },
+    {
+      "vaddr": "0x000000000035e020",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_input"
+    },
+    {
+      "vaddr": "0x000000000035e140",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_input"
+    },
+    {
+      "vaddr": "0x000000000035e260",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_input"
+    },
+    {
+      "vaddr": "0x000000000035e380",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_input"
+    },
+    {
+      "vaddr": "0x00000000003dd080",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_input::{{closure}}"
+    },
+    {
+      "vaddr": "0x000000000035e4a0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_output"
+    },
+    {
+      "vaddr": "0x000000000035e590",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_output"
+    },
+    {
+      "vaddr": "0x000000000035e680",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_output"
+    },
+    {
+      "vaddr": "0x000000000035e770",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_output"
+    },
+    {
+      "vaddr": "0x000000000035e860",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_output"
+    },
+    {
+      "vaddr": "0x000000000035e950",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_output"
+    },
+    {
+      "vaddr": "0x000000000035ea40",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_output"
+    },
+    {
+      "vaddr": "0x000000000035eb30",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_output"
+    },
+    {
+      "vaddr": "0x000000000035ec20",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_output"
+    },
+    {
+      "vaddr": "0x000000000035ed10",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::build_output"
+    },
+    {
+      "vaddr": "0x000000000035ee00",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::list_devices"
+    },
+    {
+      "vaddr": "0x000000000035f1e0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::render_output"
+    },
+    {
+      "vaddr": "0x000000000035f620",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::render_output"
+    },
+    {
+      "vaddr": "0x000000000035fa20",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::render_output"
+    },
+    {
+      "vaddr": "0x000000000035fed0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::render_output"
+    },
+    {
+      "vaddr": "0x00000000003602d0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::render_output"
+    },
+    {
+      "vaddr": "0x0000000000360640",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::render_output"
+    },
+    {
+      "vaddr": "0x0000000000360ad0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::render_output"
+    },
+    {
+      "vaddr": "0x0000000000360f20",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::render_output"
+    },
+    {
+      "vaddr": "0x00000000003613c0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::render_output"
+    },
+    {
+      "vaddr": "0x0000000000361900",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::render_output"
+    },
+    {
+      "vaddr": "0x00000000003f4ec0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::capture_worker::CaptureWorker::set_controls"
+    },
+    {
+      "vaddr": "0x0000000000361c80",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::device_description"
+    },
+    {
+      "vaddr": "0x0000000000361e50",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::bounded_stream_config"
+    },
+    {
+      "vaddr": "0x0000000000362280",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::device"
+    },
+    {
+      "vaddr": "0x00000000003f5240",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::buffers::FramePacker::push"
+    },
+    {
+      "vaddr": "0x00000000003f5500",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::buffers::Buffers::take_state"
+    },
+    {
+      "vaddr": "0x00000000003f5600",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::buffers::Buffers::set_disabled::{{closure}}"
+    },
+    {
+      "vaddr": "0x00000000003f56d0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::buffers::Buffers::push_playback"
+    },
+    {
+      "vaddr": "0x00000000003f5730",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::buffers::Buffers::new"
+    },
+    {
+      "vaddr": "0x00000000003f5960",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::buffers::Playback::next"
+    },
+    {
+      "vaddr": "0x0000000000362c90",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::Devices::set_controls"
+    },
+    {
+      "vaddr": "0x00000000003639e0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::Devices::set_controls::{{closure}}"
+    },
+    {
+      "vaddr": "0x0000000000363b10",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::Devices::set_controls::{{closure}}"
+    },
+    {
+      "vaddr": "0x0000000000363c40",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::Devices::open"
+    },
+    {
+      "vaddr": "0x0000000000365540",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::Devices::open::{{closure}}"
+    },
+    {
+      "vaddr": "0x0000000000365670",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::Devices::open::{{closure}}"
+    },
+    {
+      "vaddr": "0x00000000003657a0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::Devices::open::{{closure}}"
+    },
+    {
+      "vaddr": "0x00000000003658d0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::Devices::open::{{closure}}"
+    },
+    {
+      "vaddr": "0x0000000000365a00",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::Devices::receive"
+    },
+    {
+      "vaddr": "0x00000000002ee440",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::Devices::service::{{closure}}"
+    },
+    {
+      "vaddr": "0x0000000000365ee0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::playout::Playout::new"
+    },
+    {
+      "vaddr": "0x0000000000367490",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::playout::Playout::check"
+    },
+    {
+      "vaddr": "0x00000000003dd0c0",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::playback::PlaybackPort::new"
+    },
+    {
+      "vaddr": "0x00000000003dd170",
+      "type": "t",
+      "symbol": "codex_voice_host::devices::playback::PlaybackWriter::write"
+    },
+    {
+      "vaddr": "0x0000000000376f60",
+      "type": "t",
+      "symbol": "codex_voice_host::runtime::private_file"
+    },
+    {
+      "vaddr": "0x0000000000377140",
+      "type": "t",
+      "symbol": "codex_voice_host::runtime::runtime_error"
+    },
+    {
+      "vaddr": "0x0000000000377210",
+      "type": "t",
+      "symbol": "codex_voice_host::runtime::load"
+    },
+    {
+      "vaddr": "0x00000000003772a0",
+      "type": "t",
+      "symbol": "codex_voice_host::runtime::Runtime::initialize"
+    },
+    {
+      "vaddr": "0x0000000000377f80",
+      "type": "t",
+      "symbol": "codex_voice_host::runtime::Runtime::initialize::{{closure}}"
+    },
+    {
+      "vaddr": "0x0000000000377fc0",
+      "type": "t",
+      "symbol": "codex_voice_host::runtime::Runtime::initialize::{{closure}}"
+    },
+    {
+      "vaddr": "0x000000000039fca0",
+      "type": "t",
+      "symbol": "codex_voice_host::incoming::Incoming::new"
+    },
+    {
+      "vaddr": "0x000000000039fee0",
+      "type": "t",
+      "symbol": "codex_voice_host::incoming::Incoming::take"
+    },
+    {
+      "vaddr": "0x00000000002ef720",
+      "type": "t",
+      "symbol": "codex_voice_host::transport::Transport::apply_answer::{{closure}}"
+    },
+    {
+      "vaddr": "0x0000000000384d60",
+      "type": "t",
+      "symbol": "codex_voice_host::transport::Transport::with_runtime::{{closure}}::{{closure}}"
+    },
+    {
+      "vaddr": "0x00000000002f01d0",
+      "type": "t",
+      "symbol": "codex_voice_host::transport::Transport::new::{{closure}}"
+    },
+    {
+      "vaddr": "0x00000000002f4430",
+      "type": "t",
+      "symbol": "codex_voice_host::transport::Transport::close::{{closure}}"
+    },
+    {
+      "vaddr": "0x00000000002f4860",
+      "type": "t",
+      "symbol": "codex_voice_host::transport::Transport::offer::{{closure}}"
+    },
+    {
+      "vaddr": "0x0000000000409230",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::AudioState>::deserialize::__Visitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409250",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::AudioDevice>::deserialize::__Visitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409270",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x00000000004093a0",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x00000000004093a0",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x0000000000409440",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x00000000004093a0",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x00000000004093a0",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x00000000004093a0",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x00000000004094f0",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x00000000004093a0",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x00000000004095b0",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x00000000004093a0",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x0000000000409650",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x00000000004093a0",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x00000000004093a0",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x00000000004093a0",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x00000000004093a0",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x0000000000409710",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x00000000004095b0",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x00000000004097d0",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x00000000004098a0",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x00000000004098c0",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str"
+    },
+    {
+      "vaddr": "0x00000000004098f0",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str"
+    },
+    {
+      "vaddr": "0x0000000000409c50",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_str"
+    },
+    {
+      "vaddr": "0x0000000000409c80",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::AudioControls>::deserialize::__Visitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409ca0",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::AudioState>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::AudioState>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409e10",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::AudioDevice>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::AudioDevice>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x0000000000409f70",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::AudioControls>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::AudioControls>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x000000000040a120",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::AudioDeviceKind>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x00000000004098a0",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::AudioDeviceKind>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x000000000040a210",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::AudioDeviceSelection>::deserialize::__Visitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x000000000040a230",
+      "type": "t",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::AudioDeviceSelection>::deserialize::__FieldVisitor as serde_core::de::Visitor>::visit_bytes"
+    },
+    {
+      "vaddr": "0x0000000000409880",
+      "type": "T",
+      "symbol": "<codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::AudioDeviceSelection>::deserialize::__FieldVisitor as serde_core::de::Visitor>::expecting"
+    },
+    {
+      "vaddr": "0x000000000040b410",
+      "type": "t",
+      "symbol": "codex_realtime_webrtc::protocol::_::<impl serde_core::ser::Serialize for codex_realtime_webrtc::protocol::AudioState>::serialize"
+    },
+    {
+      "vaddr": "0x000000000040b530",
+      "type": "t",
+      "symbol": "codex_realtime_webrtc::protocol::_::<impl serde_core::ser::Serialize for codex_realtime_webrtc::protocol::AudioDevice>::serialize"
+    },
+    {
+      "vaddr": "0x000000000040b670",
+      "type": "t",
+      "symbol": "codex_realtime_webrtc::protocol::_::<impl serde_core::ser::Serialize for codex_realtime_webrtc::protocol::AudioControls>::serialize"
+    },
+    {
+      "vaddr": "0x000000000040b790",
+      "type": "t",
+      "symbol": "codex_realtime_webrtc::protocol::_::<impl serde_core::ser::Serialize for codex_realtime_webrtc::protocol::AudioDeviceSelection>::serialize"
+    },
+    {
+      "vaddr": "0x000000000040a3b0",
+      "type": "T",
+      "symbol": "codex_realtime_webrtc::protocol::decode_frame"
+    },
+    {
+      "vaddr": "0x000000000040a6b0",
+      "type": "T",
+      "symbol": "codex_realtime_webrtc::protocol::encode_frame"
+    },
+    {
+      "vaddr": "0x00000000003f5b60",
+      "type": "t",
+      "symbol": "codex_realtime_webrtc::protocol::read_message"
+    },
+    {
+      "vaddr": "0x000000000040b8d0",
+      "type": "t",
+      "symbol": "codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize"
+    },
+    {
+      "vaddr": "0x00000000003a19f0",
+      "type": "t",
+      "symbol": "<codex_voice_host::incoming::Ingress as sansio::Protocol<rtc_shared::transport::TransportMessage<rtc_interceptor::Packet>,rtc_shared::transport::TransportMessage<rtc_interceptor::Packet>,()>>::handle_read"
+    },
+    {
+      "vaddr": "0x00000000003e0d50",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::devices::build_output<f32>::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002f4bd0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::data_channel::DataChannelImpl<codex_voice_host::incoming::Ingress>>"
+    },
+    {
+      "vaddr": "0x0000000000379de0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::data_channel::DataChannelImpl<codex_voice_host::incoming::Ingress>>"
+    },
+    {
+      "vaddr": "0x000000000038fb90",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::sync::ArcInner<codex_voice_host::transport_runtime::LimitedListener>>"
+    },
+    {
+      "vaddr": "0x00000000002e4c50",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport::Transport::apply_answer::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003bda80",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport::Transport::apply_answer::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003cf150",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport::Transport::apply_answer::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002e4d40",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport::Transport::with_runtime::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002f4d20",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport::Transport::with_runtime::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002e59c0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::sync::mpsc::bounded::Sender<codex_voice_host::incoming::ReceivedRtp>>"
+    },
+    {
+      "vaddr": "0x00000000002f50c0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::sync::mpsc::bounded::Sender<codex_voice_host::incoming::ReceivedRtp>>"
+    },
+    {
+      "vaddr": "0x0000000000336f30",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::sync::mpsc::bounded::Sender<codex_voice_host::incoming::ReceivedRtp>>"
+    },
+    {
+      "vaddr": "0x0000000000343ab0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::sync::mpsc::bounded::Sender<codex_voice_host::incoming::ReceivedRtp>>"
+    },
+    {
+      "vaddr": "0x0000000000379f80",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::sync::mpsc::bounded::Sender<codex_voice_host::incoming::ReceivedRtp>>"
+    },
+    {
+      "vaddr": "0x00000000003bdb90",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::sync::mpsc::bounded::Sender<codex_voice_host::incoming::ReceivedRtp>>"
+    },
+    {
+      "vaddr": "0x00000000003cf5c0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::sync::mpsc::bounded::Sender<codex_voice_host::incoming::ReceivedRtp>>"
+    },
+    {
+      "vaddr": "0x00000000002f5270",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<rtc::peer_connection::RTCPeerConnection<codex_voice_host::incoming::Ingress>>"
+    },
+    {
+      "vaddr": "0x00000000002e5a60",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::sync::mpsc::bounded::Receiver<codex_voice_host::incoming::ReceivedRtp>>"
+    },
+    {
+      "vaddr": "0x00000000002f5740",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::sync::mpsc::bounded::Receiver<codex_voice_host::incoming::ReceivedRtp>>"
+    },
+    {
+      "vaddr": "0x00000000003bdc60",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::sync::mpsc::bounded::Receiver<codex_voice_host::incoming::ReceivedRtp>>"
+    },
+    {
+      "vaddr": "0x00000000003cf840",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::sync::mpsc::bounded::Receiver<codex_voice_host::incoming::ReceivedRtp>>"
+    },
+    {
+      "vaddr": "0x00000000002e5ab0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress>>"
+    },
+    {
+      "vaddr": "0x00000000002f58b0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress>>"
+    },
+    {
+      "vaddr": "0x00000000003bdcb0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress>>"
+    },
+    {
+      "vaddr": "0x00000000003cf890",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress>>"
+    },
+    {
+      "vaddr": "0x000000000037a2e0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::rtp_transceiver::RtpTransceiverImpl<codex_voice_host::incoming::Ingress>>"
+    },
+    {
+      "vaddr": "0x0000000000395a80",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::rtp_transceiver::RtpTransceiverImpl<codex_voice_host::incoming::Ingress>>"
+    },
+    {
+      "vaddr": "0x00000000002f5a60",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<rtc::peer_connection::RTCPeerConnectionBuilder<codex_voice_host::incoming::Ingress>>"
+    },
+    {
+      "vaddr": "0x0000000000337140",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<rtc::peer_connection::RTCPeerConnectionBuilder<codex_voice_host::incoming::Ingress>>"
+    },
+    {
+      "vaddr": "0x00000000003cfb10",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::collections::vec_deque::VecDeque<codex_voice_host::audio_track::EncodedAudio>>"
+    },
+    {
+      "vaddr": "0x00000000002e5c60",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::audio_track::AudioTrack::send_muted_silence::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002f5ae0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::audio_track::AudioTrack::send_muted_silence::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000317ae0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::audio_track::AudioTrack::send_muted_silence::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037a570",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::rtp_transceiver::rtp_sender::RtpSenderImpl<codex_voice_host::incoming::Ingress>>"
+    },
+    {
+      "vaddr": "0x00000000002f5fa0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::rtp_transceiver::rtp_receiver::RtpReceiverImpl<codex_voice_host::incoming::Ingress>>"
+    },
+    {
+      "vaddr": "0x00000000002f61a0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::PeerConnectionBuilder<&str,codex_voice_host::incoming::Ingress>>"
+    },
+    {
+      "vaddr": "0x000000000037a820",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::PeerConnectionBuilder<&str,codex_voice_host::incoming::Ingress>>"
+    },
+    {
+      "vaddr": "0x0000000000337580",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<rtc::rtp_transceiver::internal::RTCRtpTransceiverInternal<codex_voice_host::incoming::Ingress>>"
+    },
+    {
+      "vaddr": "0x0000000000395c40",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<rtc::rtp_transceiver::internal::RTCRtpTransceiverInternal<codex_voice_host::incoming::Ingress>>"
+    },
+    {
+      "vaddr": "0x00000000003be150",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport::Transport::offer::{{closure}}::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003be270",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::audio_track::AudioTrack::send::{{closure}}::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002f6a20",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>>"
+    },
+    {
+      "vaddr": "0x0000000000337900",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<rtc::rtp_transceiver::rtp_sender::internal::RTCRtpSenderInternal<codex_voice_host::incoming::Ingress>>"
+    },
+    {
+      "vaddr": "0x00000000003be780",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport::Transport::apply_answer::{{closure}}::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000038fcc0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport::Transport::with_runtime::{{closure}}::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037ab80",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport::Transport::with_runtime::{{closure}}::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000344bf0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<core::cell::UnsafeCell<rtc::peer_connection::RTCPeerConnection<codex_voice_host::incoming::Ingress>>>"
+    },
+    {
+      "vaddr": "0x00000000002f70c0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::sync::ArcInner<webrtc::peer_connection::PeerConnectionRef<codex_voice_host::incoming::Ingress>>>"
+    },
+    {
+      "vaddr": "0x00000000002f7330",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::sync::ArcInner<webrtc::rtp_transceiver::RtpTransceiverImpl<codex_voice_host::incoming::Ingress>>>"
+    },
+    {
+      "vaddr": "0x00000000002e6560",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<core::pin::Pin<alloc::boxed::Box<codex_voice_host::transport::Transport::new::{{closure}}>>>"
+    },
+    {
+      "vaddr": "0x00000000003bee30",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<core::pin::Pin<alloc::boxed::Box<codex_voice_host::transport::Transport::new::{{closure}}>>>"
+    },
+    {
+      "vaddr": "0x00000000003d06b0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<core::pin::Pin<alloc::boxed::Box<codex_voice_host::transport::Transport::new::{{closure}}>>>"
+    },
+    {
+      "vaddr": "0x00000000003e0db0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<std::sync::mpmc::counter::Counter<std::sync::mpmc::zero::Channel<codex_realtime_webrtc::protocol::Message>>>"
+    },
+    {
+      "vaddr": "0x00000000003e0df0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<std::sync::mpmc::counter::Counter<std::sync::mpmc::array::Channel<codex_realtime_webrtc::protocol::Message>>>"
+    },
+    {
+      "vaddr": "0x000000000037adf0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::sync::ArcInner<webrtc::rtp_transceiver::rtp_sender::RtpSenderImpl<codex_voice_host::incoming::Ingress>>>"
+    },
+    {
+      "vaddr": "0x00000000002e6630",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::vec::Vec<rtc::rtp_transceiver::internal::RTCRtpTransceiverInternal<codex_voice_host::incoming::Ingress>>>"
+    },
+    {
+      "vaddr": "0x00000000002f7a80",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::vec::Vec<rtc::rtp_transceiver::internal::RTCRtpTransceiverInternal<codex_voice_host::incoming::Ingress>>>"
+    },
+    {
+      "vaddr": "0x00000000003457b0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::vec::Vec<rtc::rtp_transceiver::internal::RTCRtpTransceiverInternal<codex_voice_host::incoming::Ingress>>>"
+    },
+    {
+      "vaddr": "0x00000000003bf0f0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::vec::Vec<rtc::rtp_transceiver::internal::RTCRtpTransceiverInternal<codex_voice_host::incoming::Ingress>>>"
+    },
+    {
+      "vaddr": "0x00000000003d07e0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::vec::Vec<rtc::rtp_transceiver::internal::RTCRtpTransceiverInternal<codex_voice_host::incoming::Ingress>>>"
+    },
+    {
+      "vaddr": "0x00000000002e6700",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::devices::capture_worker::CaptureWorker::service<std::time::Instant::now>::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002f7b50",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::devices::capture_worker::CaptureWorker::service<std::time::Instant::now>::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000317f40",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::devices::capture_worker::CaptureWorker::service<std::time::Instant::now>::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002f7bf0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::sync::ArcInner<webrtc::rtp_transceiver::rtp_receiver::RtpReceiverImpl<codex_voice_host::incoming::Ingress>>>"
+    },
+    {
+      "vaddr": "0x00000000003459b0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::PeerConnectionRef<codex_voice_host::incoming::Ingress>::wake_writes::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037ae60",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::PeerConnectionRef<codex_voice_host::incoming::Ingress>::wake_writes::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037aed0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::rtp_transceiver::RtpTransceiverImpl<codex_voice_host::incoming::Ingress>::set_sender::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002f7c60",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::rtp_transceiver::RtpTransceiverImpl<codex_voice_host::incoming::Ingress>::set_receiver::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000345b70",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::data_channel::DataChannelImpl<codex_voice_host::incoming::Ingress>::await_send_capacity::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037b670",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<core::option::Option<rtc::rtp_transceiver::rtp_sender::internal::RTCRtpSenderInternal<codex_voice_host::incoming::Ingress>>>"
+    },
+    {
+      "vaddr": "0x0000000000395f10",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<core::option::Option<rtc::rtp_transceiver::rtp_sender::internal::RTCRtpSenderInternal<codex_voice_host::incoming::Ingress>>>"
+    },
+    {
+      "vaddr": "0x00000000002f7e30",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::PeerConnectionBuilder<&str,codex_voice_host::incoming::Ingress>::build::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002f7e90",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress>::new<&str>::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000337c90",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<core::option::Option<rtc::rtp_transceiver::rtp_receiver::internal::RTCRtpReceiverInternal<codex_voice_host::incoming::Ingress>>>"
+    },
+    {
+      "vaddr": "0x00000000003960c0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<core::option::Option<rtc::rtp_transceiver::rtp_receiver::internal::RTCRtpReceiverInternal<codex_voice_host::incoming::Ingress>>>"
+    },
+    {
+      "vaddr": "0x00000000002e67a0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::time::timeout::Timeout<codex_voice_host::transport::Transport::offer::{{closure}}::{{closure}}>>"
+    },
+    {
+      "vaddr": "0x00000000002f81e0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::time::timeout::Timeout<codex_voice_host::transport::Transport::offer::{{closure}}::{{closure}}>>"
+    },
+    {
+      "vaddr": "0x0000000000317fe0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::time::timeout::Timeout<codex_voice_host::transport::Transport::offer::{{closure}}::{{closure}}>>"
+    },
+    {
+      "vaddr": "0x000000000038ff50",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<core::option::Option<std::sync::mpmc::zero::Channel<codex_realtime_webrtc::protocol::Message>::recv::{{closure}}>>"
+    },
+    {
+      "vaddr": "0x000000000038ffa0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<codex_voice_host::transport_runtime::LimitedListener as webrtc::runtime::AsyncTcpListener>::accept::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002e68e0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::time::timeout::Timeout<codex_voice_host::audio_track::AudioTrack::send::{{closure}}::{{closure}}>>"
+    },
+    {
+      "vaddr": "0x00000000002f8320",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::time::timeout::Timeout<codex_voice_host::audio_track::AudioTrack::send::{{closure}}::{{closure}}>>"
+    },
+    {
+      "vaddr": "0x0000000000318120",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::time::timeout::Timeout<codex_voice_host::audio_track::AudioTrack::send::{{closure}}::{{closure}}>>"
+    },
+    {
+      "vaddr": "0x00000000003bf3b0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<codex_voice_host::transport::Events as webrtc::peer_connection::PeerConnectionEventHandler>::on_track::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003e0e60",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::boxed::Box<std::sync::mpmc::counter::Counter<std::sync::mpmc::array::Channel<codex_realtime_webrtc::protocol::Message>>>>"
+    },
+    {
+      "vaddr": "0x00000000003a5a90",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::sync::ArcInner<tokio::sync::mpsc::chan::Chan<codex_voice_host::incoming::ReceivedRtp,tokio::sync::mpsc::bounded::Semaphore>>>"
+    },
+    {
+      "vaddr": "0x00000000002e6a60",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::time::timeout::Timeout<codex_voice_host::transport::Transport::apply_answer::{{closure}}::{{closure}}>>"
+    },
+    {
+      "vaddr": "0x00000000002f84a0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::time::timeout::Timeout<codex_voice_host::transport::Transport::apply_answer::{{closure}}::{{closure}}>>"
+    },
+    {
+      "vaddr": "0x00000000003182a0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::time::timeout::Timeout<codex_voice_host::transport::Transport::apply_answer::{{closure}}::{{closure}}>>"
+    },
+    {
+      "vaddr": "0x00000000002f8820",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::event_loop::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002f92f0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::poll_reads::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002f9450",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::handle_read::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002f94f0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::poll_events::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002f9580",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::poll_writes::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002f9600",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::flush_writes::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002f97e0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::handle_write::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000345db0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::sync::ArcInner<futures_util::lock::mutex::Mutex<rtc::peer_connection::RTCPeerConnection<codex_voice_host::incoming::Ingress>>>>"
+    },
+    {
+      "vaddr": "0x0000000000390010",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::runtime::task::core::Stage<codex_voice_host::transport::Transport::with_runtime::{{closure}}::{{closure}}>>"
+    },
+    {
+      "vaddr": "0x00000000003bf3d0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<codex_voice_host::transport::Events as webrtc::peer_connection::PeerConnectionEventHandler>::on_data_channel::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003bf480",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<codex_voice_host::transport::Events as webrtc::peer_connection::PeerConnectionEventHandler>::on_ice_candidate::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002f9900",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::drain_core_reads::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002f9a50",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::handle_rtc_event::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002fa590",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::deliver_udp_batch::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002fa640",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::drain_core_events::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002fa790",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::drain_core_writes::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037b9d0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::runtime::task::core::CoreStage<codex_voice_host::transport::Transport::with_runtime::{{closure}}::{{closure}}>>"
+    },
+    {
+      "vaddr": "0x00000000002fa8e0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::handle_rtc_message::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002fab40",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::handle_driver_event::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003bf4e0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<codex_voice_host::transport::Events as webrtc::peer_connection::PeerConnectionEventHandler>::on_negotiation_needed::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003bf4f0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<codex_voice_host::transport::Events as webrtc::peer_connection::PeerConnectionEventHandler>::on_ice_candidate_error::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002faee0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::handle_turn_relay_event::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002fafe0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::finish_gathering_if_ready::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002fb040",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress>::new<&str>::{{closure}}::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002fb2f0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::populate_track_remote_codings::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003460f0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::data_channel::DataChannelImpl<codex_voice_host::incoming::Ingress> as webrtc::data_channel::DataChannel>::poll::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000346180",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::data_channel::DataChannelImpl<codex_voice_host::incoming::Ingress> as webrtc::data_channel::DataChannel>::send::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003462a0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::data_channel::DataChannelImpl<codex_voice_host::incoming::Ingress> as webrtc::data_channel::DataChannel>::close::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000346340",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::data_channel::DataChannelImpl<codex_voice_host::incoming::Ingress> as webrtc::data_channel::DataChannel>::label::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003bf550",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::runtime::scheduler::multi_thread::MultiThread::block_on<codex_voice_host::devices::Devices::service::{{closure}}>::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000346370",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::data_channel::DataChannelImpl<codex_voice_host::incoming::Ingress> as webrtc::data_channel::DataChannel>::try_send::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000346460",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::data_channel::DataChannelImpl<codex_voice_host::incoming::Ingress> as webrtc::data_channel::DataChannel>::writable::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003464a0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::data_channel::DataChannelImpl<codex_voice_host::incoming::Ingress> as webrtc::data_channel::DataChannel>::send_text::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003bf660",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::runtime::scheduler::multi_thread::MultiThread::block_on<codex_voice_host::transport::Transport::offer::{{closure}}>::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000346560",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::data_channel::DataChannelImpl<codex_voice_host::incoming::Ingress> as webrtc::data_channel::DataChannel>::try_send_text::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000390170",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::rtp_transceiver::RtpTransceiverImpl<codex_voice_host::incoming::Ingress> as webrtc::rtp_transceiver::RtpTransceiver>::mid::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037ba60",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress> as webrtc::peer_connection::PeerConnection>::close::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003901a0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::rtp_transceiver::RtpTransceiverImpl<codex_voice_host::incoming::Ingress> as webrtc::rtp_transceiver::RtpTransceiver>::sender::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003901f0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::rtp_transceiver::RtpTransceiverImpl<codex_voice_host::incoming::Ingress> as webrtc::rtp_transceiver::RtpTransceiver>::receiver::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037bc40",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress> as webrtc::peer_connection::PeerConnection>::add_track::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037bdf0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress> as webrtc::peer_connection::PeerConnection>::get_stats::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037be20",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress> as webrtc::peer_connection::PeerConnection>::get_senders::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037c000",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress> as webrtc::peer_connection::PeerConnection>::restart_ice::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003bf710",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::rtp_transceiver::rtp_sender::RtpSenderImpl<codex_voice_host::incoming::Ingress> as webrtc::rtp_transceiver::RtpSender>::get_stats::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037c0d0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress> as webrtc::peer_connection::PeerConnection>::create_offer::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037c100",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress> as webrtc::peer_connection::PeerConnection>::remove_track::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037c1b0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress> as webrtc::peer_connection::PeerConnection>::get_receivers::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003bf740",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::rtp_transceiver::rtp_sender::RtpSenderImpl<codex_voice_host::incoming::Ingress> as webrtc::rtp_transceiver::RtpSender>::set_streams::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000390240",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::rtp_transceiver::RtpTransceiverImpl<codex_voice_host::incoming::Ingress> as webrtc::rtp_transceiver::RtpTransceiver>::set_direction::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003bf880",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::rtp_transceiver::rtp_sender::RtpSenderImpl<codex_voice_host::incoming::Ingress> as webrtc::rtp_transceiver::RtpSender>::replace_track::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037c390",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress> as webrtc::peer_connection::PeerConnection>::get_transceivers::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003bf980",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::rtp_transceiver::rtp_sender::RtpSenderImpl<codex_voice_host::incoming::Ingress> as webrtc::rtp_transceiver::RtpSender>::get_parameters::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003bf9b0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::rtp_transceiver::rtp_sender::RtpSenderImpl<codex_voice_host::incoming::Ingress> as webrtc::rtp_transceiver::RtpSender>::set_parameters::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037c450",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress> as webrtc::peer_connection::PeerConnection>::add_ice_candidate::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037c590",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress> as webrtc::peer_connection::PeerConnection>::get_configuration::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037c5c0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress> as webrtc::peer_connection::PeerConnection>::set_configuration::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003f6ef0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::rtp_transceiver::rtp_receiver::RtpReceiverImpl<codex_voice_host::incoming::Ingress> as webrtc::rtp_transceiver::RtpReceiver>::get_stats::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000390270",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<std::thread::lifecycle::spawn_unchecked<codex_voice_host::run<codex_voice_host::main::{{closure}}>::{{closure}},!>::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003bfa40",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::rtp_transceiver::rtp_sender::RtpSenderImpl<codex_voice_host::incoming::Ingress> as webrtc::rtp_transceiver::RtpSender>::get_capabilities::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037c6e0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress> as webrtc::peer_connection::PeerConnection>::create_data_channel::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000346600",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::data_channel::DataChannelImpl<codex_voice_host::incoming::Ingress> as webrtc::data_channel::DataChannel>::set_buffered_amount_low_threshold::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037c990",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress> as webrtc::peer_connection::PeerConnection>::set_local_description::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003902f0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::rtp_transceiver::RtpTransceiverImpl<codex_voice_host::incoming::Ingress> as webrtc::rtp_transceiver::RtpTransceiver>::set_codec_preferences::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037caf0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress> as webrtc::peer_connection::PeerConnection>::set_remote_description::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003f6f20",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::rtp_transceiver::rtp_receiver::RtpReceiverImpl<codex_voice_host::incoming::Ingress> as webrtc::rtp_transceiver::RtpReceiver>::get_parameters::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003f6f50",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::rtp_transceiver::rtp_receiver::RtpReceiverImpl<codex_voice_host::incoming::Ingress> as webrtc::rtp_transceiver::RtpReceiver>::get_capabilities::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037cc50",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress> as webrtc::peer_connection::PeerConnection>::add_transceiver_from_kind::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000037cdc0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<webrtc::peer_connection::PeerConnectionImpl<codex_voice_host::incoming::Ingress> as webrtc::peer_connection::PeerConnection>::add_transceiver_from_track::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003f6f80",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::event_loop::{{closure}}::{{closure}}::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003a5dc0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<webrtc::peer_connection::driver::PeerConnectionDriver<codex_voice_host::incoming::Ingress,&str>::event_loop::{{closure}}::{{closure}}::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003a5e10",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<<tokio::sync::mpsc::chan::Rx<T,S> as core::ops::drop::Drop>::drop::{{closure}}::Guard<codex_voice_host::incoming::ReceivedRtp,tokio::sync::mpsc::bounded::Semaphore>>"
+    },
+    {
+      "vaddr": "0x0000000000390410",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::runtime::task::core::Cell<codex_voice_host::transport::Transport::with_runtime::{{closure}}::{{closure}},alloc::sync::Arc<tokio::runtime::scheduler::current_thread::Handle>>>"
+    },
+    {
+      "vaddr": "0x00000000003bfad0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::sync::watch::Receiver<bool>::wait_for<codex_voice_host::transport::Transport::apply_answer::{{closure}}::{{closure}}::{{closure}}>::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000346960",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::sync::ArcInner<futures_util::lock::mutex::Mutex<std::collections::hash::map::HashMap<usize,alloc::sync::Arc<webrtc::rtp_transceiver::RtpTransceiverImpl<codex_voice_host::incoming::Ingress>>>>>>"
+    },
+    {
+      "vaddr": "0x0000000000390550",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::runtime::task::core::Cell<codex_voice_host::transport::Transport::with_runtime::{{closure}}::{{closure}},alloc::sync::Arc<tokio::runtime::scheduler::multi_thread::handle::Handle>>>"
+    },
+    {
+      "vaddr": "0x000000000040c2e0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<core::result::Result<(codex_realtime_webrtc::protocol::_::<impl serde_core::de::Deserialize for codex_realtime_webrtc::protocol::Message>::deserialize::__Field,serde_core::private::content::Content),serde_json::error::Error>>"
+    },
+    {
+      "vaddr": "0x00000000003bfb50",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<tokio::task::coop::Coop<tokio::sync::watch::Receiver<bool>::wait_for_inner<codex_voice_host::transport::Transport::apply_answer::{{closure}}::{{closure}}::{{closure}}>::{{closure}}>>"
+    },
+    {
+      "vaddr": "0x00000000003a5f40",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<core::iter::adapters::map::Map<alloc::vec::into_iter::IntoIter<rtc::rtp_transceiver::rtp_sender::rtp_header_extension_parameters::RTCRtpHeaderExtensionParameters>,rtc::rtp_transceiver::rtp_sender::internal::RTCRtpSenderInternal<codex_voice_host::incoming::Ingress>::get_capabilities::{{closure}}>>"
+    },
+    {
+      "vaddr": "0x00000000003a5f40",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<core::iter::adapters::map::Map<alloc::vec::into_iter::IntoIter<rtc::rtp_transceiver::rtp_sender::rtp_header_extension_parameters::RTCRtpHeaderExtensionParameters>,rtc::rtp_transceiver::rtp_receiver::internal::RTCRtpReceiverInternal<codex_voice_host::incoming::Ingress>::get_capabilities::{{closure}}>>"
+    },
+    {
+      "vaddr": "0x0000000000390690",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<cpal::host::monotonic_input_callback<<cpal::platform::platform_impl::Device as cpal::traits::DeviceTrait>::build_input_stream<i8,codex_voice_host::devices::build_input<i8>::{{closure}},codex_voice_host::devices::build_input<i8>::{{closure}}>::{{closure}}>::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003e0f00",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<cpal::host::monotonic_input_callback<<cpal::platform::platform_impl::Device as cpal::traits::DeviceTrait>::build_input_stream<i8,codex_voice_host::devices::build_input<i8>::{{closure}},codex_voice_host::devices::build_input<i8>::{{closure}}>::{{closure}}>::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003e0f80",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<cpal::host::monotonic_output_callback<<cpal::platform::platform_impl::Device as cpal::traits::DeviceTrait>::build_output_stream<i8,codex_voice_host::devices::build_output<i8>::{{closure}},codex_voice_host::devices::build_output<i8>::{{closure}}>::{{closure}}>::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000390800",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<cpal::host::alsa::Stream::new_input<cpal::host::monotonic_input_callback<<cpal::platform::platform_impl::Device as cpal::traits::DeviceTrait>::build_input_stream<i8,codex_voice_host::devices::build_input<i8>::{{closure}},codex_voice_host::devices::build_input<i8>::{{closure}}>::{{closure}}>::{{closure}},codex_voice_host::devices::build_input<i8>::{{closure}}>::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000390940",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<cpal::host::alsa::Stream::new_output<cpal::host::monotonic_output_callback<<cpal::platform::platform_impl::Device as cpal::traits::DeviceTrait>::build_output_stream<i8,codex_voice_host::devices::build_output<i8>::{{closure}},codex_voice_host::devices::build_output<i8>::{{closure}}>::{{closure}}>::{{closure}},codex_voice_host::devices::build_output<i8>::{{closure}}>::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002e72d0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::incoming::Ingress>"
+    },
+    {
+      "vaddr": "0x00000000002fc4d0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::incoming::Ingress>"
+    },
+    {
+      "vaddr": "0x00000000003470f0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::incoming::Ingress>"
+    },
+    {
+      "vaddr": "0x000000000037d420",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::incoming::Ingress>"
+    },
+    {
+      "vaddr": "0x00000000003c02a0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::incoming::Ingress>"
+    },
+    {
+      "vaddr": "0x00000000003d1670",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::incoming::Ingress>"
+    },
+    {
+      "vaddr": "0x0000000000338370",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::incoming::Ingress>"
+    },
+    {
+      "vaddr": "0x00000000002fc730",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport::Events>"
+    },
+    {
+      "vaddr": "0x00000000002e7530",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::incoming::Incoming>"
+    },
+    {
+      "vaddr": "0x00000000002fc740",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::incoming::Incoming>"
+    },
+    {
+      "vaddr": "0x00000000003c0510",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::incoming::Incoming>"
+    },
+    {
+      "vaddr": "0x00000000003d18e0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::incoming::Incoming>"
+    },
+    {
+      "vaddr": "0x00000000003d1af0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport::Transport>"
+    },
+    {
+      "vaddr": "0x00000000003473b0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::incoming::ReceivedRtp>"
+    },
+    {
+      "vaddr": "0x00000000003a64c0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::incoming::ReceivedRtp>"
+    },
+    {
+      "vaddr": "0x00000000003690b0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::incoming::ReceivedRtp>"
+    },
+    {
+      "vaddr": "0x000000000041c070",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_realtime_webrtc::protocol::Message>"
+    },
+    {
+      "vaddr": "0x0000000000421600",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_realtime_webrtc::protocol::Message>"
+    },
+    {
+      "vaddr": "0x0000000000390c50",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_realtime_webrtc::protocol::Message>"
+    },
+    {
+      "vaddr": "0x00000000003d2560",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_realtime_webrtc::protocol::Message>"
+    },
+    {
+      "vaddr": "0x00000000003e1380",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_realtime_webrtc::protocol::Message>"
+    },
+    {
+      "vaddr": "0x00000000003b3470",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_realtime_webrtc::protocol::Message>"
+    },
+    {
+      "vaddr": "0x00000000002e7740",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::audio_track::AudioTrack>"
+    },
+    {
+      "vaddr": "0x00000000002fc950",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::audio_track::AudioTrack>"
+    },
+    {
+      "vaddr": "0x00000000003c07f0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::audio_track::AudioTrack>"
+    },
+    {
+      "vaddr": "0x00000000003d2700",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::audio_track::AudioTrack>"
+    },
+    {
+      "vaddr": "0x0000000000390d80",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<std::thread::lifecycle::spawn_unchecked<cpal::host::alsa::Stream::new_input<cpal::host::monotonic_input_callback<<cpal::platform::platform_impl::Device as cpal::traits::DeviceTrait>::build_input_stream<i8,codex_voice_host::devices::build_input<i8>::{{closure}},codex_voice_host::devices::build_input<i8>::{{closure}}>::{{closure}}>::{{closure}},codex_voice_host::devices::build_input<i8>::{{closure}}>::{{closure}},()>::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000390e00",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<std::thread::lifecycle::spawn_unchecked<cpal::host::alsa::Stream::new_output<cpal::host::monotonic_output_callback<<cpal::platform::platform_impl::Device as cpal::traits::DeviceTrait>::build_output_stream<i8,codex_voice_host::devices::build_output<i8>::{{closure}},codex_voice_host::devices::build_output<i8>::{{closure}}>::{{closure}}>::{{closure}},codex_voice_host::devices::build_output<i8>::{{closure}}>::{{closure}},()>::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003698c0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::devices::playout::Playout>"
+    },
+    {
+      "vaddr": "0x00000000003d3890",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::devices::processing::Converter>"
+    },
+    {
+      "vaddr": "0x0000000000369f90",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::devices::processing::Converter>"
+    },
+    {
+      "vaddr": "0x00000000003d3aa0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::devices::processing::Processor>"
+    },
+    {
+      "vaddr": "0x000000000036a0b0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::devices::processing::Processor>"
+    },
+    {
+      "vaddr": "0x00000000002fd440",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport_runtime::VoiceRuntime>"
+    },
+    {
+      "vaddr": "0x0000000000390e80",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport_runtime::LimitedListener>"
+    },
+    {
+      "vaddr": "0x00000000003d4730",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_realtime_webrtc::protocol::AudioDeviceSelection>"
+    },
+    {
+      "vaddr": "0x000000000041c1a0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_realtime_webrtc::protocol::AudioDeviceSelection>"
+    },
+    {
+      "vaddr": "0x00000000003d5a30",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::devices::capture_worker::CaptureWorker>"
+    },
+    {
+      "vaddr": "0x00000000003a75a0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::sync::ArcInner<codex_voice_host::incoming::State>>"
+    },
+    {
+      "vaddr": "0x00000000003d6270",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<core::option::Option<codex_voice_host::devices::Devices>>"
+    },
+    {
+      "vaddr": "0x000000000036a7a0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::vec::Vec<codex_voice_host::audio_track::EncodedAudio>>"
+    },
+    {
+      "vaddr": "0x000000000041c2e0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::vec::Vec<codex_realtime_webrtc::protocol::AudioDevice>>"
+    },
+    {
+      "vaddr": "0x000000000041f610",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::vec::Vec<codex_realtime_webrtc::protocol::AudioDevice>>"
+    },
+    {
+      "vaddr": "0x00000000003d7be0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<core::option::Option<codex_voice_host::devices::playout::Playout>>"
+    },
+    {
+      "vaddr": "0x000000000036b940",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<alloc::sync::ArcInner<codex_voice_host::devices::buffers::Buffers>>"
+    },
+    {
+      "vaddr": "0x00000000003d7ea0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::devices::Devices::service::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003c3d20",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport::Transport::new::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003d7ef0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport::Transport::new::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002ea470",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport::Transport::close::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003c4a60",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport::Transport::close::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003d8a00",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport::Transport::close::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003d8aa0",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::transport::Transport::offer::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000002ea510",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::audio_track::AudioTrack::send::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000301710",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::audio_track::AudioTrack::send::{{closure}}>"
+    },
+    {
+      "vaddr": "0x0000000000319180",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::audio_track::AudioTrack::send::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003d8c00",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::audio_track::AudioTrack::send::{{closure}}>"
+    },
+    {
+      "vaddr": "0x00000000003e1830",
+      "type": "t",
+      "symbol": "core::ptr::drop_in_place<codex_voice_host::devices::playout::Playout::new::{{closure}}>"
+    },
+    {
+      "vaddr": "0x000000000036c4b0",
+      "type": "t",
+      "symbol": "<codex_voice_host::devices::Devices as core::ops::drop::Drop>::drop"
+    },
+    {
+      "vaddr": "0x00000000002ede80",
+      "type": "t",
+      "symbol": "<codex_voice_host::service_failure::ServiceFailure as core::fmt::Debug>::fmt"
+    },
+    {
+      "vaddr": "0x00000000003176e0",
+      "type": "t",
+      "symbol": "<codex_voice_host::service_failure::ServiceFailure as core::fmt::Debug>::fmt"
+    },
+    {
+      "vaddr": "0x0000000000319200",
+      "type": "t",
+      "symbol": "<codex_voice_host::service_failure::ServiceFailure as core::fmt::Debug>::fmt"
+    },
+    {
+      "vaddr": "0x0000000000382540",
+      "type": "t",
+      "symbol": "<codex_voice_host::service_failure::ServiceFailure as core::fmt::Debug>::fmt"
+    },
+    {
+      "vaddr": "0x0000000000317710",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport_runtime::VoiceRuntime as core::fmt::Debug>::fmt"
+    },
+    {
+      "vaddr": "0x0000000000382570",
+      "type": "t",
+      "symbol": "<codex_voice_host::service_failure::ServiceFailure as core::fmt::Display>::fmt"
+    },
+    {
+      "vaddr": "0x0000000000392c70",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport_runtime::LimitedListener as core::fmt::Debug>::fmt"
+    },
+    {
+      "vaddr": "0x0000000000392f00",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport_runtime::VoiceRuntime as webrtc::runtime::Runtime>::connect_tcp"
+    },
+    {
+      "vaddr": "0x0000000000392f10",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport_runtime::VoiceRuntime as webrtc::runtime::Runtime>::resolve_host"
+    },
+    {
+      "vaddr": "0x0000000000392f20",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport_runtime::VoiceRuntime as webrtc::runtime::Runtime>::spawn_reactor"
+    },
+    {
+      "vaddr": "0x0000000000392f30",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport_runtime::VoiceRuntime as webrtc::runtime::Runtime>::wrap_udp_socket"
+    },
+    {
+      "vaddr": "0x0000000000392f40",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport_runtime::VoiceRuntime as webrtc::runtime::Runtime>::wrap_tcp_listener"
+    },
+    {
+      "vaddr": "0x0000000000317880",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport_runtime::VoiceRuntime as webrtc::runtime::Runtime>::name"
+    },
+    {
+      "vaddr": "0x0000000000393020",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport_runtime::VoiceRuntime as webrtc::runtime::Runtime>::sleep"
+    },
+    {
+      "vaddr": "0x0000000000393030",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport_runtime::VoiceRuntime as webrtc::runtime::Runtime>::spawn"
+    },
+    {
+      "vaddr": "0x0000000000393040",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport_runtime::VoiceRuntime as webrtc::runtime::Runtime>::block_on"
+    },
+    {
+      "vaddr": "0x0000000000393050",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport_runtime::VoiceRuntime as webrtc::runtime::Runtime>::interval"
+    },
+    {
+      "vaddr": "0x0000000000393060",
+      "type": "t",
+      "symbol": "<codex_voice_host::transport_runtime::VoiceRuntime as webrtc::runtime::Runtime>::yield_now"
+    }
+  ]
+}

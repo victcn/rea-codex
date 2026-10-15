@@ -1,0 +1,3939 @@
+{
+  "total_git_fork_repositories": 6,
+  "total_extracted_rust_files": 445,
+  "total_binary_referenced_files": 89,
+  "total_verified_referenced_files": 78,
+  "total_panic_locations": 1253,
+  "verified_panic_locations": 1253,
+  "panic_verification_accuracy": "100.00%",
+  "total_mapped_native_functions": 880,
+  "git_forks": [
+    {
+      "cargo_checkout_id": "crossterm-ce0318b92aca4e8d",
+      "github_repo": "openai-oss-forks/crossterm",
+      "commit_sha": "ed1cdab335221515706178d68495bba2aed1924f",
+      "commit_short": "ed1cdab",
+      "extracted_source_dir": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab",
+      "total_rust_files_in_repo": 71,
+      "binary_referenced_file_count": 8,
+      "verified_existing_file_count": 8,
+      "binary_referenced_files": [
+        "src/command.rs",
+        "src/event.rs",
+        "src/event/read.rs",
+        "src/event/source/unix/mio.rs",
+        "src/event/stream.rs",
+        "src/event/sys/unix/parse.rs",
+        "src/event/sys/unix/waker/mio.rs",
+        "src/style/types/color.rs"
+      ],
+      "panic_location_count": 32,
+      "verified_panic_location_count": 32,
+      "mapped_native_function_count": 54,
+      "mapped_native_functions": [
+        {
+          "vaddr_start": "0x27de640",
+          "vaddr_end": "0x27de740",
+          "size_bytes": 256,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0x27de740",
+          "vaddr_end": "0x27de860",
+          "size_bytes": 288,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0x27de860",
+          "vaddr_end": "0x27de950",
+          "size_bytes": 240,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0x27de950",
+          "vaddr_end": "0x27dea70",
+          "size_bytes": 288,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0x27dea70",
+          "vaddr_end": "0x27debc0",
+          "size_bytes": 336,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0x27debc0",
+          "vaddr_end": "0x27ded10",
+          "size_bytes": 336,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0x27ded10",
+          "vaddr_end": "0x27dee60",
+          "size_bytes": 336,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0x27dee60",
+          "vaddr_end": "0x27defb0",
+          "size_bytes": 336,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0x27defb0",
+          "vaddr_end": "0x27df0c0",
+          "size_bytes": 272,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0x27df0c0",
+          "vaddr_end": "0x27df1e0",
+          "size_bytes": 288,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0x27df1e0",
+          "vaddr_end": "0x27df2d0",
+          "size_bytes": 240,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0x27df2d0",
+          "vaddr_end": "0x27df3c0",
+          "size_bytes": 240,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0x27df3c0",
+          "vaddr_end": "0x27df4e0",
+          "size_bytes": 288,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0x27df4e0",
+          "vaddr_end": "0x27df5b0",
+          "size_bytes": 208,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0x27df5b0",
+          "vaddr_end": "0x27df700",
+          "size_bytes": 336,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0x27df700",
+          "vaddr_end": "0x27df800",
+          "size_bytes": 256,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0x27df800",
+          "vaddr_end": "0x27df8e0",
+          "size_bytes": 224,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0x27df8e0",
+          "vaddr_end": "0x27df9b0",
+          "size_bytes": 208,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xb80da30",
+          "vaddr_end": "0xb80db60",
+          "size_bytes": 304,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xb80db60",
+          "vaddr_end": "0xb80dc70",
+          "size_bytes": 272,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xb80dc70",
+          "vaddr_end": "0xb80dd50",
+          "size_bytes": 224,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xb80dd50",
+          "vaddr_end": "0xb80de60",
+          "size_bytes": 272,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xb9f9f80",
+          "vaddr_end": "0xb9fa4b0",
+          "size_bytes": 1328,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/event.rs",
+          "line": 233,
+          "rust_function": "read (L229..L246)"
+        },
+        {
+          "vaddr_start": "0xb9faac0",
+          "vaddr_end": "0xb9fae50",
+          "size_bytes": 912,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xba44290",
+          "vaddr_end": "0xba44380",
+          "size_bytes": 240,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xba44380",
+          "vaddr_end": "0xba44490",
+          "size_bytes": 272,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xba44490",
+          "vaddr_end": "0xba44580",
+          "size_bytes": 240,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xba44580",
+          "vaddr_end": "0xba446a0",
+          "size_bytes": 288,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xba446a0",
+          "vaddr_end": "0xba44790",
+          "size_bytes": 240,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xba44790",
+          "vaddr_end": "0xba448e0",
+          "size_bytes": 336,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xba448e0",
+          "vaddr_end": "0xba449d0",
+          "size_bytes": 240,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xba449d0",
+          "vaddr_end": "0xba44af0",
+          "size_bytes": 288,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xba44af0",
+          "vaddr_end": "0xba44c10",
+          "size_bytes": 288,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xba44c10",
+          "vaddr_end": "0xba44d60",
+          "size_bytes": 336,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xba44d60",
+          "vaddr_end": "0xba44e60",
+          "size_bytes": 256,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xba44e60",
+          "vaddr_end": "0xba44f50",
+          "size_bytes": 240,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xba44f50",
+          "vaddr_end": "0xba45020",
+          "size_bytes": 208,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/command.rs",
+          "line": 279,
+          "rust_function": "write_str (L263..L287)"
+        },
+        {
+          "vaddr_start": "0xc5c5e40",
+          "vaddr_end": "0xc5c62f0",
+          "size_bytes": 1200,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/event/read.rs",
+          "line": 65,
+          "rust_function": "waker (L64..L67)"
+        },
+        {
+          "vaddr_start": "0xc5c6460",
+          "vaddr_end": "0xc5c66d0",
+          "size_bytes": 624,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/event/stream.rs",
+          "line": 112,
+          "rust_function": "poll_next (L106..L141)"
+        },
+        {
+          "vaddr_start": "0xc5c6b50",
+          "vaddr_end": "0xc5c6c00",
+          "size_bytes": 176,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/event.rs",
+          "line": 233,
+          "rust_function": "read (L229..L246)"
+        },
+        {
+          "vaddr_start": "0xc5c84d0",
+          "vaddr_end": "0xc5c8d20",
+          "size_bytes": 2128,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/event/source/unix/mio.rs",
+          "line": 168,
+          "rust_function": "try_read (L78..L178)"
+        },
+        {
+          "vaddr_start": "0xc5ca360",
+          "vaddr_end": "0xc5ca820",
+          "size_bytes": 1216,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/event/source/unix/mio.rs",
+          "line": 318,
+          "rust_function": "advance (L312..L428)"
+        },
+        {
+          "vaddr_start": "0xc5ca900",
+          "vaddr_end": "0xc5cb230",
+          "size_bytes": 2352,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/style/types/color.rs",
+          "line": 200,
+          "rust_function": "parse_osc_rgb (L174..L205)"
+        },
+        {
+          "vaddr_start": "0xc5cd830",
+          "vaddr_end": "0xc5cda80",
+          "size_bytes": 592,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/event/sys/unix/parse.rs",
+          "line": 721,
+          "rust_function": "parse_csi_rxvt_mouse (L716..L742)"
+        },
+        {
+          "vaddr_start": "0xc5cdb40",
+          "vaddr_end": "0xc5cdc90",
+          "size_bytes": 336,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/event/sys/unix/parse.rs",
+          "line": 870,
+          "rust_function": "parse_csi_bracketed_paste (L868..L879)"
+        },
+        {
+          "vaddr_start": "0xc5cdc90",
+          "vaddr_end": "0xc5cddd0",
+          "size_bytes": 320,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/event/sys/unix/parse.rs",
+          "line": 300,
+          "rust_function": "parse_csi_cursor_position (L295..L312)"
+        },
+        {
+          "vaddr_start": "0xc5cddd0",
+          "vaddr_end": "0xc5cdff0",
+          "size_bytes": 544,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/event/sys/unix/parse.rs",
+          "line": 674,
+          "rust_function": "parse_csi_special_key_code (L672..L715)"
+        },
+        {
+          "vaddr_start": "0xc5ce0f0",
+          "vaddr_end": "0xc5ce2d0",
+          "size_bytes": 480,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/event/sys/unix/parse.rs",
+          "line": 403,
+          "rust_function": "parse_csi_modifier_key_code (L402..L448)"
+        },
+        {
+          "vaddr_start": "0xc5ce2d0",
+          "vaddr_end": "0xc5ced70",
+          "size_bytes": 2720,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/event/sys/unix/parse.rs",
+          "line": 552,
+          "rust_function": "parse_csi_u_encoded_key_code (L550..L671)"
+        },
+        {
+          "vaddr_start": "0xc5ced70",
+          "vaddr_end": "0xc5cedd0",
+          "size_bytes": 96,
+          "source_file": "extracted-assets/git-fork-sources/crossterm-ce0318b92aca4e8d/ed1cdab/src/event/sys/unix/parse.rs",
+          "line": 348,
+          "rust_function": "parse_csi_primary_device_attributes (L345..L356)"
+        }
+      ],
+      "panic_locations_sample": [
+        {
+          "location_va": "0x11434f98",
+          "file": "src/command.rs",
+          "line": 279,
+          "col": 23,
+          "rust_function": "write_str (L263..L287)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1166d380",
+          "file": "src/command.rs",
+          "line": 279,
+          "col": 23,
+          "rust_function": "write_str (L263..L287)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a1d88",
+          "file": "src/event/stream.rs",
+          "line": 112,
+          "col": 22,
+          "rust_function": "poll_next (L106..L141)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a1e00",
+          "file": "src/event.rs",
+          "line": 233,
+          "col": 14,
+          "rust_function": "read (L229..L246)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a1e90",
+          "file": "src/event/read.rs",
+          "line": 65,
+          "col": 30,
+          "rust_function": "waker (L64..L67)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a1ec0",
+          "file": "src/event/source/unix/mio.rs",
+          "line": 114,
+          "col": 61,
+          "rust_function": "try_read (L78..L178)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a1ed8",
+          "file": "src/event/source/unix/mio.rs",
+          "line": 168,
+          "col": 26,
+          "rust_function": "try_read (L78..L178)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a1f20",
+          "file": "src/event/source/unix/mio.rs",
+          "line": 318,
+          "col": 37,
+          "rust_function": "advance (L312..L428)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a1f38",
+          "file": "src/event/source/unix/mio.rs",
+          "line": 348,
+          "col": 37,
+          "rust_function": "advance (L312..L428)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a1f50",
+          "file": "src/style/types/color.rs",
+          "line": 200,
+          "col": 14,
+          "rust_function": "parse_osc_rgb (L174..L205)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a2118",
+          "file": "src/event/sys/unix/parse.rs",
+          "line": 776,
+          "col": 5,
+          "rust_function": "parse_csi_sgr_mouse (L773..L830)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a2130",
+          "file": "src/event/sys/unix/parse.rs",
+          "line": 782,
+          "col": 40,
+          "rust_function": "parse_csi_sgr_mouse (L773..L830)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a2148",
+          "file": "src/event/sys/unix/parse.rs",
+          "line": 720,
+          "col": 5,
+          "rust_function": "parse_csi_rxvt_mouse (L716..L742)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a2160",
+          "file": "src/event/sys/unix/parse.rs",
+          "line": 721,
+          "col": 5,
+          "rust_function": "parse_csi_rxvt_mouse (L716..L742)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a2178",
+          "file": "src/event/sys/unix/parse.rs",
+          "line": 746,
+          "col": 5,
+          "rust_function": "parse_csi_normal_mouse (L743..L772)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a2190",
+          "file": "src/event/sys/unix/parse.rs",
+          "line": 870,
+          "col": 5,
+          "rust_function": "parse_csi_bracketed_paste (L868..L879)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a21a8",
+          "file": "src/event/sys/unix/parse.rs",
+          "line": 875,
+          "col": 52,
+          "rust_function": "parse_csi_bracketed_paste (L868..L879)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a21c0",
+          "file": "src/event/sys/unix/parse.rs",
+          "line": 299,
+          "col": 5,
+          "rust_function": "parse_csi_cursor_position (L295..L312)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a21d8",
+          "file": "src/event/sys/unix/parse.rs",
+          "line": 300,
+          "col": 5,
+          "rust_function": "parse_csi_cursor_position (L295..L312)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a21f0",
+          "file": "src/event/sys/unix/parse.rs",
+          "line": 673,
+          "col": 5,
+          "rust_function": "parse_csi_special_key_code (L672..L715)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a2208",
+          "file": "src/event/sys/unix/parse.rs",
+          "line": 674,
+          "col": 5,
+          "rust_function": "parse_csi_special_key_code (L672..L715)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a2298",
+          "file": "src/event/sys/unix/parse.rs",
+          "line": 403,
+          "col": 5,
+          "rust_function": "parse_csi_modifier_key_code (L402..L448)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a22b0",
+          "file": "src/event/sys/unix/parse.rs",
+          "line": 551,
+          "col": 5,
+          "rust_function": "parse_csi_u_encoded_key_code (L550..L671)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a22c8",
+          "file": "src/event/sys/unix/parse.rs",
+          "line": 552,
+          "col": 5,
+          "rust_function": "parse_csi_u_encoded_key_code (L550..L671)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116a22e0",
+          "file": "src/event/sys/unix/parse.rs",
+          "line": 347,
+          "col": 5,
+          "rust_function": "parse_csi_primary_device_attributes (L345..L356)",
+          "verified_in_source": true
+        }
+      ],
+      "tracing_record_count": 0,
+      "tracing_records_sample": []
+    },
+    {
+      "cargo_checkout_id": "h3-24d7712dbc030d43",
+      "github_repo": "hyperium/h3",
+      "commit_sha": "e07e69412876f7e26f026bd75a48b2704d8c8283",
+      "commit_short": "e07e694",
+      "extracted_source_dir": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694",
+      "total_rust_files_in_repo": 66,
+      "binary_referenced_file_count": 16,
+      "verified_existing_file_count": 16,
+      "binary_referenced_files": [
+        "h3-quinn/src/lib.rs",
+        "h3/src/buf.rs",
+        "h3/src/client/builder.rs",
+        "h3/src/client/connection.rs",
+        "h3/src/client/stream.rs",
+        "h3/src/connection.rs",
+        "h3/src/frame.rs",
+        "h3/src/proto/coding.rs",
+        "h3/src/proto/frame.rs",
+        "h3/src/proto/varint.rs",
+        "h3/src/qpack/block.rs",
+        "h3/src/qpack/prefix_int.rs",
+        "h3/src/qpack/prefix_string/decode.rs",
+        "h3/src/qpack/prefix_string/encode.rs",
+        "h3/src/stream.rs",
+        "h3/src/webtransport/session_id.rs"
+      ],
+      "panic_location_count": 61,
+      "verified_panic_location_count": 61,
+      "mapped_native_function_count": 42,
+      "mapped_native_functions": [
+        {
+          "vaddr_start": "0xbafc50",
+          "vaddr_end": "0xbafc90",
+          "size_bytes": 64,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3-quinn/src/lib.rs",
+          "line": 363,
+          "rust_function": "new (L359..L371)"
+        },
+        {
+          "vaddr_start": "0x1732720",
+          "vaddr_end": "0x1733d90",
+          "size_bytes": 5744,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/proto/frame.rs",
+          "line": 128,
+          "rust_function": "decode (L82..L154)"
+        },
+        {
+          "vaddr_start": "0x1734060",
+          "vaddr_end": "0x1734470",
+          "size_bytes": 1040,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/frame.rs",
+          "line": 57,
+          "rust_function": "poll_next (L53..L96)"
+        },
+        {
+          "vaddr_start": "0x1734470",
+          "vaddr_end": "0x1734870",
+          "size_bytes": 1024,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/frame.rs",
+          "line": 57,
+          "rust_function": "poll_next (L53..L96)"
+        },
+        {
+          "vaddr_start": "0x1734870",
+          "vaddr_end": "0x1734950",
+          "size_bytes": 224,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/proto/frame.rs",
+          "line": 517,
+          "rust_function": "encode (L515..L522)"
+        },
+        {
+          "vaddr_start": "0x1734950",
+          "vaddr_end": "0x1735260",
+          "size_bytes": 2320,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/buf.rs",
+          "line": 138,
+          "rust_function": "chunk (L137..L141)"
+        },
+        {
+          "vaddr_start": "0x1735260",
+          "vaddr_end": "0x1735c00",
+          "size_bytes": 2464,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/buf.rs",
+          "line": 138,
+          "rust_function": "chunk (L137..L141)"
+        },
+        {
+          "vaddr_start": "0x1735c00",
+          "vaddr_end": "0x1736570",
+          "size_bytes": 2416,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/buf.rs",
+          "line": 87,
+          "rust_function": "advance (L84..L101)"
+        },
+        {
+          "vaddr_start": "0x1736570",
+          "vaddr_end": "0x17366e0",
+          "size_bytes": 368,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/proto/varint.rs",
+          "line": 125,
+          "rust_function": "encode (L114..L130)"
+        },
+        {
+          "vaddr_start": "0x19a1f30",
+          "vaddr_end": "0x19a2250",
+          "size_bytes": 800,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/buf.rs",
+          "line": 87,
+          "rust_function": "advance (L84..L101)"
+        },
+        {
+          "vaddr_start": "0x19e1ea0",
+          "vaddr_end": "0x19e2150",
+          "size_bytes": 688,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/buf.rs",
+          "line": 138,
+          "rust_function": "chunk (L137..L141)"
+        },
+        {
+          "vaddr_start": "0x19e2150",
+          "vaddr_end": "0x19e23c0",
+          "size_bytes": 624,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/buf.rs",
+          "line": 138,
+          "rust_function": "chunk (L137..L141)"
+        },
+        {
+          "vaddr_start": "0x1a71e10",
+          "vaddr_end": "0x1a720d0",
+          "size_bytes": 704,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/buf.rs",
+          "line": 143,
+          "rust_function": "advance (L142..L162)"
+        },
+        {
+          "vaddr_start": "0x1aecaa0",
+          "vaddr_end": "0x1aecee0",
+          "size_bytes": 1088,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/proto/varint.rs",
+          "line": 69,
+          "rust_function": "size (L58..L73)"
+        },
+        {
+          "vaddr_start": "0x2062600",
+          "vaddr_end": "0x2065060",
+          "size_bytes": 10848,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/stream.rs",
+          "line": 36,
+          "rust_function": "write (L31..L65)"
+        },
+        {
+          "vaddr_start": "0x2065470",
+          "vaddr_end": "0x20655b0",
+          "size_bytes": 320,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/client/connection.rs",
+          "line": 391,
+          "rust_function": "wait_idle (L391..L396)"
+        },
+        {
+          "vaddr_start": "0x221a820",
+          "vaddr_end": "0x221a9b0",
+          "size_bytes": 400,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3-quinn/src/lib.rs",
+          "line": 179,
+          "rust_function": "close (L177..L202)"
+        },
+        {
+          "vaddr_start": "0x221be80",
+          "vaddr_end": "0x221e800",
+          "size_bytes": 10624,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/stream.rs",
+          "line": 295,
+          "rust_function": "into_stream (L288..L302)"
+        },
+        {
+          "vaddr_start": "0x2463e30",
+          "vaddr_end": "0x2463f70",
+          "size_bytes": 320,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3-quinn/src/lib.rs",
+          "line": 394,
+          "rust_function": "stop_sending (L391..L399)"
+        },
+        {
+          "vaddr_start": "0x25dd260",
+          "vaddr_end": "0x25de5e0",
+          "size_bytes": 4992,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/stream.rs",
+          "line": 36,
+          "rust_function": "write (L31..L65)"
+        },
+        {
+          "vaddr_start": "0x2825f60",
+          "vaddr_end": "0x28260b0",
+          "size_bytes": 336,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/webtransport/session_id.rs",
+          "line": 36,
+          "rust_function": "encode (L35..L40)"
+        },
+        {
+          "vaddr_start": "0x2987060",
+          "vaddr_end": "0x29871a0",
+          "size_bytes": 320,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3-quinn/src/lib.rs",
+          "line": 179,
+          "rust_function": "close (L177..L202)"
+        },
+        {
+          "vaddr_start": "0x2987400",
+          "vaddr_end": "0x2987970",
+          "size_bytes": 1392,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/stream.rs",
+          "line": 337,
+          "rust_function": "poll_next_varint (L303..L358)"
+        },
+        {
+          "vaddr_start": "0x2d38970",
+          "vaddr_end": "0x2d389c0",
+          "size_bytes": 80,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3-quinn/src/lib.rs",
+          "line": 395,
+          "rust_function": "stop_sending (L391..L399)"
+        },
+        {
+          "vaddr_start": "0x2d389c0",
+          "vaddr_end": "0x2d38b60",
+          "size_bytes": 416,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3-quinn/src/lib.rs",
+          "line": 81,
+          "rust_function": "poll_accept_bidi (L76..L89)"
+        },
+        {
+          "vaddr_start": "0x2d3a0a0",
+          "vaddr_end": "0x2d3a230",
+          "size_bytes": 400,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3-quinn/src/lib.rs",
+          "line": 169,
+          "rust_function": "poll_open_send (L158..L176)"
+        },
+        {
+          "vaddr_start": "0x2d3b2b0",
+          "vaddr_end": "0x2d3b510",
+          "size_bytes": 608,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3-quinn/src/lib.rs",
+          "line": 214,
+          "rust_function": "poll_open_bidi (L203..L224)"
+        },
+        {
+          "vaddr_start": "0x2d3d970",
+          "vaddr_end": "0x2d3e2c0",
+          "size_bytes": 2384,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/buf.rs",
+          "line": 138,
+          "rust_function": "chunk (L137..L141)"
+        },
+        {
+          "vaddr_start": "0x2d6f2b0",
+          "vaddr_end": "0x2d6f570",
+          "size_bytes": 704,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/stream.rs",
+          "line": 230,
+          "rust_function": "chunk (L228..L237)"
+        },
+        {
+          "vaddr_start": "0x2d6f570",
+          "vaddr_end": "0x2d6f7f0",
+          "size_bytes": 640,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/stream.rs",
+          "line": 81,
+          "rust_function": "encode_frame_header (L79..L91)"
+        },
+        {
+          "vaddr_start": "0x2e4dea0",
+          "vaddr_end": "0x2e4e240",
+          "size_bytes": 928,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3-quinn/src/lib.rs",
+          "line": 208,
+          "rust_function": "poll_open_bidi (L203..L224)"
+        },
+        {
+          "vaddr_start": "0x2e4e240",
+          "vaddr_end": "0x2e4e520",
+          "size_bytes": 736,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3-quinn/src/lib.rs",
+          "line": 163,
+          "rust_function": "poll_open_send (L158..L176)"
+        },
+        {
+          "vaddr_start": "0x31fda50",
+          "vaddr_end": "0x31fdcd0",
+          "size_bytes": 640,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/qpack/prefix_int.rs",
+          "line": 23,
+          "rust_function": "decode (L22..L55)"
+        },
+        {
+          "vaddr_start": "0x31fdcd0",
+          "vaddr_end": "0x31fde60",
+          "size_bytes": 400,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/qpack/prefix_int.rs",
+          "line": 57,
+          "rust_function": "encode (L56..L82)"
+        },
+        {
+          "vaddr_start": "0x36a6900",
+          "vaddr_end": "0x36ab080",
+          "size_bytes": 18304,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/stream.rs",
+          "line": 36,
+          "rust_function": "write (L31..L65)"
+        },
+        {
+          "vaddr_start": "0xc780970",
+          "vaddr_end": "0xc780e30",
+          "size_bytes": 1216,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/proto/frame.rs",
+          "line": 481,
+          "rust_function": "len (L479..L488)"
+        },
+        {
+          "vaddr_start": "0xc781ea0",
+          "vaddr_end": "0xc7821b0",
+          "size_bytes": 784,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/qpack/prefix_string/encode.rs",
+          "line": 108,
+          "rust_function": "write_bits (L87..L385)"
+        },
+        {
+          "vaddr_start": "0xc7873c0",
+          "vaddr_end": "0xc787470",
+          "size_bytes": 176,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3/src/qpack/prefix_string/decode.rs",
+          "line": 96,
+          "rust_function": "read_bits (L81..L304)"
+        },
+        {
+          "vaddr_start": "0xc7894b0",
+          "vaddr_end": "0xc7897e0",
+          "size_bytes": 816,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3-quinn/src/lib.rs",
+          "line": 418,
+          "rust_function": "convert_read_error_to_stream_error (L407..L422)"
+        },
+        {
+          "vaddr_start": "0xc78a4a0",
+          "vaddr_end": "0xc78a810",
+          "size_bytes": 880,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3-quinn/src/lib.rs",
+          "line": 56,
+          "rust_function": "new (L53..L75)"
+        },
+        {
+          "vaddr_start": "0xc78a810",
+          "vaddr_end": "0xc78ab30",
+          "size_bytes": 800,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3-quinn/src/lib.rs",
+          "line": 60,
+          "rust_function": "new (L53..L75)"
+        },
+        {
+          "vaddr_start": "0xc78bd70",
+          "vaddr_end": "0xc78bf30",
+          "size_bytes": 448,
+          "source_file": "extracted-assets/git-fork-sources/h3-24d7712dbc030d43/e07e694/h3-quinn/src/lib.rs",
+          "line": 377,
+          "rust_function": "poll_data (L372..L390)"
+        }
+      ],
+      "panic_locations_sample": [
+        {
+          "location_va": "0x11404fa0",
+          "file": "h3/src/frame.rs",
+          "line": 57,
+          "col": 9,
+          "rust_function": "poll_next (L53..L96)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11404fb8",
+          "file": "h3/src/proto/frame.rs",
+          "line": 128,
+          "col": 68,
+          "rust_function": "decode (L82..L154)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11404fd0",
+          "file": "h3/src/proto/frame.rs",
+          "line": 517,
+          "col": 38,
+          "rust_function": "encode (L515..L522)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11404fe8",
+          "file": "h3/src/proto/varint.rs",
+          "line": 125,
+          "col": 13,
+          "rust_function": "encode (L114..L130)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11407480",
+          "file": "h3/src/proto/coding.rs",
+          "line": 68,
+          "col": 29,
+          "rust_function": "write_var (L67..L70)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11407498",
+          "file": "h3/src/proto/varint.rs",
+          "line": 200,
+          "col": 29,
+          "rust_function": "write_var (L199..L205)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11409970",
+          "file": "h3/src/buf.rs",
+          "line": 138,
+          "col": 23,
+          "rust_function": "chunk (L137..L141)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11409988",
+          "file": "h3/src/buf.rs",
+          "line": 138,
+          "col": 43,
+          "rust_function": "chunk (L137..L141)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x114099a0",
+          "file": "h3/src/buf.rs",
+          "line": 143,
+          "col": 9,
+          "rust_function": "advance (L142..L162)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x114099b8",
+          "file": "h3/src/buf.rs",
+          "line": 146,
+          "col": 43,
+          "rust_function": "advance (L142..L162)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11409a28",
+          "file": "h3/src/buf.rs",
+          "line": 87,
+          "col": 43,
+          "rust_function": "advance (L84..L101)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1140a640",
+          "file": "h3/src/webtransport/session_id.rs",
+          "line": 36,
+          "col": 34,
+          "rust_function": "encode (L35..L40)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x114258b0",
+          "file": "h3/src/connection.rs",
+          "line": 1097,
+          "col": 63,
+          "rust_function": "finish (L1097..L1123)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x114258c8",
+          "file": "h3/src/connection.rs",
+          "line": 1038,
+          "col": 74,
+          "rust_function": "send_data (L1038..L1048)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x114258e0",
+          "file": "h3/src/connection.rs",
+          "line": 429,
+          "col": 54,
+          "rust_function": "poll_accept_recv (L398..L504)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x114258f8",
+          "file": "h3/src/client/connection.rs",
+          "line": 391,
+          "col": 58,
+          "rust_function": "wait_idle (L391..L396)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11425910",
+          "file": "h3/src/client/connection.rs",
+          "line": 150,
+          "col": 63,
+          "rust_function": "send_request (L147..L235)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11425928",
+          "file": "h3/src/client/stream.rs",
+          "line": 99,
+          "col": 80,
+          "rust_function": "recv_response (L99..L189)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11425940",
+          "file": "h3/src/client/stream.rs",
+          "line": 265,
+          "col": 63,
+          "rust_function": "finish (L265..L283)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11425958",
+          "file": "h3/src/client/stream.rs",
+          "line": 190,
+          "col": 80,
+          "rust_function": "recv_data (L190..L194)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11425970",
+          "file": "h3/src/client/stream.rs",
+          "line": 242,
+          "col": 74,
+          "rust_function": "send_data (L242..L248)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11425988",
+          "file": "h3/src/stream.rs",
+          "line": 36,
+          "col": 1,
+          "rust_function": "write (L31..L65)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1143ffb0",
+          "file": "h3/src/stream.rs",
+          "line": 81,
+          "col": 44,
+          "rust_function": "encode_frame_header (L79..L91)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1143ffc8",
+          "file": "h3/src/stream.rs",
+          "line": 289,
+          "col": 23,
+          "rust_function": "into_stream (L288..L302)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1143ffe0",
+          "file": "h3/src/stream.rs",
+          "line": 295,
+          "col": 48,
+          "rust_function": "into_stream (L288..L302)",
+          "verified_in_source": true
+        }
+      ],
+      "tracing_record_count": 0,
+      "tracing_records_sample": []
+    },
+    {
+      "cargo_checkout_id": "nucleo-425d994cd74b3654",
+      "github_repo": "helix-editor/nucleo",
+      "commit_sha": "4253de9faabb4e5c6d81d946a5e35a90f87347ee",
+      "commit_short": "4253de9",
+      "extracted_source_dir": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9",
+      "total_rust_files_in_repo": 26,
+      "binary_referenced_file_count": 15,
+      "verified_existing_file_count": 15,
+      "binary_referenced_files": [
+        "matcher/src/chars.rs",
+        "matcher/src/exact.rs",
+        "matcher/src/fuzzy_greedy.rs",
+        "matcher/src/fuzzy_optimal.rs",
+        "matcher/src/lib.rs",
+        "matcher/src/matrix.rs",
+        "matcher/src/pattern.rs",
+        "matcher/src/prefilter.rs",
+        "matcher/src/score.rs",
+        "matcher/src/utf32_str.rs",
+        "src/boxcar.rs",
+        "src/lib.rs",
+        "src/par_sort.rs",
+        "src/pattern.rs",
+        "src/worker.rs"
+      ],
+      "panic_location_count": 100,
+      "verified_panic_location_count": 100,
+      "mapped_native_function_count": 76,
+      "mapped_native_functions": [
+        {
+          "vaddr_start": "0xa19750",
+          "vaddr_end": "0xa19900",
+          "size_bytes": 432,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/par_sort.rs",
+          "line": 685,
+          "rust_function": "break_patterns (L648..L692)"
+        },
+        {
+          "vaddr_start": "0xa19900",
+          "vaddr_end": "0xa19c40",
+          "size_bytes": 832,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/par_sort.rs",
+          "line": 191,
+          "rust_function": "partial_insertion_sort (L158..L203)"
+        },
+        {
+          "vaddr_start": "0xa19c40",
+          "vaddr_end": "0xa1a4a0",
+          "size_bytes": 2144,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/par_sort.rs",
+          "line": 191,
+          "rust_function": "partial_insertion_sort (L158..L203)"
+        },
+        {
+          "vaddr_start": "0xa1a520",
+          "vaddr_end": "0xa1a760",
+          "size_bytes": 576,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/par_sort.rs",
+          "line": 234,
+          "rust_function": "heapsort (L215..L264)"
+        },
+        {
+          "vaddr_start": "0x8891c60",
+          "vaddr_end": "0x8892920",
+          "size_bytes": 3264,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/boxcar.rs",
+          "line": 512,
+          "rust_function": "layout (L510..L514)"
+        },
+        {
+          "vaddr_start": "0x8893770",
+          "vaddr_end": "0x88939b0",
+          "size_bytes": 576,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/worker.rs",
+          "line": 20,
+          "rust_function": "get (L19..L43)"
+        },
+        {
+          "vaddr_start": "0x88939b0",
+          "vaddr_end": "0x8893bc0",
+          "size_bytes": 528,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/worker.rs",
+          "line": 20,
+          "rust_function": "get (L19..L43)"
+        },
+        {
+          "vaddr_start": "0x8894f50",
+          "vaddr_end": "0x8895260",
+          "size_bytes": 784,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/lib.rs",
+          "line": 459,
+          "rust_function": "drop (L453..L462)"
+        },
+        {
+          "vaddr_start": "0x8897500",
+          "vaddr_end": "0x8898660",
+          "size_bytes": 4448,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/boxcar.rs",
+          "line": 54,
+          "rust_function": "with_capacity (L53..L73)"
+        },
+        {
+          "vaddr_start": "0x8898660",
+          "vaddr_end": "0x88987f0",
+          "size_bytes": 400,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/boxcar.rs",
+          "line": 512,
+          "rust_function": "layout (L510..L514)"
+        },
+        {
+          "vaddr_start": "0x8898830",
+          "vaddr_end": "0x8898fb0",
+          "size_bytes": 1920,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/boxcar.rs",
+          "line": 316,
+          "rust_function": "par_snapshot (L311..L326)"
+        },
+        {
+          "vaddr_start": "0x8898fb0",
+          "vaddr_end": "0x8899560",
+          "size_bytes": 1456,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/boxcar.rs",
+          "line": 633,
+          "rust_function": "of (L632..L645)"
+        },
+        {
+          "vaddr_start": "0x8899560",
+          "vaddr_end": "0x88997e0",
+          "size_bytes": 640,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/boxcar.rs",
+          "line": 633,
+          "rust_function": "of (L632..L645)"
+        },
+        {
+          "vaddr_start": "0x88997e0",
+          "vaddr_end": "0x889aa10",
+          "size_bytes": 4656,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/par_sort.rs",
+          "line": 578,
+          "rust_function": "partition (L526..L586)"
+        },
+        {
+          "vaddr_start": "0x889aa10",
+          "vaddr_end": "0x889c830",
+          "size_bytes": 7712,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/par_sort.rs",
+          "line": 578,
+          "rust_function": "partition (L526..L586)"
+        },
+        {
+          "vaddr_start": "0x889c830",
+          "vaddr_end": "0x889cd90",
+          "size_bytes": 1376,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/par_sort.rs",
+          "line": 234,
+          "rust_function": "heapsort (L215..L264)"
+        },
+        {
+          "vaddr_start": "0x88a5330",
+          "vaddr_end": "0x88a6020",
+          "size_bytes": 3312,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/chars.rs",
+          "line": 201,
+          "rust_function": "graphemes (L189..L207)"
+        },
+        {
+          "vaddr_start": "0x88a61a0",
+          "vaddr_end": "0x88a6760",
+          "size_bytes": 1472,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/boxcar.rs",
+          "line": 633,
+          "rust_function": "of (L632..L645)"
+        },
+        {
+          "vaddr_start": "0x88a6760",
+          "vaddr_end": "0x88a6bf0",
+          "size_bytes": 1168,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/pattern.rs",
+          "line": 71,
+          "rust_function": "column_pattern (L70..L73)"
+        },
+        {
+          "vaddr_start": "0x88a86c0",
+          "vaddr_end": "0x88a8970",
+          "size_bytes": 688,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/worker.rs",
+          "line": 142,
+          "rust_function": "remove_in_flight_matches (L137..L148)"
+        },
+        {
+          "vaddr_start": "0x88a8970",
+          "vaddr_end": "0x88a8f00",
+          "size_bytes": 1424,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/worker.rs",
+          "line": 20,
+          "rust_function": "get (L19..L43)"
+        },
+        {
+          "vaddr_start": "0x88a9410",
+          "vaddr_end": "0x88a9740",
+          "size_bytes": 816,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/boxcar.rs",
+          "line": 488,
+          "rust_function": "split_at (L487..L509)"
+        },
+        {
+          "vaddr_start": "0x88af160",
+          "vaddr_end": "0x88b0250",
+          "size_bytes": 4336,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/pattern.rs",
+          "line": 52,
+          "rust_function": "reparse (L44..L69)"
+        },
+        {
+          "vaddr_start": "0x88b3000",
+          "vaddr_end": "0x88b3310",
+          "size_bytes": 784,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/src/lib.rs",
+          "line": 459,
+          "rust_function": "drop (L453..L462)"
+        },
+        {
+          "vaddr_start": "0xc9c5700",
+          "vaddr_end": "0xc9c60b0",
+          "size_bytes": 2480,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/fuzzy_optimal.rs",
+          "line": 52,
+          "rust_function": "fuzzy_match_optimal (L12..L68)"
+        },
+        {
+          "vaddr_start": "0xc9c60b0",
+          "vaddr_end": "0xc9c6be0",
+          "size_bytes": 2864,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/fuzzy_optimal.rs",
+          "line": 52,
+          "rust_function": "fuzzy_match_optimal (L12..L68)"
+        },
+        {
+          "vaddr_start": "0xc9c6be0",
+          "vaddr_end": "0xc9c70f0",
+          "size_bytes": 1296,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/fuzzy_optimal.rs",
+          "line": 52,
+          "rust_function": "fuzzy_match_optimal (L12..L68)"
+        },
+        {
+          "vaddr_start": "0xc9c70f0",
+          "vaddr_end": "0xc9c7560",
+          "size_bytes": 1136,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/fuzzy_optimal.rs",
+          "line": 52,
+          "rust_function": "fuzzy_match_optimal (L12..L68)"
+        },
+        {
+          "vaddr_start": "0xc9c7560",
+          "vaddr_end": "0xc9c7eb0",
+          "size_bytes": 2384,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/fuzzy_optimal.rs",
+          "line": 52,
+          "rust_function": "fuzzy_match_optimal (L12..L68)"
+        },
+        {
+          "vaddr_start": "0xc9c7eb0",
+          "vaddr_end": "0xc9c8980",
+          "size_bytes": 2768,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/fuzzy_optimal.rs",
+          "line": 52,
+          "rust_function": "fuzzy_match_optimal (L12..L68)"
+        },
+        {
+          "vaddr_start": "0xc9c8980",
+          "vaddr_end": "0xc9c90f0",
+          "size_bytes": 1904,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/exact.rs",
+          "line": 158,
+          "rust_function": "substring_match_ascii (L99..L184)"
+        },
+        {
+          "vaddr_start": "0xc9c90f0",
+          "vaddr_end": "0xc9c9880",
+          "size_bytes": 1936,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/exact.rs",
+          "line": 158,
+          "rust_function": "substring_match_ascii (L99..L184)"
+        },
+        {
+          "vaddr_start": "0xc9c9880",
+          "vaddr_end": "0xc9ca2d0",
+          "size_bytes": 2640,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/exact.rs",
+          "line": 21,
+          "rust_function": "substring_match_1_ascii (L9..L63)"
+        },
+        {
+          "vaddr_start": "0xc9ca2d0",
+          "vaddr_end": "0xc9cad60",
+          "size_bytes": 2704,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/exact.rs",
+          "line": 21,
+          "rust_function": "substring_match_1_ascii (L9..L63)"
+        },
+        {
+          "vaddr_start": "0xc9cad60",
+          "vaddr_end": "0xc9cb4d0",
+          "size_bytes": 1904,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/exact.rs",
+          "line": 237,
+          "rust_function": "substring_match_non_ascii (L222..L275)"
+        },
+        {
+          "vaddr_start": "0xc9cb4d0",
+          "vaddr_end": "0xc9cbc40",
+          "size_bytes": 1904,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/exact.rs",
+          "line": 237,
+          "rust_function": "substring_match_non_ascii (L222..L275)"
+        },
+        {
+          "vaddr_start": "0xc9cbc40",
+          "vaddr_end": "0xc9cc3c0",
+          "size_bytes": 1920,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/exact.rs",
+          "line": 237,
+          "rust_function": "substring_match_non_ascii (L222..L275)"
+        },
+        {
+          "vaddr_start": "0xc9cc3c0",
+          "vaddr_end": "0xc9ccb40",
+          "size_bytes": 1920,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/exact.rs",
+          "line": 237,
+          "rust_function": "substring_match_non_ascii (L222..L275)"
+        },
+        {
+          "vaddr_start": "0xc9ccb40",
+          "vaddr_end": "0xc9cd1c0",
+          "size_bytes": 1664,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/exact.rs",
+          "line": 196,
+          "rust_function": "substring_match_1_non_ascii (L185..L221)"
+        },
+        {
+          "vaddr_start": "0xc9cd1c0",
+          "vaddr_end": "0xc9cd7e0",
+          "size_bytes": 1568,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/exact.rs",
+          "line": 196,
+          "rust_function": "substring_match_1_non_ascii (L185..L221)"
+        },
+        {
+          "vaddr_start": "0xc9cd7e0",
+          "vaddr_end": "0xc9cdde0",
+          "size_bytes": 1536,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/exact.rs",
+          "line": 77,
+          "rust_function": "substring_match_ascii_with_prefilter (L64..L98)"
+        },
+        {
+          "vaddr_start": "0xc9cdde0",
+          "vaddr_end": "0xc9ce3e0",
+          "size_bytes": 1536,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/exact.rs",
+          "line": 77,
+          "rust_function": "substring_match_ascii_with_prefilter (L64..L98)"
+        },
+        {
+          "vaddr_start": "0xc9ce3e0",
+          "vaddr_end": "0xc9ceb20",
+          "size_bytes": 1856,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/exact.rs",
+          "line": 79,
+          "rust_function": "substring_match_ascii_with_prefilter (L64..L98)"
+        },
+        {
+          "vaddr_start": "0xc9ceb20",
+          "vaddr_end": "0xc9cf500",
+          "size_bytes": 2528,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/score.rs",
+          "line": 96,
+          "rust_function": "calculate_score (L82..L158)"
+        },
+        {
+          "vaddr_start": "0xc9cf500",
+          "vaddr_end": "0xc9cfe50",
+          "size_bytes": 2384,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/score.rs",
+          "line": 96,
+          "rust_function": "calculate_score (L82..L158)"
+        },
+        {
+          "vaddr_start": "0xc9cfe50",
+          "vaddr_end": "0xc9d06f0",
+          "size_bytes": 2208,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/score.rs",
+          "line": 96,
+          "rust_function": "calculate_score (L82..L158)"
+        },
+        {
+          "vaddr_start": "0xc9d06f0",
+          "vaddr_end": "0xc9d10c0",
+          "size_bytes": 2512,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/score.rs",
+          "line": 96,
+          "rust_function": "calculate_score (L82..L158)"
+        },
+        {
+          "vaddr_start": "0xc9d10c0",
+          "vaddr_end": "0xc9d17d0",
+          "size_bytes": 1808,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/score.rs",
+          "line": 96,
+          "rust_function": "calculate_score (L82..L158)"
+        },
+        {
+          "vaddr_start": "0xc9d17d0",
+          "vaddr_end": "0xc9d2110",
+          "size_bytes": 2368,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/score.rs",
+          "line": 96,
+          "rust_function": "calculate_score (L82..L158)"
+        },
+        {
+          "vaddr_start": "0xc9d2480",
+          "vaddr_end": "0xc9d2720",
+          "size_bytes": 672,
+          "source_file": "extracted-assets/git-fork-sources/nucleo-425d994cd74b3654/4253de9/matcher/src/lib.rs",
+          "line": 205,
+          "rust_function": "fuzzy_match (L204..L217)"
+        }
+      ],
+      "panic_locations_sample": [
+        {
+          "location_va": "0x11585bb8",
+          "file": "src/lib.rs",
+          "line": 459,
+          "col": 13,
+          "rust_function": "drop (L453..L462)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11585c10",
+          "file": "src/boxcar.rs",
+          "line": 316,
+          "col": 9,
+          "rust_function": "par_snapshot (L311..L326)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11585c28",
+          "file": "src/boxcar.rs",
+          "line": 54,
+          "col": 9,
+          "rust_function": "with_capacity (L53..L73)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11585c40",
+          "file": "src/boxcar.rs",
+          "line": 144,
+          "col": 43,
+          "rust_function": "push (L141..L186)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11585c58",
+          "file": "src/boxcar.rs",
+          "line": 299,
+          "col": 9,
+          "rust_function": "snapshot (L294..L310)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11585c70",
+          "file": "src/boxcar.rs",
+          "line": 512,
+          "col": 14,
+          "rust_function": "layout (L510..L514)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11585c88",
+          "file": "src/worker.rs",
+          "line": 71,
+          "col": 14,
+          "rust_function": "new (L59..L93)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11585ca0",
+          "file": "src/par_sort.rs",
+          "line": 685,
+          "col": 15,
+          "rust_function": "break_patterns (L648..L692)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11585cb8",
+          "file": "src/par_sort.rs",
+          "line": 191,
+          "col": 11,
+          "rust_function": "partial_insertion_sort (L158..L203)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11585cd0",
+          "file": "src/par_sort.rs",
+          "line": 831,
+          "col": 29,
+          "rust_function": "recurse (L769..L877)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11585ce8",
+          "file": "src/par_sort.rs",
+          "line": 835,
+          "col": 27,
+          "rust_function": "recurse (L769..L877)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11585d00",
+          "file": "src/par_sort.rs",
+          "line": 234,
+          "col": 26,
+          "rust_function": "heapsort (L215..L264)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11585d18",
+          "file": "src/par_sort.rs",
+          "line": 234,
+          "col": 36,
+          "rust_function": "heapsort (L215..L264)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11585d30",
+          "file": "src/par_sort.rs",
+          "line": 532,
+          "col": 11,
+          "rust_function": "partition (L526..L586)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11585d48",
+          "file": "src/par_sort.rs",
+          "line": 578,
+          "col": 7,
+          "rust_function": "partition (L526..L586)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11585d60",
+          "file": "src/par_sort.rs",
+          "line": 568,
+          "col": 43,
+          "rust_function": "partition (L526..L586)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11585db0",
+          "file": "src/boxcar.rs",
+          "line": 488,
+          "col": 9,
+          "rust_function": "split_at (L487..L509)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11586278",
+          "file": "matcher/src/chars.rs",
+          "line": 201,
+          "col": 18,
+          "rust_function": "graphemes (L189..L207)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11586290",
+          "file": "src/pattern.rs",
+          "line": 71,
+          "col": 19,
+          "rust_function": "column_pattern (L70..L73)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x115863f8",
+          "file": "src/worker.rs",
+          "line": 142,
+          "col": 30,
+          "rust_function": "remove_in_flight_matches (L137..L148)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116f3810",
+          "file": "src/boxcar.rs",
+          "line": 633,
+          "col": 47,
+          "rust_function": "of (L632..L645)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116f3828",
+          "file": "src/worker.rs",
+          "line": 20,
+          "col": 52,
+          "rust_function": "get (L19..L43)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116f3840",
+          "file": "src/worker.rs",
+          "line": 20,
+          "col": 15,
+          "rust_function": "get (L19..L43)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116f3858",
+          "file": "src/pattern.rs",
+          "line": 52,
+          "col": 35,
+          "rust_function": "reparse (L44..L69)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x116f3870",
+          "file": "matcher/src/fuzzy_greedy.rs",
+          "line": 39,
+          "col": 32,
+          "rust_function": "fuzzy_match_greedy_ (L7..L51)",
+          "verified_in_source": true
+        }
+      ],
+      "tracing_record_count": 0,
+      "tracing_records_sample": []
+    },
+    {
+      "cargo_checkout_id": "rust-sdk-773cd6d57c4837f3",
+      "github_repo": "modelcontextprotocol/rust-sdk",
+      "commit_sha": "3e636cab26c013eca5131103c03d20237f12c4df",
+      "commit_short": "3e636ca",
+      "extracted_source_dir": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca",
+      "total_rust_files_in_repo": 213,
+      "binary_referenced_file_count": 30,
+      "verified_existing_file_count": 19,
+      "binary_referenced_files": [
+        "crates/rmcp/src/handler/client.rs",
+        "crates/rmcp/src/handler/server.rs",
+        "crates/rmcp/src/handler/server.rsevent /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/common/auth/streamable_http_client.rs",
+        "crates/rmcp/src/model.rs",
+        "crates/rmcp/src/model/extension.rs",
+        "crates/rmcp/src/model/meta.rs",
+        "crates/rmcp/src/service.rs",
+        "crates/rmcp/src/service.rsevent /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service.rs",
+        "crates/rmcp/src/service/client.rs",
+        "crates/rmcp/src/service/client.rsevent /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service/client.rs",
+        "crates/rmcp/src/service/client/cache.rs",
+        "crates/rmcp/src/service/server.rs",
+        "crates/rmcp/src/service/server.rsevent /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service/server.rs",
+        "crates/rmcp/src/transport.rs",
+        "crates/rmcp/src/transport/async_rw.rs",
+        "crates/rmcp/src/transport/async_rw.rsevent /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/async_rw.rs",
+        "crates/rmcp/src/transport/auth.rs",
+        "crates/rmcp/src/transport/auth.rsevent /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+        "crates/rmcp/src/transport/common/auth/streamable_http_client.rs",
+        "crates/rmcp/src/transport/common/client_side_sse.rs",
+        "crates/rmcp/src/transport/common/client_side_sse.rsevent /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/common/client_side_sse.rs",
+        "crates/rmcp/src/transport/common/server_side_http.rs",
+        "crates/rmcp/src/transport/streamable_http_client.rs",
+        "crates/rmcp/src/transport/streamable_http_client.rsevent /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_client.rs",
+        "crates/rmcp/src/transport/streamable_http_server/session/local.rs",
+        "crates/rmcp/src/transport/streamable_http_server/session/local.rsevent /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/session/local.rs",
+        "crates/rmcp/src/transport/streamable_http_server/tower.rs",
+        "crates/rmcp/src/transport/streamable_http_server/tower.rsevent /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+        "crates/rmcp/src/transport/worker.rs",
+        "crates/rmcp/src/transport/worker.rsevent /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/worker.rs"
+      ],
+      "panic_location_count": 803,
+      "verified_panic_location_count": 803,
+      "mapped_native_function_count": 563,
+      "mapped_native_functions": [
+        {
+          "vaddr_start": "0x1633d30",
+          "vaddr_end": "0x1639930",
+          "size_bytes": 23552,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 1418,
+          "rust_function": "initialize_from_store (L1418..L1479)"
+        },
+        {
+          "vaddr_start": "0x1639b10",
+          "vaddr_end": "0x163e850",
+          "size_bytes": 19776,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service/client/cache.rs",
+          "line": 370,
+          "rust_function": "set_response_cache_config (L370..L390)"
+        },
+        {
+          "vaddr_start": "0x1644850",
+          "vaddr_end": "0x1648ec0",
+          "size_bytes": 18032,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 3828,
+          "rust_function": "get_authorization_url (L3828..L3843)"
+        },
+        {
+          "vaddr_start": "0x1649480",
+          "vaddr_end": "0x164dee0",
+          "size_bytes": 19040,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 1706,
+          "rust_function": "register_client (L1701..L1805)"
+        },
+        {
+          "vaddr_start": "0x164eb70",
+          "vaddr_end": "0x16504c0",
+          "size_bytes": 6480,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 1602,
+          "rust_function": "get_credentials (L1602..L1615)"
+        },
+        {
+          "vaddr_start": "0x197f8e0",
+          "vaddr_end": "0x1981130",
+          "size_bytes": 6224,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service.rs",
+          "line": 869,
+          "rust_function": "send_request_with_option_and_subscription (L864..L938)"
+        },
+        {
+          "vaddr_start": "0x1981130",
+          "vaddr_end": "0x19823d0",
+          "size_bytes": 4768,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service.rs",
+          "line": 618,
+          "rust_function": "await_response_with_progress_timeout (L606..L659)"
+        },
+        {
+          "vaddr_start": "0x19823d0",
+          "vaddr_end": "0x1982da0",
+          "size_bytes": 2512,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service.rs",
+          "line": 829,
+          "rust_function": "send_notification (L829..L839)"
+        },
+        {
+          "vaddr_start": "0x19831e0",
+          "vaddr_end": "0x1984170",
+          "size_bytes": 3984,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 2780,
+          "rust_function": "discovery_request (L2777..L2793)"
+        },
+        {
+          "vaddr_start": "0x1984300",
+          "vaddr_end": "0x1987e70",
+          "size_bytes": 15216,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 2742,
+          "rust_function": "fetch_resource_metadata_from_url (L2739..L2769)"
+        },
+        {
+          "vaddr_start": "0x1988000",
+          "vaddr_end": "0x1989260",
+          "size_bytes": 4704,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 1871,
+          "rust_function": "oauth_resource (L1871..L1879)"
+        },
+        {
+          "vaddr_start": "0x1989710",
+          "vaddr_end": "0x1989b50",
+          "size_bytes": 1088,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 2403,
+          "rust_function": "try_discover_oauth_server (L2399..L2414)"
+        },
+        {
+          "vaddr_start": "0x1989b50",
+          "vaddr_end": "0x198a520",
+          "size_bytes": 2512,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 1347,
+          "rust_function": "new_inner (L1343..L1371)"
+        },
+        {
+          "vaddr_start": "0x198a520",
+          "vaddr_end": "0x198b770",
+          "size_bytes": 4688,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 1572,
+          "rust_function": "record_challenge_scope (L1572..L1583)"
+        },
+        {
+          "vaddr_start": "0x198b900",
+          "vaddr_end": "0x198c810",
+          "size_bytes": 3856,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 2419,
+          "rust_function": "fetch_authorization_metadata (L2415..L2446)"
+        },
+        {
+          "vaddr_start": "0x1aa3100",
+          "vaddr_end": "0x1aa5050",
+          "size_bytes": 8016,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/session/local.rs",
+          "line": 861,
+          "rust_function": "close (L861..L869)"
+        },
+        {
+          "vaddr_start": "0x1fb48e0",
+          "vaddr_end": "0x1fb4c10",
+          "size_bytes": 816,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/async_rw.rs",
+          "line": 112,
+          "rust_function": "send (L107..L124)"
+        },
+        {
+          "vaddr_start": "0x1fb4c10",
+          "vaddr_end": "0x1fb5f70",
+          "size_bytes": 4960,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/async_rw.rs",
+          "line": 125,
+          "rust_function": "receive (L125..L198)"
+        },
+        {
+          "vaddr_start": "0x1fb9310",
+          "vaddr_end": "0x1fb9cb0",
+          "size_bytes": 2464,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_client.rs",
+          "line": 819,
+          "rust_function": "run_response_stream (L809..L833)"
+        },
+        {
+          "vaddr_start": "0x1fb9cb0",
+          "vaddr_end": "0x1fba650",
+          "size_bytes": 2464,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_client.rs",
+          "line": 819,
+          "rust_function": "run_response_stream (L809..L833)"
+        },
+        {
+          "vaddr_start": "0x20043d0",
+          "vaddr_end": "0x2007490",
+          "size_bytes": 12480,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/handler/client.rs",
+          "line": 46,
+          "rust_function": "handle_notification (L42..L82)"
+        },
+        {
+          "vaddr_start": "0x200f3f0",
+          "vaddr_end": "0x200f580",
+          "size_bytes": 400,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_client.rs",
+          "line": 497,
+          "rust_function": "retry_connection (L489..L510)"
+        },
+        {
+          "vaddr_start": "0x200f580",
+          "vaddr_end": "0x200f760",
+          "size_bytes": 480,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_client.rs",
+          "line": 497,
+          "rust_function": "retry_connection (L489..L510)"
+        },
+        {
+          "vaddr_start": "0x200f760",
+          "vaddr_end": "0x200f9d0",
+          "size_bytes": 624,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/session/local.rs",
+          "line": 96,
+          "rust_function": "has_session (L96..L99)"
+        },
+        {
+          "vaddr_start": "0x200f9d0",
+          "vaddr_end": "0x200fe90",
+          "size_bytes": 1216,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/session/local.rs",
+          "line": 151,
+          "rust_function": "accept_message (L147..L159)"
+        },
+        {
+          "vaddr_start": "0x200fe90",
+          "vaddr_end": "0x20108c0",
+          "size_bytes": 2608,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/session/local.rs",
+          "line": 953,
+          "rust_function": "initialize (L950..L975)"
+        },
+        {
+          "vaddr_start": "0x2011ed0",
+          "vaddr_end": "0x2012c80",
+          "size_bytes": 3504,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/worker.rs",
+          "line": 387,
+          "rust_function": "send (L346..L398)"
+        },
+        {
+          "vaddr_start": "0x2012c80",
+          "vaddr_end": "0x2013870",
+          "size_bytes": 3056,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/worker.rs",
+          "line": 387,
+          "rust_function": "send (L346..L398)"
+        },
+        {
+          "vaddr_start": "0x2065e80",
+          "vaddr_end": "0x2067260",
+          "size_bytes": 5088,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/worker.rs",
+          "line": 387,
+          "rust_function": "send (L346..L398)"
+        },
+        {
+          "vaddr_start": "0x2067260",
+          "vaddr_end": "0x20684b0",
+          "size_bytes": 4688,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/worker.rs",
+          "line": 399,
+          "rust_function": "receive (L399..L401)"
+        },
+        {
+          "vaddr_start": "0x2068f30",
+          "vaddr_end": "0x2069100",
+          "size_bytes": 464,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1036,
+          "rust_function": "call (L1034..L1040)"
+        },
+        {
+          "vaddr_start": "0x20892f0",
+          "vaddr_end": "0x208d520",
+          "size_bytes": 16944,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 2090,
+          "rust_function": "exchange_code_for_token_with_issuer (L2085..L2174)"
+        },
+        {
+          "vaddr_start": "0x208d520",
+          "vaddr_end": "0x20921e0",
+          "size_bytes": 19648,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 3828,
+          "rust_function": "get_authorization_url (L3828..L3843)"
+        },
+        {
+          "vaddr_start": "0x2093330",
+          "vaddr_end": "0x2097d00",
+          "size_bytes": 18896,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 1706,
+          "rust_function": "register_client (L1701..L1805)"
+        },
+        {
+          "vaddr_start": "0x2099de0",
+          "vaddr_end": "0x209b8c0",
+          "size_bytes": 6880,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 1418,
+          "rust_function": "initialize_from_store (L1418..L1479)"
+        },
+        {
+          "vaddr_start": "0x2477c30",
+          "vaddr_end": "0x2482200",
+          "size_bytes": 42448,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service.rs",
+          "line": 829,
+          "rust_function": "send_notification (L829..L839)"
+        },
+        {
+          "vaddr_start": "0x2482200",
+          "vaddr_end": "0x24823a0",
+          "size_bytes": 416,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service.rs",
+          "line": 1093,
+          "rust_function": "waiting (L1093..L1116)"
+        },
+        {
+          "vaddr_start": "0x24823a0",
+          "vaddr_end": "0x2483030",
+          "size_bytes": 3216,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service/client.rs",
+          "line": 878,
+          "rust_function": "legacy_startup (L868..L916)"
+        },
+        {
+          "vaddr_start": "0x2483030",
+          "vaddr_end": "0x2483990",
+          "size_bytes": 2400,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service/client.rs",
+          "line": 878,
+          "rust_function": "legacy_startup (L868..L916)"
+        },
+        {
+          "vaddr_start": "0x2483990",
+          "vaddr_end": "0x2484420",
+          "size_bytes": 2704,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service/client.rs",
+          "line": 878,
+          "rust_function": "legacy_startup (L868..L916)"
+        },
+        {
+          "vaddr_start": "0x2484420",
+          "vaddr_end": "0x24850a0",
+          "size_bytes": 3200,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service/client.rs",
+          "line": 878,
+          "rust_function": "legacy_startup (L868..L916)"
+        },
+        {
+          "vaddr_start": "0x24850a0",
+          "vaddr_end": "0x2487380",
+          "size_bytes": 8928,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service/client.rs",
+          "line": 154,
+          "rust_function": "expect_next_message (L148..L167)"
+        },
+        {
+          "vaddr_start": "0x2487380",
+          "vaddr_end": "0x2489640",
+          "size_bytes": 8896,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service/client.rs",
+          "line": 154,
+          "rust_function": "expect_next_message (L148..L167)"
+        },
+        {
+          "vaddr_start": "0x2489640",
+          "vaddr_end": "0x248b960",
+          "size_bytes": 8992,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/worker.rs",
+          "line": 399,
+          "rust_function": "receive (L399..L401)"
+        },
+        {
+          "vaddr_start": "0x248b960",
+          "vaddr_end": "0x248ddb0",
+          "size_bytes": 9296,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service/client.rs",
+          "line": 154,
+          "rust_function": "expect_next_message (L148..L167)"
+        },
+        {
+          "vaddr_start": "0x248ddb0",
+          "vaddr_end": "0x2491be0",
+          "size_bytes": 15920,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service/client.rs",
+          "line": 928,
+          "rust_function": "discover_startup (L917..L1039)"
+        },
+        {
+          "vaddr_start": "0x2491be0",
+          "vaddr_end": "0x24956c0",
+          "size_bytes": 15072,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service/client.rs",
+          "line": 928,
+          "rust_function": "discover_startup (L917..L1039)"
+        },
+        {
+          "vaddr_start": "0x24956c0",
+          "vaddr_end": "0x24992a0",
+          "size_bytes": 15328,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service/client.rs",
+          "line": 928,
+          "rust_function": "discover_startup (L917..L1039)"
+        },
+        {
+          "vaddr_start": "0x24992a0",
+          "vaddr_end": "0x249d0b0",
+          "size_bytes": 15888,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service/client.rs",
+          "line": 928,
+          "rust_function": "discover_startup (L917..L1039)"
+        },
+        {
+          "vaddr_start": "0x249d0b0",
+          "vaddr_end": "0x249d620",
+          "size_bytes": 1392,
+          "source_file": "extracted-assets/git-fork-sources/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/service/server.rs",
+          "line": 540,
+          "rust_function": "report_initialize_failure (L533..L551)"
+        }
+      ],
+      "panic_locations_sample": [
+        {
+          "location_va": "0x113f79a8",
+          "file": "crates/rmcp/src/transport/streamable_http_server/session/local.rs",
+          "line": 82,
+          "col": 78,
+          "rust_function": "close_session (L82..L95)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406aa0",
+          "file": "crates/rmcp/src/service.rs",
+          "line": 829,
+          "col": 93,
+          "rust_function": "send_notification (L829..L839)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406ab8",
+          "file": "crates/rmcp/src/service.rs",
+          "line": 859,
+          "col": 49,
+          "rust_function": "send_request_with_option (L855..L863)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406ad0",
+          "file": "crates/rmcp/src/service.rs",
+          "line": 869,
+          "col": 49,
+          "rust_function": "send_request_with_option_and_subscription (L864..L938)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406ae8",
+          "file": "crates/rmcp/src/service.rs",
+          "line": 558,
+          "col": 51,
+          "rust_function": "await_response (L549..L591)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406b00",
+          "file": "crates/rmcp/src/service.rs",
+          "line": 549,
+          "col": 80,
+          "rust_function": "await_response (L549..L591)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406b18",
+          "file": "crates/rmcp/src/service.rs",
+          "line": 685,
+          "col": 7,
+          "rust_function": "cleanup_progress_timeout_watcher (L681..L736)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406b30",
+          "file": "crates/rmcp/src/service.rs",
+          "line": 592,
+          "col": 68,
+          "rust_function": "send_timeout_cancel_notification (L592..L605)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406b48",
+          "file": "crates/rmcp/src/service.rs",
+          "line": 611,
+          "col": 44,
+          "rust_function": "await_response_with_progress_timeout (L606..L659)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406b60",
+          "file": "crates/rmcp/src/service.rs",
+          "line": 618,
+          "col": 13,
+          "rust_function": "await_response_with_progress_timeout (L606..L659)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406b78",
+          "file": "crates/rmcp/src/service.rs",
+          "line": 615,
+          "col": 64,
+          "rust_function": "await_response_with_progress_timeout (L606..L659)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406b90",
+          "file": "crates/rmcp/src/service.rs",
+          "line": 613,
+          "col": 54,
+          "rust_function": "await_response_with_progress_timeout (L606..L659)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406ba8",
+          "file": "crates/rmcp/src/service.rs",
+          "line": 1093,
+          "col": 82,
+          "rust_function": "waiting (L1093..L1116)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406bc0",
+          "file": "crates/rmcp/src/service/client/cache.rs",
+          "line": 370,
+          "col": 78,
+          "rust_function": "set_response_cache_config (L370..L390)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406bd8",
+          "file": "crates/rmcp/src/service/server.rs",
+          "line": 427,
+          "col": 1,
+          "rust_function": "serve_server (L419..L431)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406bf0",
+          "file": "crates/rmcp/src/service/server.rs",
+          "line": 454,
+          "col": 1,
+          "rust_function": "serve_server_with_ct (L445..L478)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406c08",
+          "file": "crates/rmcp/src/service/server.rs",
+          "line": 455,
+          "col": 5,
+          "rust_function": "serve_server_with_ct (L445..L478)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406c20",
+          "file": "crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1298,
+          "col": 22,
+          "rust_function": "spawn_session_worker (L1288..L1331)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406c38",
+          "file": "crates/rmcp/src/transport/streamable_http_server/session/local.rs",
+          "line": 861,
+          "col": 59,
+          "rust_function": "close (L861..L869)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406c50",
+          "file": "crates/rmcp/src/transport/auth.rs",
+          "line": 3828,
+          "col": 76,
+          "rust_function": "get_authorization_url (L3828..L3843)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406c68",
+          "file": "crates/rmcp/src/transport/auth.rs",
+          "line": 2794,
+          "col": 92,
+          "rust_function": "discovery_get (L2794..L2837)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406e60",
+          "file": "crates/rmcp/src/transport/auth.rs",
+          "line": 1871,
+          "col": 46,
+          "rust_function": "oauth_resource (L1871..L1879)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406e78",
+          "file": "crates/rmcp/src/transport/auth.rs",
+          "line": 1602,
+          "col": 75,
+          "rust_function": "get_credentials (L1602..L1615)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406e90",
+          "file": "crates/rmcp/src/transport/auth.rs",
+          "line": 1706,
+          "col": 47,
+          "rust_function": "register_client (L1701..L1805)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11406ea8",
+          "file": "crates/rmcp/src/transport/auth.rs",
+          "line": 1516,
+          "col": 96,
+          "rust_function": "resolve_metadata (L1516..L1545)",
+          "verified_in_source": true
+        }
+      ],
+      "tracing_record_count": 138,
+      "tracing_records_sample": [
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:849",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:860",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:844",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:904",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:893",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:897",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:873",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:494",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:1559",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:1630",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:1994",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:1870",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:2056",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:1310",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:1318",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:1183",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:1384",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:1477",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:1126",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:1147",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs:1156",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/streamable_http_server/tower.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs:2274",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs:2260",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs:1773",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 1
+        },
+        {
+          "name": "event /home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs:2213",
+          "target": null,
+          "level": null,
+          "file": "/home/runner/work/codex/codex/.cargo-home/git/checkouts/rust-sdk-773cd6d57c4837f3/3e636ca/crates/rmcp/src/transport/auth.rs",
+          "line": 1
+        }
+      ]
+    },
+    {
+      "cargo_checkout_id": "tokio-tungstenite-ea4445d9acecae62",
+      "github_repo": "openai-oss-forks/tokio-tungstenite",
+      "commit_sha": "0e5b2d73aa18dd9f0a50ee9ff199d5aef7594186",
+      "commit_short": "0e5b2d7",
+      "extracted_source_dir": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7",
+      "total_rust_files_in_repo": 19,
+      "binary_referenced_file_count": 6,
+      "verified_existing_file_count": 6,
+      "binary_referenced_files": [
+        "src/compat.rs",
+        "src/connect.rs",
+        "src/handshake.rs",
+        "src/lib.rs",
+        "src/proxy.rs",
+        "src/tls.rs"
+      ],
+      "panic_location_count": 178,
+      "verified_panic_location_count": 178,
+      "mapped_native_function_count": 68,
+      "mapped_native_functions": [
+        {
+          "vaddr_start": "0x16515d0",
+          "vaddr_end": "0x16516b0",
+          "size_bytes": 224,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/lib.rs",
+          "line": 282,
+          "rust_function": "close (L279..L292)"
+        },
+        {
+          "vaddr_start": "0x1705410",
+          "vaddr_end": "0x1706470",
+          "size_bytes": 4192,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/handshake.rs",
+          "line": 81,
+          "rust_function": "handshake (L75..L93)"
+        },
+        {
+          "vaddr_start": "0x20a3b40",
+          "vaddr_end": "0x20a3dc0",
+          "size_bytes": 640,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/handshake.rs",
+          "line": 26,
+          "rust_function": "without_handshake (L22..L47)"
+        },
+        {
+          "vaddr_start": "0x20a3dc0",
+          "vaddr_end": "0x20a3ea0",
+          "size_bytes": 224,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/lib.rs",
+          "line": 282,
+          "rust_function": "close (L279..L292)"
+        },
+        {
+          "vaddr_start": "0x20a3ea0",
+          "vaddr_end": "0x20a3ff0",
+          "size_bytes": 336,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/lib.rs",
+          "line": 282,
+          "rust_function": "close (L279..L292)"
+        },
+        {
+          "vaddr_start": "0x21fd440",
+          "vaddr_end": "0x2200240",
+          "size_bytes": 11776,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/handshake.rs",
+          "line": 81,
+          "rust_function": "handshake (L75..L93)"
+        },
+        {
+          "vaddr_start": "0x2e49970",
+          "vaddr_end": "0x2e49b40",
+          "size_bytes": 464,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/handshake.rs",
+          "line": 164,
+          "rust_function": "poll (L163..L179)"
+        },
+        {
+          "vaddr_start": "0x2e49b40",
+          "vaddr_end": "0x2e49d10",
+          "size_bytes": 464,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/handshake.rs",
+          "line": 164,
+          "rust_function": "poll (L163..L179)"
+        },
+        {
+          "vaddr_start": "0x2f8a310",
+          "vaddr_end": "0x2f8a580",
+          "size_bytes": 624,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/handshake.rs",
+          "line": 49,
+          "rust_function": "poll (L48..L74)"
+        },
+        {
+          "vaddr_start": "0x2f8a580",
+          "vaddr_end": "0x2f8aab0",
+          "size_bytes": 1328,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/handshake.rs",
+          "line": 143,
+          "rust_function": "poll (L142..L162)"
+        },
+        {
+          "vaddr_start": "0x2f8aab0",
+          "vaddr_end": "0x2f8aed0",
+          "size_bytes": 1056,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/handshake.rs",
+          "line": 143,
+          "rust_function": "poll (L142..L162)"
+        },
+        {
+          "vaddr_start": "0x3134830",
+          "vaddr_end": "0x3135520",
+          "size_bytes": 3312,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/tls.rs",
+          "line": 87,
+          "rust_function": "wrap_stream (L79..L156)"
+        },
+        {
+          "vaddr_start": "0x3135520",
+          "vaddr_end": "0x3136fb0",
+          "size_bytes": 6800,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/tls.rs",
+          "line": 87,
+          "rust_function": "wrap_stream (L79..L156)"
+        },
+        {
+          "vaddr_start": "0x3136fb0",
+          "vaddr_end": "0x31370d0",
+          "size_bytes": 288,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/lib.rs",
+          "line": 410,
+          "rust_function": "domain (L406..L424)"
+        },
+        {
+          "vaddr_start": "0x31370d0",
+          "vaddr_end": "0x3137b30",
+          "size_bytes": 2656,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/connect.rs",
+          "line": 164,
+          "rust_function": "happy_eyeballs_connect (L125..L183)"
+        },
+        {
+          "vaddr_start": "0x3137b30",
+          "vaddr_end": "0x3137dd0",
+          "size_bytes": 672,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/connect.rs",
+          "line": 78,
+          "rust_function": "connect_async_tls_with_config (L70..L81)"
+        },
+        {
+          "vaddr_start": "0x3137dd0",
+          "vaddr_end": "0x313c5b0",
+          "size_bytes": 18400,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/proxy.rs",
+          "line": 77,
+          "rust_function": "read_connect_response (L60..L85)"
+        },
+        {
+          "vaddr_start": "0x31c7690",
+          "vaddr_end": "0x31cd040",
+          "size_bytes": 22960,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/proxy.rs",
+          "line": 77,
+          "rust_function": "read_connect_response (L60..L85)"
+        },
+        {
+          "vaddr_start": "0x36bd000",
+          "vaddr_end": "0x36bf6e0",
+          "size_bytes": 9952,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/handshake.rs",
+          "line": 81,
+          "rust_function": "handshake (L75..L93)"
+        },
+        {
+          "vaddr_start": "0x36c46b0",
+          "vaddr_end": "0x36c4960",
+          "size_bytes": 688,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/connect.rs",
+          "line": 60,
+          "rust_function": "connect_async_with_config (L53..L69)"
+        },
+        {
+          "vaddr_start": "0x36dc110",
+          "vaddr_end": "0x36dd0f0",
+          "size_bytes": 4064,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/handshake.rs",
+          "line": 81,
+          "rust_function": "handshake (L75..L93)"
+        },
+        {
+          "vaddr_start": "0x5367530",
+          "vaddr_end": "0x5368260",
+          "size_bytes": 3376,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/tls.rs",
+          "line": 87,
+          "rust_function": "wrap_stream (L79..L156)"
+        },
+        {
+          "vaddr_start": "0x5368260",
+          "vaddr_end": "0x5369d10",
+          "size_bytes": 6832,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/tls.rs",
+          "line": 87,
+          "rust_function": "wrap_stream (L79..L156)"
+        },
+        {
+          "vaddr_start": "0x5369d10",
+          "vaddr_end": "0x5369e30",
+          "size_bytes": 288,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/lib.rs",
+          "line": 410,
+          "rust_function": "domain (L406..L424)"
+        },
+        {
+          "vaddr_start": "0x5369e30",
+          "vaddr_end": "0x536a860",
+          "size_bytes": 2608,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/connect.rs",
+          "line": 164,
+          "rust_function": "happy_eyeballs_connect (L125..L183)"
+        },
+        {
+          "vaddr_start": "0x536a860",
+          "vaddr_end": "0x536ab00",
+          "size_bytes": 672,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/connect.rs",
+          "line": 78,
+          "rust_function": "connect_async_tls_with_config (L70..L81)"
+        },
+        {
+          "vaddr_start": "0x536ab00",
+          "vaddr_end": "0x536f390",
+          "size_bytes": 18576,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/proxy.rs",
+          "line": 77,
+          "rust_function": "read_connect_response (L60..L85)"
+        },
+        {
+          "vaddr_start": "0x53711b0",
+          "vaddr_end": "0x5376c00",
+          "size_bytes": 23120,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/proxy.rs",
+          "line": 77,
+          "rust_function": "read_connect_response (L60..L85)"
+        },
+        {
+          "vaddr_start": "0x6d1cd30",
+          "vaddr_end": "0x6d1db00",
+          "size_bytes": 3536,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/tls.rs",
+          "line": 87,
+          "rust_function": "wrap_stream (L79..L156)"
+        },
+        {
+          "vaddr_start": "0x6d1db00",
+          "vaddr_end": "0x6d1e8f0",
+          "size_bytes": 3568,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/tls.rs",
+          "line": 87,
+          "rust_function": "wrap_stream (L79..L156)"
+        },
+        {
+          "vaddr_start": "0x6d1e8f0",
+          "vaddr_end": "0x6d1ea20",
+          "size_bytes": 304,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/lib.rs",
+          "line": 410,
+          "rust_function": "domain (L406..L424)"
+        },
+        {
+          "vaddr_start": "0x6d1ea20",
+          "vaddr_end": "0x6d1f640",
+          "size_bytes": 3104,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/connect.rs",
+          "line": 164,
+          "rust_function": "happy_eyeballs_connect (L125..L183)"
+        },
+        {
+          "vaddr_start": "0x6d1f640",
+          "vaddr_end": "0x6d1f8e0",
+          "size_bytes": 672,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/connect.rs",
+          "line": 78,
+          "rust_function": "connect_async_tls_with_config (L70..L81)"
+        },
+        {
+          "vaddr_start": "0x6d1f8e0",
+          "vaddr_end": "0x6d235e0",
+          "size_bytes": 15616,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/proxy.rs",
+          "line": 77,
+          "rust_function": "read_connect_response (L60..L85)"
+        },
+        {
+          "vaddr_start": "0x6d70500",
+          "vaddr_end": "0x6d75680",
+          "size_bytes": 20864,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/proxy.rs",
+          "line": 77,
+          "rust_function": "read_connect_response (L60..L85)"
+        },
+        {
+          "vaddr_start": "0x7072bf0",
+          "vaddr_end": "0x7072fa0",
+          "size_bytes": 944,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/handshake.rs",
+          "line": 164,
+          "rust_function": "poll (L163..L179)"
+        },
+        {
+          "vaddr_start": "0x7072fa0",
+          "vaddr_end": "0x7073350",
+          "size_bytes": 944,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/handshake.rs",
+          "line": 164,
+          "rust_function": "poll (L163..L179)"
+        },
+        {
+          "vaddr_start": "0x735d180",
+          "vaddr_end": "0x735dd10",
+          "size_bytes": 2960,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/handshake.rs",
+          "line": 143,
+          "rust_function": "poll (L142..L162)"
+        },
+        {
+          "vaddr_start": "0x735dd10",
+          "vaddr_end": "0x735e8a0",
+          "size_bytes": 2960,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/handshake.rs",
+          "line": 143,
+          "rust_function": "poll (L142..L162)"
+        },
+        {
+          "vaddr_start": "0x8533600",
+          "vaddr_end": "0x8533ab0",
+          "size_bytes": 1200,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/handshake.rs",
+          "line": 164,
+          "rust_function": "poll (L163..L179)"
+        },
+        {
+          "vaddr_start": "0x8533ab0",
+          "vaddr_end": "0x8533f60",
+          "size_bytes": 1200,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/handshake.rs",
+          "line": 164,
+          "rust_function": "poll (L163..L179)"
+        },
+        {
+          "vaddr_start": "0x8537d40",
+          "vaddr_end": "0x8538410",
+          "size_bytes": 1744,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/handshake.rs",
+          "line": 143,
+          "rust_function": "poll (L142..L162)"
+        },
+        {
+          "vaddr_start": "0x8538410",
+          "vaddr_end": "0x8538ae0",
+          "size_bytes": 1744,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/handshake.rs",
+          "line": 143,
+          "rust_function": "poll (L142..L162)"
+        },
+        {
+          "vaddr_start": "0x86756a0",
+          "vaddr_end": "0x8677150",
+          "size_bytes": 6832,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/tls.rs",
+          "line": 87,
+          "rust_function": "wrap_stream (L79..L156)"
+        },
+        {
+          "vaddr_start": "0x8677150",
+          "vaddr_end": "0x8677e80",
+          "size_bytes": 3376,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/tls.rs",
+          "line": 87,
+          "rust_function": "wrap_stream (L79..L156)"
+        },
+        {
+          "vaddr_start": "0x8677e80",
+          "vaddr_end": "0x8677fa0",
+          "size_bytes": 288,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/lib.rs",
+          "line": 410,
+          "rust_function": "domain (L406..L424)"
+        },
+        {
+          "vaddr_start": "0x8677fa0",
+          "vaddr_end": "0x86789d0",
+          "size_bytes": 2608,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/connect.rs",
+          "line": 164,
+          "rust_function": "happy_eyeballs_connect (L125..L183)"
+        },
+        {
+          "vaddr_start": "0x86789d0",
+          "vaddr_end": "0x8678c70",
+          "size_bytes": 672,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/connect.rs",
+          "line": 78,
+          "rust_function": "connect_async_tls_with_config (L70..L81)"
+        },
+        {
+          "vaddr_start": "0x8678c70",
+          "vaddr_end": "0x867cc50",
+          "size_bytes": 16352,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/proxy.rs",
+          "line": 77,
+          "rust_function": "read_connect_response (L60..L85)"
+        },
+        {
+          "vaddr_start": "0x8687400",
+          "vaddr_end": "0x868c720",
+          "size_bytes": 21280,
+          "source_file": "extracted-assets/git-fork-sources/tokio-tungstenite-ea4445d9acecae62/0e5b2d7/src/proxy.rs",
+          "line": 77,
+          "rust_function": "read_connect_response (L60..L85)"
+        }
+      ],
+      "panic_locations_sample": [
+        {
+          "location_va": "0x11400d70",
+          "file": "src/lib.rs",
+          "line": 90,
+          "col": 1,
+          "rust_function": "client_async (L83..L96)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11400d88",
+          "file": "src/lib.rs",
+          "line": 282,
+          "col": 5,
+          "rust_function": "close (L279..L292)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11400da0",
+          "file": "src/lib.rs",
+          "line": 105,
+          "col": 1,
+          "rust_function": "client_async_with_config (L97..L128)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11400db8",
+          "file": "src/handshake.rs",
+          "line": 106,
+          "col": 1,
+          "rust_function": "client_handshake (L94..L112)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11400dd0",
+          "file": "src/handshake.rs",
+          "line": 81,
+          "col": 1,
+          "rust_function": "handshake (L75..L93)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x114211a0",
+          "file": "src/lib.rs",
+          "line": 211,
+          "col": 5,
+          "rust_function": "from_raw_socket (L208..L219)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x114211b8",
+          "file": "src/lib.rs",
+          "line": 282,
+          "col": 5,
+          "rust_function": "close (L279..L292)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x114211d0",
+          "file": "src/lib.rs",
+          "line": 174,
+          "col": 1,
+          "rust_function": "accept_hdr_async_with_config (L166..L207)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x114211e8",
+          "file": "src/handshake.rs",
+          "line": 126,
+          "col": 1,
+          "rust_function": "server_handshake (L113..L141)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11421200",
+          "file": "src/handshake.rs",
+          "line": 26,
+          "col": 1,
+          "rust_function": "without_handshake (L22..L47)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11421218",
+          "file": "src/handshake.rs",
+          "line": 81,
+          "col": 1,
+          "rust_function": "handshake (L75..L93)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11452808",
+          "file": "src/handshake.rs",
+          "line": 164,
+          "col": 44,
+          "rust_function": "poll (L163..L179)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x114560f0",
+          "file": "src/handshake.rs",
+          "line": 49,
+          "col": 45,
+          "rust_function": "poll (L48..L74)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11456108",
+          "file": "src/handshake.rs",
+          "line": 143,
+          "col": 35,
+          "rust_function": "poll (L142..L162)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1145be00",
+          "file": "src/lib.rs",
+          "line": 90,
+          "col": 1,
+          "rust_function": "client_async (L83..L96)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1145be18",
+          "file": "src/lib.rs",
+          "line": 282,
+          "col": 5,
+          "rust_function": "close (L279..L292)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1145be30",
+          "file": "src/lib.rs",
+          "line": 105,
+          "col": 1,
+          "rust_function": "client_async_with_config (L97..L128)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1145be48",
+          "file": "src/tls.rs",
+          "line": 160,
+          "col": 9,
+          "rust_function": "wrap_stream (L157..L171)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1145be60",
+          "file": "src/tls.rs",
+          "line": 87,
+          "col": 9,
+          "rust_function": "wrap_stream (L79..L156)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1145be78",
+          "file": "src/tls.rs",
+          "line": 199,
+          "col": 1,
+          "rust_function": "client_async_tls_with_config (L189..L237)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1145be90",
+          "file": "src/proxy.rs",
+          "line": 43,
+          "col": 1,
+          "rust_function": "http_connect (L35..L59)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1145bea8",
+          "file": "src/proxy.rs",
+          "line": 94,
+          "col": 1,
+          "rust_function": "socks5_handshake (L86..L137)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1145bec0",
+          "file": "src/proxy.rs",
+          "line": 22,
+          "col": 1,
+          "rust_function": "connect_via_proxy (L14..L34)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1145bed8",
+          "file": "src/proxy.rs",
+          "line": 175,
+          "col": 1,
+          "rust_function": "send_socks5_connect (L172..L244)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1145bef0",
+          "file": "src/proxy.rs",
+          "line": 141,
+          "col": 1,
+          "rust_function": "socks5_userpass_auth (L138..L171)",
+          "verified_in_source": true
+        }
+      ],
+      "tracing_record_count": 0,
+      "tracing_records_sample": []
+    },
+    {
+      "cargo_checkout_id": "tungstenite-rs-006aed970da0a0a9",
+      "github_repo": "openai-oss-forks/tungstenite-rs",
+      "commit_sha": "4fffad30fe373adbdcffab9545e9e9bf4f2fc19f",
+      "commit_short": "4fffad3",
+      "extracted_source_dir": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3",
+      "total_rust_files_in_repo": 50,
+      "binary_referenced_file_count": 14,
+      "verified_existing_file_count": 14,
+      "binary_referenced_files": [
+        "src/buffer.rs",
+        "src/client.rs",
+        "src/extensions/compression/deflate/config.rs",
+        "src/extensions/compression/deflate/mod.rs",
+        "src/extensions/headers/sec_websocket_extensions.rs",
+        "src/extensions/mod.rs",
+        "src/handshake/client.rs",
+        "src/handshake/machine.rs",
+        "src/handshake/server.rs",
+        "src/protocol/frame/coding.rs",
+        "src/protocol/frame/frame.rs",
+        "src/protocol/frame/mod.rs",
+        "src/protocol/mod.rs",
+        "src/proxy.rs"
+      ],
+      "panic_location_count": 79,
+      "verified_panic_location_count": 79,
+      "mapped_native_function_count": 77,
+      "mapped_native_functions": [
+        {
+          "vaddr_start": "0x10e6100",
+          "vaddr_end": "0x10e65a0",
+          "size_bytes": 1184,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/protocol/mod.rs",
+          "line": 646,
+          "rust_function": "_write (L624..L676)"
+        },
+        {
+          "vaddr_start": "0x10e65a0",
+          "vaddr_end": "0x10e6cb0",
+          "size_bytes": 1808,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/protocol/frame/coding.rs",
+          "line": 111,
+          "rust_function": "from (L96..L191)"
+        },
+        {
+          "vaddr_start": "0x10ebf90",
+          "vaddr_end": "0x10ed8c0",
+          "size_bytes": 6448,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/protocol/mod.rs",
+          "line": 867,
+          "rust_function": "read_message_frame (L690..L892)"
+        },
+        {
+          "vaddr_start": "0x10f4420",
+          "vaddr_end": "0x10f4e90",
+          "size_bytes": 2672,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/protocol/frame/mod.rs",
+          "line": 210,
+          "rust_function": "read_frame (L161..L232)"
+        },
+        {
+          "vaddr_start": "0x10f4e90",
+          "vaddr_end": "0x10f5240",
+          "size_bytes": 944,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/protocol/frame/mod.rs",
+          "line": 260,
+          "rust_function": "buffer_frame (L249..L271)"
+        },
+        {
+          "vaddr_start": "0x1395be0",
+          "vaddr_end": "0x1395cf0",
+          "size_bytes": 272,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/buffer.rs",
+          "line": 58,
+          "rust_function": "read_from (L55..L62)"
+        },
+        {
+          "vaddr_start": "0x1395cf0",
+          "vaddr_end": "0x1395e00",
+          "size_bytes": 272,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/buffer.rs",
+          "line": 58,
+          "rust_function": "read_from (L55..L62)"
+        },
+        {
+          "vaddr_start": "0x1395e00",
+          "vaddr_end": "0x1395f10",
+          "size_bytes": 272,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/buffer.rs",
+          "line": 58,
+          "rust_function": "read_from (L55..L62)"
+        },
+        {
+          "vaddr_start": "0x28b5930",
+          "vaddr_end": "0x28b5e90",
+          "size_bytes": 1376,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/protocol/frame/mod.rs",
+          "line": 260,
+          "rust_function": "buffer_frame (L249..L271)"
+        },
+        {
+          "vaddr_start": "0x28b5e90",
+          "vaddr_end": "0x28b63f0",
+          "size_bytes": 1376,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/protocol/frame/mod.rs",
+          "line": 260,
+          "rust_function": "buffer_frame (L249..L271)"
+        },
+        {
+          "vaddr_start": "0x28b6530",
+          "vaddr_end": "0x28b69e0",
+          "size_bytes": 1200,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/protocol/mod.rs",
+          "line": 646,
+          "rust_function": "_write (L624..L676)"
+        },
+        {
+          "vaddr_start": "0x28b69e0",
+          "vaddr_end": "0x28b6e90",
+          "size_bytes": 1200,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/protocol/mod.rs",
+          "line": 646,
+          "rust_function": "_write (L624..L676)"
+        },
+        {
+          "vaddr_start": "0x28b7010",
+          "vaddr_end": "0x28b7720",
+          "size_bytes": 1808,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/protocol/frame/coding.rs",
+          "line": 111,
+          "rust_function": "from (L96..L191)"
+        },
+        {
+          "vaddr_start": "0x28b8250",
+          "vaddr_end": "0x28b8790",
+          "size_bytes": 1344,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/client.rs",
+          "line": 77,
+          "rust_function": "start (L44..L85)"
+        },
+        {
+          "vaddr_start": "0x28b8790",
+          "vaddr_end": "0x28b8cb0",
+          "size_bytes": 1312,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/client.rs",
+          "line": 77,
+          "rust_function": "start (L44..L85)"
+        },
+        {
+          "vaddr_start": "0x28b8cb0",
+          "vaddr_end": "0x28b91d0",
+          "size_bytes": 1312,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/client.rs",
+          "line": 77,
+          "rust_function": "start (L44..L85)"
+        },
+        {
+          "vaddr_start": "0x2dd6b20",
+          "vaddr_end": "0x2dd89d0",
+          "size_bytes": 7856,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/protocol/mod.rs",
+          "line": 867,
+          "rust_function": "read_message_frame (L690..L892)"
+        },
+        {
+          "vaddr_start": "0x2dd89d0",
+          "vaddr_end": "0x2dda890",
+          "size_bytes": 7872,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/protocol/mod.rs",
+          "line": 867,
+          "rust_function": "read_message_frame (L690..L892)"
+        },
+        {
+          "vaddr_start": "0x2f93010",
+          "vaddr_end": "0x2f94420",
+          "size_bytes": 5136,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/server.rs",
+          "line": 292,
+          "rust_function": "stage_finished (L239..L332)"
+        },
+        {
+          "vaddr_start": "0x2fba0c0",
+          "vaddr_end": "0x2fbaaf0",
+          "size_bytes": 2608,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/machine.rs",
+          "line": 76,
+          "rust_function": "single_round (L41..L130)"
+        },
+        {
+          "vaddr_start": "0x2fbaaf0",
+          "vaddr_end": "0x2fbb590",
+          "size_bytes": 2720,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/machine.rs",
+          "line": 76,
+          "rust_function": "single_round (L41..L130)"
+        },
+        {
+          "vaddr_start": "0x2fbb590",
+          "vaddr_end": "0x2fbc030",
+          "size_bytes": 2720,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/machine.rs",
+          "line": 76,
+          "rust_function": "single_round (L41..L130)"
+        },
+        {
+          "vaddr_start": "0x2fbc030",
+          "vaddr_end": "0x2fbcb40",
+          "size_bytes": 2832,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/machine.rs",
+          "line": 76,
+          "rust_function": "single_round (L41..L130)"
+        },
+        {
+          "vaddr_start": "0x50fd180",
+          "vaddr_end": "0x50fdb80",
+          "size_bytes": 2560,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/client.rs",
+          "line": 113,
+          "rust_function": "create_request (L85..L127)"
+        },
+        {
+          "vaddr_start": "0x50fdb80",
+          "vaddr_end": "0x50fe070",
+          "size_bytes": 1264,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/protocol/frame/mod.rs",
+          "line": 260,
+          "rust_function": "buffer_frame (L249..L271)"
+        },
+        {
+          "vaddr_start": "0x50fe070",
+          "vaddr_end": "0x5100780",
+          "size_bytes": 10000,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/protocol/mod.rs",
+          "line": 867,
+          "rust_function": "read_message_frame (L690..L892)"
+        },
+        {
+          "vaddr_start": "0x51008b0",
+          "vaddr_end": "0x5100cc0",
+          "size_bytes": 1040,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/protocol/mod.rs",
+          "line": 646,
+          "rust_function": "_write (L624..L676)"
+        },
+        {
+          "vaddr_start": "0x512be30",
+          "vaddr_end": "0x512bf40",
+          "size_bytes": 272,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/buffer.rs",
+          "line": 58,
+          "rust_function": "read_from (L55..L62)"
+        },
+        {
+          "vaddr_start": "0x512bf40",
+          "vaddr_end": "0x512c050",
+          "size_bytes": 272,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/buffer.rs",
+          "line": 58,
+          "rust_function": "read_from (L55..L62)"
+        },
+        {
+          "vaddr_start": "0x53541c0",
+          "vaddr_end": "0x5354c60",
+          "size_bytes": 2720,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/machine.rs",
+          "line": 76,
+          "rust_function": "single_round (L41..L130)"
+        },
+        {
+          "vaddr_start": "0x5354c60",
+          "vaddr_end": "0x5355700",
+          "size_bytes": 2720,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/machine.rs",
+          "line": 76,
+          "rust_function": "single_round (L41..L130)"
+        },
+        {
+          "vaddr_start": "0x536ab00",
+          "vaddr_end": "0x536f390",
+          "size_bytes": 18576,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/client.rs",
+          "line": 77,
+          "rust_function": "start (L44..L85)"
+        },
+        {
+          "vaddr_start": "0x53711b0",
+          "vaddr_end": "0x5376c00",
+          "size_bytes": 23120,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/client.rs",
+          "line": 77,
+          "rust_function": "start (L44..L85)"
+        },
+        {
+          "vaddr_start": "0x735d180",
+          "vaddr_end": "0x735dd10",
+          "size_bytes": 2960,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/client.rs",
+          "line": 77,
+          "rust_function": "start (L44..L85)"
+        },
+        {
+          "vaddr_start": "0x735dd10",
+          "vaddr_end": "0x735e8a0",
+          "size_bytes": 2960,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/client.rs",
+          "line": 77,
+          "rust_function": "start (L44..L85)"
+        },
+        {
+          "vaddr_start": "0x7383150",
+          "vaddr_end": "0x7384790",
+          "size_bytes": 5696,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/buffer.rs",
+          "line": 58,
+          "rust_function": "read_from (L55..L62)"
+        },
+        {
+          "vaddr_start": "0x7384790",
+          "vaddr_end": "0x7386260",
+          "size_bytes": 6864,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/buffer.rs",
+          "line": 58,
+          "rust_function": "read_from (L55..L62)"
+        },
+        {
+          "vaddr_start": "0x8538e20",
+          "vaddr_end": "0x853a490",
+          "size_bytes": 5744,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/buffer.rs",
+          "line": 58,
+          "rust_function": "read_from (L55..L62)"
+        },
+        {
+          "vaddr_start": "0x853a490",
+          "vaddr_end": "0x853b9c0",
+          "size_bytes": 5424,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/buffer.rs",
+          "line": 58,
+          "rust_function": "read_from (L55..L62)"
+        },
+        {
+          "vaddr_start": "0x8610fc0",
+          "vaddr_end": "0x86114e0",
+          "size_bytes": 1312,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/client.rs",
+          "line": 77,
+          "rust_function": "start (L44..L85)"
+        },
+        {
+          "vaddr_start": "0x86114e0",
+          "vaddr_end": "0x8611a00",
+          "size_bytes": 1312,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/client.rs",
+          "line": 77,
+          "rust_function": "start (L44..L85)"
+        },
+        {
+          "vaddr_start": "0x8bb21f0",
+          "vaddr_end": "0x8bb2310",
+          "size_bytes": 288,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/buffer.rs",
+          "line": 58,
+          "rust_function": "read_from (L55..L62)"
+        },
+        {
+          "vaddr_start": "0x8bb2310",
+          "vaddr_end": "0x8bb2430",
+          "size_bytes": 288,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/buffer.rs",
+          "line": 58,
+          "rust_function": "read_from (L55..L62)"
+        },
+        {
+          "vaddr_start": "0x8d1fa90",
+          "vaddr_end": "0x8d1ffb0",
+          "size_bytes": 1312,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/client.rs",
+          "line": 77,
+          "rust_function": "start (L44..L85)"
+        },
+        {
+          "vaddr_start": "0x8d1ffb0",
+          "vaddr_end": "0x8d204d0",
+          "size_bytes": 1312,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/client.rs",
+          "line": 77,
+          "rust_function": "start (L44..L85)"
+        },
+        {
+          "vaddr_start": "0x8d204d0",
+          "vaddr_end": "0x8d216c0",
+          "size_bytes": 4592,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/machine.rs",
+          "line": 76,
+          "rust_function": "single_round (L41..L130)"
+        },
+        {
+          "vaddr_start": "0x8d216c0",
+          "vaddr_end": "0x8d228d0",
+          "size_bytes": 4624,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/machine.rs",
+          "line": 76,
+          "rust_function": "single_round (L41..L130)"
+        },
+        {
+          "vaddr_start": "0x98c4d90",
+          "vaddr_end": "0x98c55a0",
+          "size_bytes": 2064,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/client.rs",
+          "line": 77,
+          "rust_function": "start (L44..L85)"
+        },
+        {
+          "vaddr_start": "0x98c55a0",
+          "vaddr_end": "0x98c5db0",
+          "size_bytes": 2064,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/handshake/client.rs",
+          "line": 77,
+          "rust_function": "start (L44..L85)"
+        },
+        {
+          "vaddr_start": "0x98c73c0",
+          "vaddr_end": "0x98c74d0",
+          "size_bytes": 272,
+          "source_file": "extracted-assets/git-fork-sources/tungstenite-rs-006aed970da0a0a9/4fffad3/src/buffer.rs",
+          "line": 58,
+          "rust_function": "read_from (L55..L62)"
+        }
+      ],
+      "panic_locations_sample": [
+        {
+          "location_va": "0x113ea898",
+          "file": "src/protocol/mod.rs",
+          "line": 839,
+          "col": 33,
+          "rust_function": "read_message_frame (L690..L892)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x113ea8b0",
+          "file": "src/protocol/mod.rs",
+          "line": 867,
+          "col": 68,
+          "rust_function": "read_message_frame (L690..L892)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x113ea8c8",
+          "file": "src/protocol/mod.rs",
+          "line": 646,
+          "col": 25,
+          "rust_function": "_write (L624..L676)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x113eb858",
+          "file": "src/protocol/frame/mod.rs",
+          "line": 210,
+          "col": 55,
+          "rust_function": "read_frame (L161..L232)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x113eb870",
+          "file": "src/protocol/frame/mod.rs",
+          "line": 260,
+          "col": 53,
+          "rust_function": "buffer_frame (L249..L271)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x113eb888",
+          "file": "src/protocol/frame/mod.rs",
+          "line": 237,
+          "col": 51,
+          "rust_function": "read_in (L233..L248)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x113f5860",
+          "file": "src/buffer.rs",
+          "line": 58,
+          "col": 61,
+          "rust_function": "read_from (L55..L62)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1143a878",
+          "file": "src/protocol/mod.rs",
+          "line": 839,
+          "col": 33,
+          "rust_function": "read_message_frame (L690..L892)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1143a890",
+          "file": "src/protocol/mod.rs",
+          "line": 867,
+          "col": 68,
+          "rust_function": "read_message_frame (L690..L892)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1143a8a8",
+          "file": "src/protocol/mod.rs",
+          "line": 546,
+          "col": 17,
+          "rust_function": "read (L520..L561)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1143a8c0",
+          "file": "src/protocol/mod.rs",
+          "line": 646,
+          "col": 25,
+          "rust_function": "_write (L624..L676)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1143a8d8",
+          "file": "src/protocol/frame/mod.rs",
+          "line": 210,
+          "col": 55,
+          "rust_function": "read_frame (L161..L232)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1143a8f0",
+          "file": "src/protocol/frame/mod.rs",
+          "line": 260,
+          "col": 53,
+          "rust_function": "buffer_frame (L249..L271)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1143a908",
+          "file": "src/protocol/frame/mod.rs",
+          "line": 237,
+          "col": 51,
+          "rust_function": "read_in (L233..L248)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x1143a920",
+          "file": "src/handshake/client.rs",
+          "line": 77,
+          "col": 9,
+          "rust_function": "start (L44..L85)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11456138",
+          "file": "src/handshake/server.rs",
+          "line": 292,
+          "col": 65,
+          "rust_function": "stage_finished (L239..L332)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11457048",
+          "file": "src/handshake/machine.rs",
+          "line": 74,
+          "col": 17,
+          "rust_function": "single_round (L41..L130)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x11457060",
+          "file": "src/handshake/machine.rs",
+          "line": 76,
+          "col": 21,
+          "rust_function": "single_round (L41..L130)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x114c1140",
+          "file": "src/client.rs",
+          "line": 113,
+          "col": 5,
+          "rust_function": "create_request (L85..L127)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x114c1158",
+          "file": "src/protocol/mod.rs",
+          "line": 839,
+          "col": 33,
+          "rust_function": "read_message_frame (L690..L892)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x114c1170",
+          "file": "src/protocol/mod.rs",
+          "line": 867,
+          "col": 68,
+          "rust_function": "read_message_frame (L690..L892)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x114c1188",
+          "file": "src/protocol/mod.rs",
+          "line": 646,
+          "col": 25,
+          "rust_function": "_write (L624..L676)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x114c11a0",
+          "file": "src/protocol/frame/mod.rs",
+          "line": 210,
+          "col": 55,
+          "rust_function": "read_frame (L161..L232)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x114c11b8",
+          "file": "src/protocol/frame/mod.rs",
+          "line": 260,
+          "col": 53,
+          "rust_function": "buffer_frame (L249..L271)",
+          "verified_in_source": true
+        },
+        {
+          "location_va": "0x114c11d0",
+          "file": "src/protocol/frame/mod.rs",
+          "line": 237,
+          "col": 51,
+          "rust_function": "read_in (L233..L248)",
+          "verified_in_source": true
+        }
+      ],
+      "tracing_record_count": 0,
+      "tracing_records_sample": []
+    }
+  ]
+}

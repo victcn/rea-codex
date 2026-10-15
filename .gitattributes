@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.bincode binary
+*.bin binary
+*.zst binary
+*.png binary
+*.jpg binary
+*.webp binary
+*.woff2 binary
+*.so binary
+*.dylib binary
+*.dll binary

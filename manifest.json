@@ -1,0 +1,823 @@
+{
+  "package": "@openai/codex",
+  "version": "0.162.1",
+  "build_commit": "092d3acd6bec3e3a14bdc7e7a2810ab628ab759d",
+  "target_triple": "x86_64-unknown-linux-musl",
+  "binaries": {
+    "bin/codex": {
+      "path": "/usr/local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/bin/codex",
+      "bytes": 294415048,
+      "sha256": "628e35487d888a28f0427fc37501da529dd3d81fcbad7a2c3421c1e8670d92e1",
+      "type": "ELF 64-bit LSB pie executable, x86-64, static-pie linked, stripped",
+      "eh_frame_functions": 338251,
+      "attributed_functions": 60838
+    },
+    "bin/codex-code-mode-host": {
+      "path": "/usr/local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/bin/codex-code-mode-host",
+      "bytes": 74036112,
+      "sha256": "ec71830690a7c0024916ee0c99fbdc635bc6e747ff665ea4f03a8389bbcb6b30",
+      "type": "ELF 64-bit LSB pie executable, x86-64, static-pie linked, stripped (Embedded V8 Turboshaft + Starlark 0.14.2)"
+    },
+    "codex-resources/voice/bin/codex-voice-host": {
+      "path": "/usr/local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-resources/voice/bin/codex-voice-host",
+      "bytes": 65039440,
+      "sha256": "f0e6d22a2f5f3f838ac3b214ba1a119b5ef94e98dc50e3feac4e7d6e8e835f2c",
+      "type": "ELF 64-bit LSB pie executable, x86-64, dynamically linked, with debug_info, not stripped (WebRTC + GStreamer 1.28.6 + Sonora AEC3)",
+      "defined_symbols": 27892
+    }
+  },
+  "protocol_zst_bundles": {
+    "stable": {
+      "rodata_vaddr": "0xe5c6d6f",
+      "compressed_bytes": 158034,
+      "decompressed_bytes": 4878834,
+      "sha256_compressed": "ed720775cdc264c7c5a930d582c56a27f5f8b18408187f783f93b9713ed40d48",
+      "sha256_decompressed": "054742a2aaf44175603181332394ded0aa208baf3dcd9c6ee0aa9496d8996ae2",
+      "typescript_files": 743,
+      "json_schema_files": 317,
+      "internal_json_schema_files": 1
+    },
+    "experimental": {
+      "rodata_vaddr": "0xe5ed6c1",
+      "compressed_bytes": 162901,
+      "decompressed_bytes": 5430368,
+      "sha256_compressed": "41d34da4227eadccf971272b9a02dfc6679e23a9992cce1d265ac01a20ab38e3",
+      "sha256_decompressed": "2fc164dcd9e04c984cd3b0c8d2fdd7fa5da63a95376fe9c189201e76b8fe2282",
+      "typescript_files": 888,
+      "json_schema_files": 447,
+      "internal_json_schema_files": 0
+    }
+  },
+  "extracted_counts": {
+    "system_skill_files": 48,
+    "models_in_catalog": 11,
+    "sqlite_migrations": 75,
+    "app_server_rpc_entries": 185,
+    "feature_flags": 167,
+    "environment_variables": 58,
+    "workspace_crates": 646,
+    "workspace_rs_files": 2040
+  },
+  "rea_evidence": {
+    "bundle_path": "rea-evidence-bundle.json",
+    "javascript_application_evidence_id": "ev_732d0c22822a8007d519589185e9469498c80dbf42d535fc28ee9d40e16f0fdc",
+    "feature_trace_evidence_id": "ev_ed2c0374964ea2778affaaf165687dc0d8d39cf7b874c292c4d42da842e7d24e",
+    "semantic_trace_evidence_id": "ev_c0a2905b773f881d97b306546efa6c85b0ea1db5fdc2a372f16063d44841df97",
+    "process_captures": {
+      "version": "ev_cd7c8ab29136a1e7470c9bf978476f7a28d204a0bebf9fbd9ee8329394da8b36",
+      "help": "ev_840c693c5ec6debbfeb66f537eed81d4f8e6bdfdb25056aa4d1c9b181de9172a",
+      "features_list": "ev_f20f755c5a7a1c7408f52a01d9e7b66f5a3249ee7d0c4d14ad8ecb90ccf374c9",
+      "debug_help": "ev_4dd6b20f7f170fc2870561cd6afef13d591b14304fcc4bd4f264ac96e7c546ef",
+      "app_server_help": "ev_c6634e0bcf4997f26ae6827c22c72e0c61659c1bc7ba08eab4e95c7dbda6fecb",
+      "sandbox_help": "ev_0bf219745cc2206aa2f426909f5745a3a71cebd34d45a97f74f1047471857025",
+      "debug_prompt_input_default": "ev_7d5b45ed8b4298554495c03aa0d1b9f7550446d56d872e0c49df9d59e4c8b179",
+      "debug_prompt_input_unrestricted": "ev_605cbbff0e7caa994463d5a5144a6424b4720c38e2dbd5ddc6a71898e1f06ec8"
+    },
+    "residual_unknown_id": "unk_fa3b4e8a95072375ddcfc256ac80215f105e5551dd11672b24a2db959a116628"
+  },
+  "files": [
+    {
+      "path": "extracted-assets/launcher/codex.js",
+      "bytes": 8790,
+      "sha256": "61b0194f3bb6534439c8d26a3ed57d0805f84b884588b761795323eeb92fcf70"
+    },
+    {
+      "path": "extracted-assets/launcher/package.json",
+      "bytes": 1082,
+      "sha256": "41088ff13de24389cad54ee52ba03c1e01cf39c934928314d002e5120f884216"
+    },
+    {
+      "path": "extracted-assets/launcher/codex-linux-x64.package.json",
+      "bytes": 511,
+      "sha256": "80e68b7327c0d269422d622aa36755fc3b45d2f495fd83745086f36e7b4918ce"
+    },
+    {
+      "path": "extracted-assets/launcher/codex-package.json",
+      "bytes": 205,
+      "sha256": "f05ebff6db98bd613dd5654461985090c6416b41ad67902243d83a53b305ac05"
+    },
+    {
+      "path": "extracted-assets/voice-runtime/manifest.json",
+      "bytes": 4768,
+      "sha256": "428d43ed092b11a0992f9f80c510b00b69034feb6dca786ab35b41b85eb5b0aa"
+    },
+    {
+      "path": "extracted-assets/voice-runtime/runtime.json",
+      "bytes": 13941,
+      "sha256": "7f8d37fb517689d1d348befc0b179ac997892b6645997d0a49fb7e8cc555f026"
+    },
+    {
+      "path": "extracted-assets/voice-runtime/sources.json",
+      "bytes": 4911,
+      "sha256": "e2f6b124f6277e7c3c4f5c7cc8830c66190f671ad65e972bb2cc9507dbfcb937"
+    },
+    {
+      "path": "extracted-assets/system-skills/imagegen/agents/openai.yaml",
+      "bytes": 275,
+      "sha256": "9ca574af14580dc7a2a3dc37a1796d17f93cb8850be66501f0799ef8603e9dc0",
+      "relro_vaddr": "0x1162f628",
+      "rodata_vaddr": "0xe935385"
+    },
+    {
+      "path": "extracted-assets/system-skills/imagegen/assets/imagegen-small.svg",
+      "bytes": 2889,
+      "sha256": "cff5f34f57ff60b3ee92eaedd17b15e96dd4b9e776df3e78936c9e00d42be294",
+      "relro_vaddr": "0x1162f650",
+      "rodata_vaddr": "0xe9354c9"
+    },
+    {
+      "path": "extracted-assets/system-skills/imagegen/assets/imagegen.png",
+      "bytes": 1711,
+      "sha256": "95952f644064eb9e890f98d8db07216347186526e4c41ad66d3420629eb86e20",
+      "relro_vaddr": "0x1162f678",
+      "rodata_vaddr": "0xe93602e"
+    },
+    {
+      "path": "extracted-assets/system-skills/imagegen/references/cli.md",
+      "bytes": 9655,
+      "sha256": "ecfc2e09261a0feb3482517a5fa0ff410cb7d1958e3cbd2ac6b61586f5b81405",
+      "relro_vaddr": "0x1162f6a0",
+      "rodata_vaddr": "0xe93670a"
+    },
+    {
+      "path": "extracted-assets/system-skills/imagegen/references/codex-network.md",
+      "bytes": 1779,
+      "sha256": "c88298ca4481f6116a16fa7987434fc977f8b311c1bbc0c3d862ffd0c5981148",
+      "relro_vaddr": "0x1162f6c8",
+      "rodata_vaddr": "0xe938ce5"
+    },
+    {
+      "path": "extracted-assets/system-skills/imagegen/references/image-api.md",
+      "bytes": 6072,
+      "sha256": "dc975d7af8a4888967251a0276014b4a71ea30455294944b762256373ce3e569",
+      "relro_vaddr": "0x1162f6f0",
+      "rodata_vaddr": "0xe9393d8"
+    },
+    {
+      "path": "extracted-assets/system-skills/imagegen/references/prompting.md",
+      "bytes": 8282,
+      "sha256": "b210b051c775860267080941eba968212bf0ac7fce581d75c5dcc217d8293f8b",
+      "relro_vaddr": "0x1162f718",
+      "rodata_vaddr": "0xe93ab90"
+    },
+    {
+      "path": "extracted-assets/system-skills/imagegen/references/sample-prompts.md",
+      "bytes": 17617,
+      "sha256": "70474177d151855b175c6133de2aae1d90b7f146b0dab50ec830972c47d72183",
+      "relro_vaddr": "0x1162f740",
+      "rodata_vaddr": "0xe93cc0f"
+    },
+    {
+      "path": "extracted-assets/system-skills/imagegen/scripts/image_gen.py",
+      "bytes": 34667,
+      "sha256": "b4345cf835e5b593b97df6bb2b70bda493b8a97eee4cabbc99b2fa57dba9b448",
+      "relro_vaddr": "0x1162f768",
+      "rodata_vaddr": "0xe9410fd"
+    },
+    {
+      "path": "extracted-assets/system-skills/imagegen/scripts/remove_chroma_key.py",
+      "bytes": 13905,
+      "sha256": "a5893c4bd04b21abced33731ea89d2ac428e81d92a0368eb18ffbe4fda5253e2",
+      "relro_vaddr": "0x1162f790",
+      "rodata_vaddr": "0xe94988d"
+    },
+    {
+      "path": "extracted-assets/system-skills/imagegen/LICENSE.txt",
+      "bytes": 10776,
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "relro_vaddr": "0x1162f7b8",
+      "rodata_vaddr": "0xe92de31"
+    },
+    {
+      "path": "extracted-assets/system-skills/imagegen/SKILL.md",
+      "bytes": 19201,
+      "sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba",
+      "relro_vaddr": "0x1162f7e0",
+      "rodata_vaddr": "0xe93085a"
+    },
+    {
+      "path": "extracted-assets/system-skills/openai-docs/agents/openai.yaml",
+      "bytes": 370,
+      "sha256": "44b9efac6be1bae32d869aa2942fecbe4dcae82682ee03e4120f2f9b7d4658ec",
+      "relro_vaddr": "0x1162f8a8",
+      "rodata_vaddr": "0xe94e481"
+    },
+    {
+      "path": "extracted-assets/system-skills/openai-docs/assets/openai-small.svg",
+      "bytes": 1091,
+      "sha256": "45be1f0757eb18889eefb1e7db79668ef46a275dc4e0e78e8df5ebd7f6cdeadc",
+      "relro_vaddr": "0x1162f8d0",
+      "rodata_vaddr": "0xe94e628"
+    },
+    {
+      "path": "extracted-assets/system-skills/openai-docs/assets/openai.png",
+      "bytes": 1429,
+      "sha256": "156cc84d7332bfe95b310350bd470b690d22aa33d65340cc6c2e06022946194c",
+      "relro_vaddr": "0x1162f8f8",
+      "rodata_vaddr": "0xe94ea88"
+    },
+    {
+      "path": "extracted-assets/system-skills/openai-docs/references/codex-self-knowledge.md",
+      "bytes": 7417,
+      "sha256": "8c8fb00e6e5cb1977924f5164684a6095427fa828bbc765225f17d9aeb79a912",
+      "relro_vaddr": "0x1162f920",
+      "rodata_vaddr": "0xe94f061"
+    },
+    {
+      "path": "extracted-assets/system-skills/openai-docs/references/latest-model.md",
+      "bytes": 2147,
+      "sha256": "bdf241d505eb071b1c7b0b732f842b701348cf6eab95d1c36fd97edac64dd158",
+      "relro_vaddr": "0x1162f948",
+      "rodata_vaddr": "0xe950d80"
+    },
+    {
+      "path": "extracted-assets/system-skills/openai-docs/references/mcp-diagnostics.md",
+      "bytes": 2318,
+      "sha256": "49bbd2f73df7bbd7f86c80425dea4da2d301c22046080399a36bfc0ca49509e9",
+      "relro_vaddr": "0x1162f970",
+      "rodata_vaddr": "0xe95160c"
+    },
+    {
+      "path": "extracted-assets/system-skills/openai-docs/references/model-migration.md",
+      "bytes": 5094,
+      "sha256": "bef46671036c8e483b7f65df931171217d55a8d26098851c2f89784db8edca2f",
+      "relro_vaddr": "0x1162f998",
+      "rodata_vaddr": "0xe951f43"
+    },
+    {
+      "path": "extracted-assets/system-skills/openai-docs/references/model-selection.md",
+      "bytes": 1344,
+      "sha256": "ba2d164abbca30435a460a0bc3a7d82398dce2bdf092705c98ba55b3f3af38a8",
+      "relro_vaddr": "0x1162f9c0",
+      "rodata_vaddr": "0xe953352"
+    },
+    {
+      "path": "extracted-assets/system-skills/openai-docs/references/official-docs.md",
+      "bytes": 3337,
+      "sha256": "7962f2dce55089b93bde4115bb89fd42f20993c1597a2b13edd4956f463875b9",
+      "relro_vaddr": "0x1162f9e8",
+      "rodata_vaddr": "0xe9538b9"
+    },
+    {
+      "path": "extracted-assets/system-skills/openai-docs/references/prompting-guide.md",
+      "bytes": 10166,
+      "sha256": "548d4ca73a34cd4b0041ef05a899592e8c50772b8f3a76c579ec941e403e19f6",
+      "relro_vaddr": "0x1162fa10",
+      "rodata_vaddr": "0xe9545eb"
+    },
+    {
+      "path": "extracted-assets/system-skills/openai-docs/references/upgrade-guide.md",
+      "bytes": 1027,
+      "sha256": "ecac89155f910f064fd306e89c74585cabdb2142aba4f2acc0cead092ae1d1a5",
+      "relro_vaddr": "0x1162fa38",
+      "rodata_vaddr": "0xe956dc8"
+    },
+    {
+      "path": "extracted-assets/system-skills/openai-docs/references/upgrading-to-gpt-6-astra.md",
+      "bytes": 18993,
+      "sha256": "62ef6d22684662a019d203834fe1205a07e4ca4c65dddcbabe1bb51efe1aa840",
+      "relro_vaddr": "0x1162fa60",
+      "rodata_vaddr": "0xe9571fd"
+    },
+    {
+      "path": "extracted-assets/system-skills/openai-docs/scripts/fetch-codex-manual.mjs",
+      "bytes": 16085,
+      "sha256": "f53eb6d2f286e9efcc397e8bee93a938e37296c90953e4e06e94899ef1b6c363",
+      "relro_vaddr": "0x1162fa88",
+      "rodata_vaddr": "0xe95bc6b"
+    },
+    {
+      "path": "extracted-assets/system-skills/openai-docs/scripts/resolve-latest-model-info",
+      "bytes": 1038,
+      "sha256": "7354dbb030ca0736dd633a7ca1b930cf640abd40370725dea3a458cb51d49523",
+      "relro_vaddr": "0x1162fab0",
+      "rodata_vaddr": "0xe95fb6d"
+    },
+    {
+      "path": "extracted-assets/system-skills/openai-docs/scripts/resolve-latest-model-info.cjs",
+      "bytes": 3937,
+      "sha256": "eeb1bb486018e16b37edfc06b1a37179dbc672982d501040d4f7142f29dd2e64",
+      "relro_vaddr": "0x1162fad8",
+      "rodata_vaddr": "0xe95ffac"
+    },
+    {
+      "path": "extracted-assets/system-skills/openai-docs/LICENSE.txt",
+      "bytes": 10776,
+      "sha256": "4dd13869245e356246a5b770723247bbb80a8f07a181d1d3d873a1734297cdb9",
+      "relro_vaddr": "0x1162fb00",
+      "rodata_vaddr": "0xe92de31"
+    },
+    {
+      "path": "extracted-assets/system-skills/openai-docs/SKILL.md",
+      "bytes": 5437,
+      "sha256": "aa6829e21df2223167c85d2e49b6337a7345c84c1033f1ec10182c7882b36d45",
+      "relro_vaddr": "0x1162fb28",
+      "rodata_vaddr": "0xe94cf14"
+    },
+    {
+      "path": "extracted-assets/system-skills/review-agent/agents/openai.yaml",
+      "bytes": 252,
+      "sha256": "4d867a46d15e36ac880176484aae160f59855340c6059b2ea6ab9fbc9af084de",
+      "relro_vaddr": "0x1162fbf0",
+      "rodata_vaddr": "0xe9619c5"
+    },
+    {
+      "path": "extracted-assets/system-skills/review-agent/SKILL.md",
+      "bytes": 2661,
+      "sha256": "07079efd0dc76f05fade424e5dfb048dce1de2df7626e1a4f56292a4f3f92228",
+      "relro_vaddr": "0x1162fc18",
+      "rodata_vaddr": "0xe960f2e"
+    },
+    {
+      "path": "extracted-assets/system-skills/skill-creator/agents/openai.yaml",
+      "bytes": 183,
+      "sha256": "d07d21b93fcf3d4dc8d9a3399c05fc226a49a333a96d3e1c68b451b8dd9eade6",
+      "relro_vaddr": "0x1162fc68",
+      "rodata_vaddr": "0xe9656c7"
+    },
+    {
+      "path": "extracted-assets/system-skills/skill-creator/assets/skill-creator-small.svg",
+      "bytes": 1319,
+      "sha256": "6591bf8ea9bb9435890dbdea299e0d2bd05f3aa893a335d26e4c535e93c8e7fb",
+      "relro_vaddr": "0x1162fc90",
+      "rodata_vaddr": "0xe9657be"
+    },
+    {
+      "path": "extracted-assets/system-skills/skill-creator/assets/skill-creator.png",
+      "bytes": 1563,
+      "sha256": "a4024b0306ddb05847e1012879d37aaf1e658205199da596f5145ed7a88d9162",
+      "relro_vaddr": "0x1162fcb8",
+      "rodata_vaddr": "0xe965d0b"
+    },
+    {
+      "path": "extracted-assets/system-skills/skill-creator/references/openai_yaml.md",
+      "bytes": 2356,
+      "sha256": "ffac39318e408108141d40f820968e59f70434a891694f9bf1d25be8237b150c",
+      "relro_vaddr": "0x1162fce0",
+      "rodata_vaddr": "0xe968fdc"
+    },
+    {
+      "path": "extracted-assets/system-skills/skill-creator/scripts/generate_openai_yaml.py",
+      "bytes": 6669,
+      "sha256": "816df12072d74faf924d802a6599a139997e1441e90bfe4869ec304f2e5e2851",
+      "relro_vaddr": "0x1162fd08",
+      "rodata_vaddr": "0xe969952"
+    },
+    {
+      "path": "extracted-assets/system-skills/skill-creator/scripts/init_skill.py",
+      "bytes": 10314,
+      "sha256": "bf0656a5f9d8d8cdecf0245eaf27e1df8e0e9b6d40ccdda814eb8e3d5f6992c8",
+      "relro_vaddr": "0x1162fd30",
+      "rodata_vaddr": "0xe96b382"
+    },
+    {
+      "path": "extracted-assets/system-skills/skill-creator/scripts/quick_validate.py",
+      "bytes": 4249,
+      "sha256": "ee6dba90f44d37171c5a6edb8095979c54919ff6822c1a907afca2e78c48738c",
+      "relro_vaddr": "0x1162fd58",
+      "rodata_vaddr": "0xe96dbf3"
+    },
+    {
+      "path": "extracted-assets/system-skills/skill-creator/SKILL.md",
+      "bytes": 15311,
+      "sha256": "6656e54755638e8efcf275a472b9672eaa8a9a1b9e59dc210e275b03b59e1e66",
+      "relro_vaddr": "0x1162fd80",
+      "rodata_vaddr": "0xe961ae4"
+    },
+    {
+      "path": "extracted-assets/system-skills/skill-creator/license.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "relro_vaddr": "0x1162fdf8",
+      "rodata_vaddr": "0xe96633f"
+    },
+    {
+      "path": "extracted-assets/system-skills/skill-installer/agents/openai.yaml",
+      "bytes": 221,
+      "sha256": "5ce223d8b1070b82c42298538f1b8d376f788eb9e7a42a987e8c094070d73f0e",
+      "relro_vaddr": "0x1162fe70",
+      "rodata_vaddr": "0xe96fa2d"
+    },
+    {
+      "path": "extracted-assets/system-skills/skill-installer/assets/skill-installer-small.svg",
+      "bytes": 923,
+      "sha256": "3928703ff00dc1a681e7a22401843b7edcbd4b2051651ce4c43b75f7e140504e",
+      "relro_vaddr": "0x1162fe98",
+      "rodata_vaddr": "0xe96fb50"
+    },
+    {
+      "path": "extracted-assets/system-skills/skill-installer/assets/skill-installer.png",
+      "bytes": 1086,
+      "sha256": "d0a230b1a79b71b858b7c215a0fbb0768d6459c14ea4ef80c61592629bf0e605",
+      "relro_vaddr": "0x1162fec0",
+      "rodata_vaddr": "0xe96ff15"
+    },
+    {
+      "path": "extracted-assets/system-skills/skill-installer/scripts/github_utils.py",
+      "bytes": 659,
+      "sha256": "61c1bbe2ae217433b4b6f9f09f21aca4df52c12598068343ade719f706e4859b",
+      "relro_vaddr": "0x1162fee8",
+      "rodata_vaddr": "0xe970391"
+    },
+    {
+      "path": "extracted-assets/system-skills/skill-installer/scripts/install-skill-from-github.py",
+      "bytes": 11917,
+      "sha256": "38f311b75664bb063808f982c600271ebc4b560830f491705190f88a94e3e781",
+      "relro_vaddr": "0x1162ff10",
+      "rodata_vaddr": "0xe970658"
+    },
+    {
+      "path": "extracted-assets/system-skills/skill-installer/scripts/list-skills.py",
+      "bytes": 2948,
+      "sha256": "9d6dfb2abf3afeee7f027a89fb1626b918a973da18f4eb6c25681286301beb41",
+      "relro_vaddr": "0x1162ff38",
+      "rodata_vaddr": "0xe97350b"
+    },
+    {
+      "path": "extracted-assets/system-skills/skill-installer/LICENSE.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "relro_vaddr": "0x1162ff60",
+      "rodata_vaddr": "0xe96633f"
+    },
+    {
+      "path": "extracted-assets/system-skills/skill-installer/SKILL.md",
+      "bytes": 3367,
+      "sha256": "d68b77e5bbb34dedab89d134da52855f140fc4b4299b80104f534e3b9e98f8ee",
+      "relro_vaddr": "0x1162ff88",
+      "rodata_vaddr": "0xe96ecce"
+    },
+    {
+      "path": "schemas/app-server-protocol-stable.bundle.json",
+      "bytes": 4878834,
+      "sha256": "054742a2aaf44175603181332394ded0aa208baf3dcd9c6ee0aa9496d8996ae2"
+    },
+    {
+      "path": "schemas/app-server-protocol-experimental.bundle.json",
+      "bytes": 5430368,
+      "sha256": "2fc164dcd9e04c984cd3b0c8d2fdd7fa5da63a95376fe9c189201e76b8fe2282"
+    },
+    {
+      "path": "schemas/models.json",
+      "bytes": 472071,
+      "sha256": "73a732ebcb05d2d8fae34c118312639d8a78a608db01efe57d9cb62045f6fb58"
+    },
+    {
+      "path": "extracted-assets/prompts/model-instructions/gpt-6-astra.instructions.md",
+      "bytes": 21428,
+      "sha256": "35bd51b5f577cb7b24cd5f4629e49e37cb724ab57754ce6f8f202001635bab8a"
+    },
+    {
+      "path": "extracted-assets/prompts/model-instructions/gpt-6-astra.persistent.md",
+      "bytes": 5741,
+      "sha256": "30747e79e50efb64f91cfff3d5ef1882e347081e81448918d5f7d5358e98c523"
+    },
+    {
+      "path": "extracted-assets/prompts/model-instructions/guardian-v2-classifier.md",
+      "bytes": 3655,
+      "sha256": "1edad6a16d9431dbe14bff1d0ce96196cc983a48d050ebaa35f415b1dc797338"
+    },
+    {
+      "path": "extracted-assets/prompts/model-instructions/confirmation-policy-browser_use.md",
+      "bytes": 11265,
+      "sha256": "0784bf5d70a8a2270ebf10bed860cc49524f590d989219e63d64c6fcf771f20d"
+    },
+    {
+      "path": "extracted-assets/prompts/model-instructions/confirmation-policy-computer_use.md",
+      "bytes": 11265,
+      "sha256": "0784bf5d70a8a2270ebf10bed860cc49524f590d989219e63d64c6fcf771f20d"
+    },
+    {
+      "path": "extracted-assets/prompts/model-instructions/gpt-6.1-sol.instructions.md",
+      "bytes": 21779,
+      "sha256": "e1bdd4f8f0df4b20f4a0ffc8a861ce819df45325d8cecdfb92e80379cf8d142e"
+    },
+    {
+      "path": "extracted-assets/prompts/model-instructions/gpt-6.1-sol.persistent.md",
+      "bytes": 5741,
+      "sha256": "30747e79e50efb64f91cfff3d5ef1882e347081e81448918d5f7d5358e98c523"
+    },
+    {
+      "path": "extracted-assets/prompts/model-instructions/gpt-6-sol.instructions.md",
+      "bytes": 18998,
+      "sha256": "b1dd8718c037906c53a305c5cbccb4a4be35ccbb7837461ec349bfc495412f0d"
+    },
+    {
+      "path": "extracted-assets/prompts/model-instructions/gpt-6-sol.persistent.md",
+      "bytes": 5741,
+      "sha256": "30747e79e50efb64f91cfff3d5ef1882e347081e81448918d5f7d5358e98c523"
+    },
+    {
+      "path": "extracted-assets/prompts/model-instructions/gpt-6-luna.instructions.md",
+      "bytes": 18043,
+      "sha256": "b707476816bfe5e571a1bd2179f130fff2b132da5ab8e61063acdb7fd24daf12"
+    },
+    {
+      "path": "extracted-assets/prompts/model-instructions/gpt-6-luna.persistent.md",
+      "bytes": 5741,
+      "sha256": "30747e79e50efb64f91cfff3d5ef1882e347081e81448918d5f7d5358e98c523"
+    },
+    {
+      "path": "extracted-assets/prompts/model-instructions/gpt-5.6-sol.instructions.md",
+      "bytes": 17766,
+      "sha256": "a91357a1cd2727a0be06d461248d6e3a7274746e38108f548a3adf2cc2430415"
+    },
+    {
+      "path": "extracted-assets/prompts/model-instructions/gpt-5.6-terra.instructions.md",
+      "bytes": 17766,
+      "sha256": "a91357a1cd2727a0be06d461248d6e3a7274746e38108f548a3adf2cc2430415"
+    },
+    {
+      "path": "extracted-assets/prompts/model-instructions/gpt-5.6-luna.instructions.md",
+      "bytes": 17766,
+      "sha256": "a91357a1cd2727a0be06d461248d6e3a7274746e38108f548a3adf2cc2430415"
+    },
+    {
+      "path": "extracted-assets/prompts/model-instructions/gpt-daybreak-blue-latest.instructions.md",
+      "bytes": 17312,
+      "sha256": "ebd0d5854abd07dc38300a71e027204eb028e9fa443c59d18e36fcc24289e818"
+    },
+    {
+      "path": "extracted-assets/prompts/model-instructions/gpt-daybreak-red-latest.instructions.md",
+      "bytes": 17311,
+      "sha256": "40a1232c8bd01a87dc2283e5ae3c75f2b054dc2a12cf04e5a279c26e5c541b9b"
+    },
+    {
+      "path": "extracted-assets/prompts/model-instructions/gpt-5.5.instructions.md",
+      "bytes": 21473,
+      "sha256": "2351631dfc5644dc5a45eaaca4139475bd02810ee6cb792d058b551559b3242e"
+    },
+    {
+      "path": "extracted-assets/prompts/model-instructions/codex-auto-review.instructions.md",
+      "bytes": 17766,
+      "sha256": "a91357a1cd2727a0be06d461248d6e3a7274746e38108f548a3adf2cc2430415"
+    },
+    {
+      "path": "schemas/model-summary.json",
+      "bytes": 8212,
+      "sha256": "b854ef43ae297dff3e0333bbbc014bb325072a6ed7226f0f9d969f02d8b33ef2"
+    },
+    {
+      "path": "schemas/connector-tool-templates.json",
+      "bytes": 25722,
+      "sha256": "04b3d5e4e3ec48ecc7e352d21db46b317e71d8be0a76a067e9b8a779012173bc"
+    },
+    {
+      "path": "schemas/guardian-output.schema.json",
+      "bytes": 2346,
+      "sha256": "749c73245b4b6d43537c3049f76720ab1c2bd48d7e4752b744b376925b9d57a1"
+    },
+    {
+      "path": "extracted-assets/prompts/base-cli-system-prompt.md",
+      "bytes": 20903,
+      "sha256": "ac8ae107a0d72fe3476b430afb161ea4e67da2e446d778aefc44828160559807",
+      "rodata_vaddr": "0xe82e8ab"
+    },
+    {
+      "path": "extracted-assets/prompts/general-agent-identity-prompt.md",
+      "bytes": 4913,
+      "sha256": "94c279f8b40900e5f2ace13db09bc096ccc99cc72ffb051a126f98df94c6997d",
+      "rodata_vaddr": "0xe6fd5c6"
+    },
+    {
+      "path": "extracted-assets/prompts/plan-mode-conversational-prompt.md",
+      "bytes": 9289,
+      "sha256": "1de44fa01ca2ecb77d7ba1f1cb4def181f21200c21c26dc54a6db020c227e903",
+      "rodata_vaddr": "0xe8c889c"
+    },
+    {
+      "path": "extracted-assets/prompts/guardian-v2-async-reviewer-prompt.md",
+      "bytes": 10351,
+      "sha256": "52485dcc1856e6d33697b0bee0d57b7af5bcc0cd2f64be0dc6b3505d56549aef",
+      "rodata_vaddr": "0xe7a86db"
+    },
+    {
+      "path": "extracted-assets/prompts/guardian-planned-action-judge-prompt.md",
+      "bytes": 9754,
+      "sha256": "37441097e4e825e0b195c32c985817ea07da15bb5c20fa753d87b22e2fe47e73",
+      "rodata_vaddr": "0xe8ce771"
+    },
+    {
+      "path": "extracted-assets/prompts/guardian-environment-profile-prompt.md",
+      "bytes": 8281,
+      "sha256": "e6b0cf0a2e1c4cabc0a37ac2a0bc424ddd7c89e85d049e32d281a8db6e8d3ce6",
+      "rodata_vaddr": "0xe8cc718"
+    },
+    {
+      "path": "extracted-assets/prompts/memory-phase1-single-rollout-prompt.md",
+      "bytes": 30449,
+      "sha256": "cf795e8a2f5f52d333af2613bf1ff79178112f5fd2161cc181a8ddf52e59da33",
+      "rodata_vaddr": "0xe80a296"
+    },
+    {
+      "path": "extracted-assets/prompts/memory-phase2-consolidation-prompt.md",
+      "bytes": 51237,
+      "sha256": "1450e24f84c03375aa5114c6c0857f515395129dcc00f65263221d03866852a0",
+      "rodata_vaddr": "0xe7f824f"
+    },
+    {
+      "path": "extracted-assets/prompts/memory-rollout-extractor-prompt.md",
+      "bytes": 3153,
+      "sha256": "334c0d51a2c63bd317dac074155fb3ecf0a56af8b00657736bab9c74222372b4",
+      "rodata_vaddr": "0xe811987"
+    },
+    {
+      "path": "extracted-assets/prompts/memory-summary-consolidation-prompt.md",
+      "bytes": 3128,
+      "sha256": "7334fdb4aa5d958bcff54568a375d0b0145c19a611a1a22faa6bf251a46a5f0e",
+      "rodata_vaddr": "0xe7f7232"
+    },
+    {
+      "path": "extracted-assets/prompts/memory-subsystem-instructions.md",
+      "bytes": 6593,
+      "sha256": "2bc7736029884b714860a6f0d6b2fd26598bba58f2213b787f01fe2a491f4326",
+      "rodata_vaddr": "0xe7ecffd"
+    },
+    {
+      "path": "extracted-assets/prompts/imported-external-agent-memory-rules.md",
+      "bytes": 3163,
+      "sha256": "d4ad3f79866e712d390783953470d9d00686ef72fbaddcb8d6706e1753a349e7",
+      "rodata_vaddr": "0xe771229"
+    },
+    {
+      "path": "extracted-assets/prompts/code-review-guidelines-prompt.md",
+      "bytes": 7685,
+      "sha256": "ec60e7f36a1d1c2679ce095c0205ecc56f7dd8fb57707a13ef362072390f219f",
+      "rodata_vaddr": "0xe6db2d2"
+    },
+    {
+      "path": "extracted-assets/prompts/active-thread-goal-continuation-prompt.md",
+      "bytes": 6451,
+      "sha256": "764b9c26b36013a21b687d74597e303be9bbf13776c359ec1fb185dbc0e7eac7",
+      "rodata_vaddr": "0xe7878bd"
+    },
+    {
+      "path": "extracted-assets/prompts/sandbox-escalation-requests-prompt.md",
+      "bytes": 3661,
+      "sha256": "85541a9738741407642b3c39bbe3781fbf8bb42f628d50e562c87738ab192b3a",
+      "rodata_vaddr": "0xe8c721c"
+    },
+    {
+      "path": "extracted-assets/prompts/computer-and-browser-use-prompt.md",
+      "bytes": 2860,
+      "sha256": "e5d12bc2404640513aba2df9dcc5689d2f0280191fe3508c55570ea0764d13a0",
+      "rodata_vaddr": "0xe8d0d8b"
+    },
+    {
+      "path": "extracted-assets/prompts/code-mode-javascript-orchestration-prompt.md",
+      "bytes": 2848,
+      "sha256": "dbba75ba8af8cb8ebdf1fd3af871831b02b636084f678414c6aaf509dddcc4ec",
+      "rodata_vaddr": "0xe6874bf"
+    },
+    {
+      "path": "extracted-assets/prompts/web-search-internet-tool-prompt.md",
+      "bytes": 7507,
+      "sha256": "1f3879b44690eb7aad9ba97351acda16c4d0c26847bcb4af2964d5989404407e",
+      "rodata_vaddr": "0xea324a4"
+    },
+    {
+      "path": "extracted-assets/prompts/proactivity-followup-prompt.md",
+      "bytes": 3409,
+      "sha256": "f624a4d6d6a0ce26f314c4cde13162f950dc2d50c3c0fb94da7224d3cf446dac",
+      "rodata_vaddr": "0xe4877e1"
+    },
+    {
+      "path": "extracted-assets/prompts/side-conversation-prompt.md",
+      "bytes": 1785,
+      "sha256": "6d847407f1ef0faf58ab6922acc67f056b947945ad67ef4fb65a7882b788c0e6",
+      "rodata_vaddr": "0xea24c80"
+    },
+    {
+      "path": "extracted-assets/prompts/task-catchup-summary-prompt.md",
+      "bytes": 1790,
+      "sha256": "3fd6c8f1520ff6e774e8ad3e7b79c7aedb0828ea8a68246f617d2c5c68820817",
+      "rodata_vaddr": "0xe6a894c"
+    },
+    {
+      "path": "extracted-assets/prompts/skills-discovery-instructions-v1.md",
+      "bytes": 3031,
+      "sha256": "57619bb7be4fd6a9bfe61616c3fd5cd9dfcce98a3756d45f07b89cd8ee761c68",
+      "rodata_vaddr": "0xe976518"
+    },
+    {
+      "path": "extracted-assets/prompts/skills-discovery-instructions-v2.md",
+      "bytes": 2531,
+      "sha256": "a542ff08e01add3661080ddc80c5a0239cbfb15d4dceb85c73d800b5ed9e0547",
+      "rodata_vaddr": "0xe975b35"
+    },
+    {
+      "path": "extracted-assets/runtime-templates/visualization-theme.css",
+      "bytes": 20134,
+      "sha256": "4b1d492f1e67394f80dc83fe7e9d3a508648dbeffe7a5152b27a567da972c50f",
+      "rodata_vaddr": "0xea1b290"
+    },
+    {
+      "path": "extracted-assets/runtime-templates/visualization-fragment.html",
+      "bytes": 7503,
+      "sha256": "2773518b67cc453a66faa17c5cec37811d968d244a10fdaf81bdca953865f9db",
+      "rodata_vaddr": "0xea19148"
+    },
+    {
+      "path": "extracted-assets/runtime-templates/oauth-signin-page-1.html",
+      "bytes": 8057,
+      "sha256": "52585fecb0a45772bb99ab899be3f852168291957b8ed8013e70f0c5c6bb3554",
+      "rodata_vaddr": "0xe7cb2ed"
+    },
+    {
+      "path": "extracted-assets/runtime-templates/oauth-signin-page-2.html",
+      "bytes": 7388,
+      "sha256": "cac36f457de46167acc4633ce2b47fa3739a6600ad4a2822536b9c4020a3aa70",
+      "rodata_vaddr": "0xe7c9611"
+    },
+    {
+      "path": "extracted-assets/runtime-templates/oauth-signin-page-3.html",
+      "bytes": 3995,
+      "sha256": "0ffcc9810fd281a4694bbaa013e391910a012807d006d5447718ff27ce5229a4",
+      "rodata_vaddr": "0xe7cd98a"
+    },
+    {
+      "path": "extracted-assets/runtime-templates/shell-snapshot-expand.sh",
+      "bytes": 2641,
+      "sha256": "f45a307860bbf60aab2335270e2e6f92eaca6c085eb62376a9efdc981d85d676",
+      "rodata_vaddr": "0xe6bf960"
+    },
+    {
+      "path": "extracted-assets/runtime-templates/tui-tips.toml",
+      "bytes": 3526,
+      "sha256": "3ef93a44619771d58fc6862a920ee0e60428b8be9d5818a4c49e6ee6e942b0ac",
+      "rodata_vaddr": "0xe9dcaae"
+    },
+    {
+      "path": "extracted-assets/runtime-templates/macos-launchd-plists/ada.plist",
+      "bytes": 2094,
+      "sha256": "f84b321710536ba26d9f16500d446031c6439f640e9c29bf3a1a96e97991c1e8",
+      "rodata_vaddr": "0xe9e4293"
+    },
+    {
+      "path": "extracted-assets/runtime-templates/macos-launchd-plists/babbage.plist",
+      "bytes": 2098,
+      "sha256": "c667c1eeeca5a414e28be32e0d5d47e00dc863f35427fd06b505011226c5579d",
+      "rodata_vaddr": "0xe9e4ac8"
+    },
+    {
+      "path": "extracted-assets/runtime-templates/macos-launchd-plists/curie.plist",
+      "bytes": 2096,
+      "sha256": "97dcf279d8bc751d86d4a198c9e56d0f4f68a577a746ece2e51d662434c849a3",
+      "rodata_vaddr": "0xe9e52ff"
+    },
+    {
+      "path": "extracted-assets/runtime-templates/macos-launchd-plists/cushman.plist",
+      "bytes": 2098,
+      "sha256": "8f552ded9d48ba8b18a4596440b1714b1b6ce76235b46157c095b4719734f3a4",
+      "rodata_vaddr": "0xe9e5b36"
+    },
+    {
+      "path": "extracted-assets/runtime-templates/macos-launchd-plists/dali.plist",
+      "bytes": 2099,
+      "sha256": "1abc98853ff0d78b1edb9f8233f2671b3a3b9ebe989f08d235f5bc56b29ff821",
+      "rodata_vaddr": "0xe9e6368"
+    },
+    {
+      "path": "extracted-assets/runtime-templates/macos-launchd-plists/davinci.plist",
+      "bytes": 2102,
+      "sha256": "7da241a85fee4ee5c60efcac20e45dc7f140544ea7ea7e657a7edd4d98d8fc82",
+      "rodata_vaddr": "0xe9e6ba2"
+    },
+    {
+      "path": "extracted-assets/runtime-templates/v8-promise-combinators.js",
+      "bytes": 1861,
+      "sha256": "d9b3f5dca7034d36ce23c9684749b5caf1f0f91f63b2ecfd43ae754ce1227a18",
+      "rodata_vaddr": "0x2f98b48 (codex-code-mode-host)"
+    },
+    {
+      "path": "schemas/sqlite-migrations.json",
+      "bytes": 32103,
+      "sha256": "24102f8c64a8bcab659546af9bc6336f410af2d9796d9be59bdcfa97abd8fff0"
+    },
+    {
+      "path": "schemas/app-server-rpc-methods.json",
+      "bytes": 22231,
+      "sha256": "9098263dea19e2c6dba5170157671f6b5189ff78f7477d9adb3898c298e6b774"
+    },
+    {
+      "path": "schemas/feature-flags.json",
+      "bytes": 16801,
+      "sha256": "3cc31087a1ce2dc79b7357df21ff823cbc02020544808642bce8431c94a78138"
+    },
+    {
+      "path": "schemas/env-vars.json",
+      "bytes": 1473,
+      "sha256": "d0d0364ef8a357fbf7e085c3d22f757224361aa68fc0b17886928d231629b0ba"
+    },
+    {
+      "path": "schemas/voice-host-symbols.json",
+      "bytes": 86953,
+      "sha256": "e99c4333f552e03af310e75e26488b30e819e95a5fcd998695d46c3dbedf9236"
+    },
+    {
+      "path": "crate-map.json",
+      "bytes": 225077,
+      "sha256": "d0263d2eaf7f74af27bcda7dd067175bae2626ed769df3815707c61297b3ca71"
+    }
+  ]
+}

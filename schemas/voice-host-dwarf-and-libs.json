@@ -1,0 +1,2352 @@
+{
+  "voice_host_binary": "/usr/local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-resources/voice/bin/codex-voice-host",
+  "voice_host_size_bytes": 65039440,
+  "voice_host_sha256": "f0e6d22a2f5f3f838ac3b214ba1a119b5ef94e98dc50e3feac4e7d6e8e835f2c",
+  "dwarf_compilation_unit_count": 250,
+  "dwarf_compilation_units": [
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.00",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.12",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.05",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.09",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.11",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.06",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.07",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.04",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.08",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.13",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.01",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.02",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.01",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.09",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.12",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.06",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.11",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.07",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.13",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.05",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.04",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.08",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.03",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.02",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.12",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.09",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.11",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.08",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.01",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.13",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.07",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.05",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.06",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.03",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.09",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.07",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.13",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.12",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.11",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.05",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.06",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.04",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.11",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.03",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.12",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.01",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.07",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.06",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.09",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.05",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.05",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.04",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.13",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.08",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.09",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.06",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.11",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.12",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.06",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.05",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.13",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.11",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.09",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.07",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.08",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.07",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.01",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.11",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.13",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.05",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.12",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.03",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.04",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.08",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.09",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.06",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.08",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.09",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.01",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.04",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.11",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.07",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.13",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.09",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.05",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.08",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.04",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.07",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.11",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.09",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.07",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.05",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.04",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.06",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.13",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.12",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.01",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.08",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.11",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.09",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.12",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.07",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.13",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.05",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.12",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.01",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.09",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.11",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.04",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.05",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.07",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.13",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.06",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.08",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.13",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.08",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.06",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.05",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.09",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.07",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.11",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.04",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.12",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.01",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.09",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.13",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.08",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.06",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.11",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.04",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.05",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.12",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.07",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.09",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.06",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.05",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.11",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.04",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/voice-host/src/main.rs/@/codex_voice_host.ca9c6563a7151343-cgu.08",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/process-hardening/src/lib.rs/@/codex_process_hardening.4fec416bbd55ee26-cgu.0",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "external/rules_rs++crate+crates__gstreamer-app-0.25.2/src/lib.rs/@/gstreamer_app.78b09a8c8df51186-cgu.2",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "external/rules_rs++crate+crates__gstreamer-app-0.25.2/src/lib.rs/@/gstreamer_app.78b09a8c8df51186-cgu.0",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "external/rules_rs++crate+crates__gstreamer-app-0.25.2/src/lib.rs/@/gstreamer_app.78b09a8c8df51186-cgu.0",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "external/rules_rs++crate+crates__gstreamer-app-0.25.2/src/lib.rs/@/gstreamer_app.78b09a8c8df51186-cgu.4",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "external/rules_rs++crate+crates__gstreamer-app-0.25.2/src/lib.rs/@/gstreamer_app.78b09a8c8df51186-cgu.2",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "external/rules_rs++crate+crates__gstreamer-app-0.25.2/src/lib.rs/@/gstreamer_app.78b09a8c8df51186-cgu.0",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "external/rules_rs++crate+crates__opus-0.4.0/src/lib.rs/@/opus.fad405fde77916ba-cgu.0",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "external/rules_rs++crate+crates__rand-0.9.3/src/lib.rs/@/rand.54fd5005b3ead5df-cgu.0",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "external/rules_rs++crate+crates__rand-0.9.3/src/lib.rs/@/rand.54fd5005b3ead5df-cgu.1",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "external/rules_rs++crate+crates__rand-0.9.3/src/lib.rs/@/rand.54fd5005b3ead5df-cgu.1",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "external/rules_rs++crate+crates__rand-0.9.3/src/lib.rs/@/rand.54fd5005b3ead5df-cgu.0",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "external/rules_rs++crate+crates__rand_chacha-0.9.0/src/lib.rs/@/rand_chacha.ebcd6ed700fa8ea9-cgu.0",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "external/rules_rs++crate+crates__libloading-0.8.9/src/lib.rs/@/libloading.f9ce7947f8bc79aa-cgu.0",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.02",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.06",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.01",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.08",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.01",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.04",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.02",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.06",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.08",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.11",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.09",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.04",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.08",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.13",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.11",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.09",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.02",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.06",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.07",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.01",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.06",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.11",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.07",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.13",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.04",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.12",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.08",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.02",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.05",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.05",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.03",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.14",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.12",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.06",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.13",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.05",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.08",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.15",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.07",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.10",
+      "comp_dir": "."
+    },
+    {
+      "producer": "clang LLVM (rustc version 1.95.0 (59807616e 2026-04-14))",
+      "name": "codex-rs/realtime-webrtc/src/lib.rs/@/codex_realtime_webrtc.5a77cde0d785add9-cgu.02",
+      "comp_dir": "."
+    }
+  ],
+  "dwarf_recovered_types_and_subprograms": [
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "PeerConnection>>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "AudioTrack>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "PeerConnectionEventHandler>>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "EncodedAudio>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "PipelineContext>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCIceTransport>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "IceHandlerContext>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCIceCandidateInit>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "AudioPlayoutStatsAccumulator)>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "AudioPlayoutStatsAccumulator), false>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCIceCandidateInit]>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCIceServer>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCIceServer]>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "PeerConnectionDriverEvent>>>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "PeerConnectionDriverEvent>>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "Pipeline>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "VoiceRuntime>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "VoiceRuntime>>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "AudioTrack), &str>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCIceServer>>>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCIceServer>>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCIceTransportPolicy)>>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCIceTransportPolicy)>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCPeerConnectionIceErrorEvent>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCPeerConnectionEvent>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "PeerConnectionDriverEvent>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCIceCandidate>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCPeerConnectionIceEvent>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCIceTransportPolicy>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCIceGatheringState>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCPeerConnectionEvent]>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCIceParameters>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCSdpType>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "PopulateSdpParams>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCIceProtocol>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "RTCIceCandidate]>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "PeerConnectionDriverEvent>]>"
+    },
+    {
+      "tag": "DW_TAG_subprogram",
+      "name": "PeerConnection>"
+    }
+  ],
+  "bundled_shared_library_count": 26,
+  "bundled_shared_libraries": [
+    {
+      "relative_path": "gstreamer-1.0/libgstapp.so",
+      "size_bytes": 6488,
+      "sha256": "99b140b80907d70a93733c53de71d6dc730ae50fdec7ffcd00643a2f5c549ee2",
+      "soname": "libgstapp.so",
+      "needed_libraries": [
+        "libgstapp-1.0.so.0",
+        "libgsttag-1.0.so.0",
+        "libgstbase-1.0.so.0",
+        "libgstreamer-1.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libintl.so.8",
+        "libm.so.6",
+        "libz.so.1",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 2,
+      "exported_symbols_sample": [
+        "gst_plugin_app_get_desc",
+        "gst_plugin_app_register"
+      ]
+    },
+    {
+      "relative_path": "gstreamer-1.0/libgstaudioconvert.so",
+      "size_bytes": 40928,
+      "sha256": "8a1510643b6ecaabd05095495c854c2669f88f978fd917bb5a371df239148c77",
+      "soname": "libgstaudioconvert.so",
+      "needed_libraries": [
+        "libgstaudio-1.0.so.0",
+        "libgsttag-1.0.so.0",
+        "libgstbase-1.0.so.0",
+        "libgstreamer-1.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libintl.so.8",
+        "libm.so.6",
+        "libz.so.1",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 2,
+      "exported_symbols_sample": [
+        "gst_plugin_audioconvert_get_desc",
+        "gst_plugin_audioconvert_register"
+      ]
+    },
+    {
+      "relative_path": "gstreamer-1.0/libgstaudioresample.so",
+      "size_bytes": 35120,
+      "sha256": "71b1bd5ae148aeb2d45f276784d5a85b3218c1dd26a1dea7e5580e8357c0bac0",
+      "soname": "libgstaudioresample.so",
+      "needed_libraries": [
+        "libgstaudio-1.0.so.0",
+        "libgsttag-1.0.so.0",
+        "libgstbase-1.0.so.0",
+        "libgstreamer-1.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libintl.so.8",
+        "libm.so.6",
+        "libz.so.1",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 2,
+      "exported_symbols_sample": [
+        "gst_plugin_audioresample_get_desc",
+        "gst_plugin_audioresample_register"
+      ]
+    },
+    {
+      "relative_path": "gstreamer-1.0/libgstcoreelements.so",
+      "size_bytes": 473176,
+      "sha256": "c892c8c93476abab014fd489c8c4ddcafef54320a123612b8d6d7f4c9ed9f933",
+      "soname": "libgstcoreelements.so",
+      "needed_libraries": [
+        "libpthread.so.0",
+        "libgstreamer-1.0.so.0",
+        "libgstbase-1.0.so.0",
+        "libglib-2.0.so.0",
+        "libintl.so.8",
+        "libgobject-2.0.so.0",
+        "libgmodule-2.0.so.0",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 2,
+      "exported_symbols_sample": [
+        "gst_plugin_coreelements_get_desc",
+        "gst_plugin_coreelements_register"
+      ]
+    },
+    {
+      "relative_path": "gstreamer-1.0/libgstopus.so",
+      "size_bytes": 71992,
+      "sha256": "59dc577caad94a651ac01867cfabda82c36a8866e3a9c463f1e8999ec704fb1d",
+      "soname": "libgstopus.so",
+      "needed_libraries": [
+        "libgstpbutils-1.0.so.0",
+        "libgstvideo-1.0.so.0",
+        "libgstallocators-1.0.so.0",
+        "libgstaudio-1.0.so.0",
+        "libgsttag-1.0.so.0",
+        "libgstreamer-1.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libintl.so.8",
+        "libgstbase-1.0.so.0",
+        "libm.so.6",
+        "libz.so.1",
+        "libopus.so.0",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 2,
+      "exported_symbols_sample": [
+        "gst_plugin_opus_get_desc",
+        "gst_plugin_opus_register"
+      ]
+    },
+    {
+      "relative_path": "gstreamer-1.0/libgstrtp.so",
+      "size_bytes": 739744,
+      "sha256": "a3b313d662fd28f8ca179ed11d5fd328ea93c40b963db9008801e49fae91aaff",
+      "soname": "libgstrtp.so",
+      "needed_libraries": [
+        "libgstbase-1.0.so.0",
+        "libgstreamer-1.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libintl.so.8",
+        "libgstaudio-1.0.so.0",
+        "libgstvideo-1.0.so.0",
+        "libgsttag-1.0.so.0",
+        "libgstrtp-1.0.so.0",
+        "libgstpbutils-1.0.so.0",
+        "libm.so.6",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 2,
+      "exported_symbols_sample": [
+        "gst_plugin_rtp_get_desc",
+        "gst_plugin_rtp_register"
+      ]
+    },
+    {
+      "relative_path": "gstreamer-1.0/libgstrtpmanager.so",
+      "size_bytes": 558104,
+      "sha256": "d6b40c2b56aa370078e59e24fcdd16a2bc3a6d582302a4f7d40065ad52247f01",
+      "soname": "libgstrtpmanager.so",
+      "needed_libraries": [
+        "libgstbase-1.0.so.0",
+        "libgstreamer-1.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libintl.so.8",
+        "libgstnet-1.0.so.0",
+        "libgstrtp-1.0.so.0",
+        "libgstaudio-1.0.so.0",
+        "libgio-2.0.so.0",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 2,
+      "exported_symbols_sample": [
+        "gst_plugin_rtpmanager_get_desc",
+        "gst_plugin_rtpmanager_register"
+      ]
+    },
+    {
+      "relative_path": "libffi.so.8",
+      "size_bytes": 63112,
+      "sha256": "6ef5db59b2e4b1eb63032fa6c8afb1669bc09b073789233c379efda85b1353db",
+      "soname": "libffi.so.8",
+      "needed_libraries": [
+        "libpthread.so.0",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 48,
+      "exported_symbols_sample": [
+        "ffi_call@@LIBFFI_BASE_8.0",
+        "ffi_call_go@@LIBFFI_GO_CLOSURE_8.0",
+        "ffi_call_plan_alloc@@LIBFFI_CALL_PLAN_8.4",
+        "ffi_call_plan_free@@LIBFFI_CALL_PLAN_8.4",
+        "ffi_call_plan_invoke@@LIBFFI_CALL_PLAN_8.4",
+        "ffi_call_plan_size@@LIBFFI_CALL_PLAN_8.5",
+        "ffi_closure_alloc@@LIBFFI_CLOSURE_8.0",
+        "ffi_closure_free@@LIBFFI_CLOSURE_8.0",
+        "ffi_get_closure_size@@LIBFFI_BASE_8.1",
+        "ffi_get_default_abi@@LIBFFI_BASE_8.1",
+        "ffi_get_struct_offsets@@LIBFFI_BASE_8.0",
+        "ffi_get_version@@LIBFFI_BASE_8.1",
+        "ffi_get_version_number@@LIBFFI_BASE_8.1",
+        "ffi_java_ptrarray_to_raw@@LIBFFI_BASE_8.0",
+        "ffi_java_raw_call@@LIBFFI_BASE_8.0",
+        "ffi_java_raw_size@@LIBFFI_BASE_8.0",
+        "ffi_java_raw_to_ptrarray@@LIBFFI_BASE_8.0",
+        "ffi_prep_cif@@LIBFFI_BASE_8.0",
+        "ffi_prep_cif_var@@LIBFFI_BASE_8.0",
+        "ffi_prep_closure@@LIBFFI_CLOSURE_8.0",
+        "ffi_prep_closure_loc@@LIBFFI_CLOSURE_8.0",
+        "ffi_prep_go_closure@@LIBFFI_GO_CLOSURE_8.0",
+        "ffi_prep_java_raw_closure@@LIBFFI_CLOSURE_8.0",
+        "ffi_prep_java_raw_closure_loc@@LIBFFI_CLOSURE_8.0",
+        "ffi_prep_raw_closure@@LIBFFI_CLOSURE_8.0"
+      ]
+    },
+    {
+      "relative_path": "libgio-2.0.so.0",
+      "size_bytes": 2307904,
+      "sha256": "98552e680dddc3d2b787a90134cd9aaf32b08fd71ac6169c24d6195a09e7688f",
+      "soname": "libgio-2.0.so.0",
+      "needed_libraries": [
+        "libpthread.so.0",
+        "libglib-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libgmodule-2.0.so.0",
+        "libz.so.1",
+        "libintl.so.8",
+        "libresolv.so.2",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 2152,
+      "exported_symbols_sample": [
+        "g_action_activate",
+        "g_action_change_state",
+        "g_action_get_enabled",
+        "g_action_get_name",
+        "g_action_get_parameter_type",
+        "g_action_get_state",
+        "g_action_get_state_hint",
+        "g_action_get_state_type",
+        "g_action_get_type",
+        "g_action_group_action_added",
+        "g_action_group_action_enabled_changed",
+        "g_action_group_action_removed",
+        "g_action_group_action_state_changed",
+        "g_action_group_activate_action",
+        "g_action_group_change_action_state",
+        "g_action_group_get_action_enabled",
+        "g_action_group_get_action_parameter_type",
+        "g_action_group_get_action_state",
+        "g_action_group_get_action_state_hint",
+        "g_action_group_get_action_state_type",
+        "g_action_group_get_type",
+        "g_action_group_has_action",
+        "g_action_group_list_actions",
+        "g_action_group_query_action",
+        "g_action_map_add_action"
+      ]
+    },
+    {
+      "relative_path": "libglib-2.0.so.0",
+      "size_bytes": 1480224,
+      "sha256": "1454a7358b8214d96c422cd96e1850ac443196174318ac5726d57f543e2af91b",
+      "soname": "libglib-2.0.so.0",
+      "needed_libraries": [
+        "libpthread.so.0",
+        "libintl.so.8",
+        "libm.so.6",
+        "libpcre2-8.so.0",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 1890,
+      "exported_symbols_sample": [
+        "g_access",
+        "g_aligned_alloc",
+        "g_aligned_alloc0",
+        "g_aligned_free",
+        "g_aligned_free_sized",
+        "g_allocator_free",
+        "g_allocator_new",
+        "g_array_append_vals",
+        "g_array_binary_search",
+        "g_array_copy",
+        "g_array_free",
+        "g_array_get_element_size",
+        "g_array_insert_vals",
+        "g_array_new",
+        "g_array_new_take",
+        "g_array_new_take_zero_terminated",
+        "g_array_prepend_vals",
+        "g_array_ref",
+        "g_array_remove_index",
+        "g_array_remove_index_fast",
+        "g_array_remove_range",
+        "g_array_set_clear_func",
+        "g_array_set_size",
+        "g_array_sized_new",
+        "g_array_sort"
+      ]
+    },
+    {
+      "relative_path": "libgmodule-2.0.so.0",
+      "size_bytes": 15656,
+      "sha256": "a6ee483ceb297c982e33b2ec423e1bc3bd6edf12299d73a782badae491b900a4",
+      "soname": "libgmodule-2.0.so.0",
+      "needed_libraries": [
+        "libpthread.so.0",
+        "libdl.so.2",
+        "libglib-2.0.so.0",
+        "libintl.so.8",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 10,
+      "exported_symbols_sample": [
+        "g_module_build_path",
+        "g_module_close",
+        "g_module_error",
+        "g_module_error_quark",
+        "g_module_make_resident",
+        "g_module_name",
+        "g_module_open",
+        "g_module_open_full",
+        "g_module_supported",
+        "g_module_symbol"
+      ]
+    },
+    {
+      "relative_path": "libgobject-2.0.so.0",
+      "size_bytes": 449600,
+      "sha256": "abac8b58013a7c8b5d85a5a1de0d48d3b1071e6d8fee0c05e52c97da121fb3a0",
+      "soname": "libgobject-2.0.so.0",
+      "needed_libraries": [
+        "libglib-2.0.so.0",
+        "libffi.so.8",
+        "libintl.so.8",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 480,
+      "exported_symbols_sample": [
+        "g_array_get_type",
+        "g_binding_dup_source",
+        "g_binding_dup_target",
+        "g_binding_flags_get_type",
+        "g_binding_get_flags",
+        "g_binding_get_source",
+        "g_binding_get_source_property",
+        "g_binding_get_target",
+        "g_binding_get_target_property",
+        "g_binding_get_type",
+        "g_binding_group_bind",
+        "g_binding_group_bind_full",
+        "g_binding_group_bind_with_closures",
+        "g_binding_group_dup_source",
+        "g_binding_group_get_type",
+        "g_binding_group_new",
+        "g_binding_group_set_source",
+        "g_binding_unbind",
+        "g_bookmark_file_get_type",
+        "g_boxed_copy",
+        "g_boxed_free",
+        "g_boxed_type_register_static",
+        "g_byte_array_get_type",
+        "g_bytes_get_type",
+        "g_cclosure_marshal_BOOLEAN__BOXED_BOXED"
+      ]
+    },
+    {
+      "relative_path": "libgstallocators-1.0.so.0",
+      "size_bytes": 30128,
+      "sha256": "e2dda36281736a343fef03e24aeb57d133fa3ea9ec16f501d4fa0d4e807c9a69",
+      "soname": "libgstallocators-1.0.so.0",
+      "needed_libraries": [
+        "libpthread.so.0",
+        "libgstreamer-1.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libintl.so.8",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 29,
+      "exported_symbols_sample": [
+        "gst_dmabuf_allocator_alloc",
+        "gst_dmabuf_allocator_alloc_with_flags",
+        "gst_dmabuf_allocator_get_type",
+        "gst_dmabuf_allocator_new",
+        "gst_dmabuf_memory_get_fd",
+        "gst_drm_dumb_allocator_alloc",
+        "gst_drm_dumb_allocator_get_type",
+        "gst_drm_dumb_allocator_has_prime_export",
+        "gst_drm_dumb_allocator_new_with_device_path",
+        "gst_drm_dumb_allocator_new_with_fd",
+        "gst_drm_dumb_memory_export_dmabuf",
+        "gst_drm_dumb_memory_get_handle",
+        "gst_fd_allocator_alloc",
+        "gst_fd_allocator_alloc_full",
+        "gst_fd_allocator_get_type",
+        "gst_fd_allocator_new",
+        "gst_fd_memory_get_fd",
+        "gst_is_dmabuf_memory",
+        "gst_is_drm_dumb_memory",
+        "gst_is_fd_memory",
+        "gst_is_phys_memory",
+        "gst_phys_memory_allocator_get_type",
+        "gst_phys_memory_get_phys_addr",
+        "gst_shm_allocator_get",
+        "gst_shm_allocator_get_type"
+      ]
+    },
+    {
+      "relative_path": "libgstapp-1.0.so.0",
+      "size_bytes": 105200,
+      "sha256": "24bab83165e8c91103dcfe93fde6d0a8699357fa19aa048879b9d568eb64523d",
+      "soname": "libgstapp-1.0.so.0",
+      "needed_libraries": [
+        "libpthread.so.0",
+        "libgstbase-1.0.so.0",
+        "libgstreamer-1.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libintl.so.8",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 79,
+      "exported_symbols_sample": [
+        "gst_app_leaky_type_get_type",
+        "gst_app_sink_get_buffer_list_support",
+        "gst_app_sink_get_caps",
+        "gst_app_sink_get_current_level_buffers",
+        "gst_app_sink_get_current_level_bytes",
+        "gst_app_sink_get_current_level_time",
+        "gst_app_sink_get_drop",
+        "gst_app_sink_get_emit_signals",
+        "gst_app_sink_get_leaky_type",
+        "gst_app_sink_get_max_buffers",
+        "gst_app_sink_get_max_bytes",
+        "gst_app_sink_get_max_time",
+        "gst_app_sink_get_type",
+        "gst_app_sink_get_wait_on_eos",
+        "gst_app_sink_is_eos",
+        "gst_app_sink_pull_object",
+        "gst_app_sink_pull_preroll",
+        "gst_app_sink_pull_sample",
+        "gst_app_sink_set_buffer_list_support",
+        "gst_app_sink_set_callbacks",
+        "gst_app_sink_set_caps",
+        "gst_app_sink_set_drop",
+        "gst_app_sink_set_emit_signals",
+        "gst_app_sink_set_leaky_type",
+        "gst_app_sink_set_max_buffers"
+      ]
+    },
+    {
+      "relative_path": "libgstaudio-1.0.so.0",
+      "size_bytes": 597832,
+      "sha256": "c97b764a8250fcea66d30748c8dc9b07399418246a4aa73c929ef97c9e2f63f4",
+      "soname": "libgstaudio-1.0.so.0",
+      "needed_libraries": [
+        "libpthread.so.0",
+        "libgsttag-1.0.so.0",
+        "libgstreamer-1.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libintl.so.8",
+        "libgstbase-1.0.so.0",
+        "libm.so.6",
+        "libz.so.1",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 279,
+      "exported_symbols_sample": [
+        "gst_audio_aggregator_convert_pad_get_type",
+        "gst_audio_aggregator_get_type",
+        "gst_audio_aggregator_pad_get_type",
+        "gst_audio_aggregator_set_sink_caps",
+        "gst_audio_base_sink_create_ringbuffer",
+        "gst_audio_base_sink_discont_reason_get_type",
+        "gst_audio_base_sink_get_alignment_threshold",
+        "gst_audio_base_sink_get_discont_wait",
+        "gst_audio_base_sink_get_drift_tolerance",
+        "gst_audio_base_sink_get_provide_clock",
+        "gst_audio_base_sink_get_slave_method",
+        "gst_audio_base_sink_get_type",
+        "gst_audio_base_sink_report_device_failure",
+        "gst_audio_base_sink_set_alignment_threshold",
+        "gst_audio_base_sink_set_custom_slaving_callback",
+        "gst_audio_base_sink_set_discont_wait",
+        "gst_audio_base_sink_set_drift_tolerance",
+        "gst_audio_base_sink_set_provide_clock",
+        "gst_audio_base_sink_set_slave_method",
+        "gst_audio_base_sink_slave_method_get_type",
+        "gst_audio_base_src_create_ringbuffer",
+        "gst_audio_base_src_get_provide_clock",
+        "gst_audio_base_src_get_slave_method",
+        "gst_audio_base_src_get_type",
+        "gst_audio_base_src_set_provide_clock"
+      ]
+    },
+    {
+      "relative_path": "libgstbase-1.0.so.0",
+      "size_bytes": 564592,
+      "sha256": "95e7daa2acf3601381f5fc1db3ae538a134a560db96c3975bb297ae9f4b8ca89",
+      "soname": "libgstbase-1.0.so.0",
+      "needed_libraries": [
+        "libpthread.so.0",
+        "libgstreamer-1.0.so.0",
+        "libglib-2.0.so.0",
+        "libintl.so.8",
+        "libgobject-2.0.so.0",
+        "libgmodule-2.0.so.0",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 385,
+      "exported_symbols_sample": [
+        "gst_adapter_available",
+        "gst_adapter_available_fast",
+        "gst_adapter_clear",
+        "gst_adapter_copy",
+        "gst_adapter_copy_bytes",
+        "gst_adapter_distance_from_discont",
+        "gst_adapter_dts_at_discont",
+        "gst_adapter_flush",
+        "gst_adapter_get_buffer",
+        "gst_adapter_get_buffer_fast",
+        "gst_adapter_get_buffer_list",
+        "gst_adapter_get_list",
+        "gst_adapter_get_type",
+        "gst_adapter_map",
+        "gst_adapter_masked_scan_uint32",
+        "gst_adapter_masked_scan_uint32_peek",
+        "gst_adapter_new",
+        "gst_adapter_offset_at_discont",
+        "gst_adapter_prev_dts",
+        "gst_adapter_prev_dts_at_offset",
+        "gst_adapter_prev_offset",
+        "gst_adapter_prev_pts",
+        "gst_adapter_prev_pts_at_offset",
+        "gst_adapter_pts_at_discont",
+        "gst_adapter_push"
+      ]
+    },
+    {
+      "relative_path": "libgstnet-1.0.so.0",
+      "size_bytes": 73856,
+      "sha256": "2a7de504b29620a45474245c31dcf073d1d8552be97a00dd5b84b1231a6da9f3",
+      "soname": "libgstnet-1.0.so.0",
+      "needed_libraries": [
+        "libpthread.so.0",
+        "libgstbase-1.0.so.0",
+        "libgstreamer-1.0.so.0",
+        "libgio-2.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libintl.so.8",
+        "libgmodule-2.0.so.0",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 31,
+      "exported_symbols_sample": [
+        "gst_buffer_add_net_address_meta",
+        "gst_buffer_add_net_control_message_meta",
+        "gst_buffer_get_net_address_meta",
+        "gst_net_address_meta_api_get_type",
+        "gst_net_address_meta_get_info",
+        "gst_net_client_clock_deinit",
+        "gst_net_client_clock_get_type",
+        "gst_net_client_clock_new",
+        "gst_net_control_message_meta_api_get_type",
+        "gst_net_control_message_meta_get_info",
+        "gst_net_time_packet_copy",
+        "gst_net_time_packet_free",
+        "gst_net_time_packet_get_type",
+        "gst_net_time_packet_new",
+        "gst_net_time_packet_receive",
+        "gst_net_time_packet_send",
+        "gst_net_time_packet_serialize",
+        "gst_net_time_provider_get_type",
+        "gst_net_time_provider_new",
+        "gst_net_utils_set_socket_tos",
+        "gst_ntp_clock_get_type",
+        "gst_ntp_clock_new",
+        "gst_ptp_clock_get_type",
+        "gst_ptp_clock_new",
+        "gst_ptp_deinit"
+      ]
+    },
+    {
+      "relative_path": "libgstpbutils-1.0.so.0",
+      "size_bytes": 316576,
+      "sha256": "e519d2ae58143819d2ff0397f3729b4e210a75a9e79ffcf90c332108beebe8ae",
+      "soname": "libgstpbutils-1.0.so.0",
+      "needed_libraries": [
+        "libpthread.so.0",
+        "libgstvideo-1.0.so.0",
+        "libgstallocators-1.0.so.0",
+        "libgstaudio-1.0.so.0",
+        "libgsttag-1.0.so.0",
+        "libgstreamer-1.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libintl.so.8",
+        "libgstbase-1.0.so.0",
+        "libm.so.6",
+        "libz.so.1",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 204,
+      "exported_symbols_sample": [
+        "gst_audio_visualizer_get_type",
+        "gst_audio_visualizer_shader_get_type",
+        "gst_codec_utils_aac_caps_set_level_and_profile",
+        "gst_codec_utils_aac_get_channels",
+        "gst_codec_utils_aac_get_index_from_sample_rate",
+        "gst_codec_utils_aac_get_level",
+        "gst_codec_utils_aac_get_profile",
+        "gst_codec_utils_aac_get_sample_rate",
+        "gst_codec_utils_aac_get_sample_rate_from_index",
+        "gst_codec_utils_av1_create_av1c_from_caps",
+        "gst_codec_utils_av1_create_caps_from_av1c",
+        "gst_codec_utils_av1_get_level",
+        "gst_codec_utils_av1_get_seq_level_idx",
+        "gst_codec_utils_caps_from_mime_codec",
+        "gst_codec_utils_caps_get_mime_codec",
+        "gst_codec_utils_h264_caps_set_level_and_profile",
+        "gst_codec_utils_h264_get_level",
+        "gst_codec_utils_h264_get_level_idc",
+        "gst_codec_utils_h264_get_profile",
+        "gst_codec_utils_h264_get_profile_flags_level",
+        "gst_codec_utils_h265_caps_set_level_tier_and_profile",
+        "gst_codec_utils_h265_get_level",
+        "gst_codec_utils_h265_get_level_idc",
+        "gst_codec_utils_h265_get_profile",
+        "gst_codec_utils_h265_get_tier"
+      ]
+    },
+    {
+      "relative_path": "libgstreamer-1.0.so.0",
+      "size_bytes": 1548568,
+      "sha256": "0987a1c0773d4f821b29a331ef191e75c4e632a604a4ce95e4aae889495fcd97",
+      "soname": "libgstreamer-1.0.so.0",
+      "needed_libraries": [
+        "libpthread.so.0",
+        "libdl.so.2",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libintl.so.8",
+        "libgmodule-2.0.so.0",
+        "libm.so.6",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 2056,
+      "exported_symbols_sample": [
+        "gst_allocation_params_copy",
+        "gst_allocation_params_free",
+        "gst_allocation_params_get_type",
+        "gst_allocation_params_init",
+        "gst_allocation_params_new",
+        "gst_allocator_alloc",
+        "gst_allocator_find",
+        "gst_allocator_flags_get_type",
+        "gst_allocator_free",
+        "gst_allocator_get_type",
+        "gst_allocator_register",
+        "gst_allocator_set_default",
+        "gst_atomic_queue_get_type",
+        "gst_atomic_queue_length",
+        "gst_atomic_queue_new",
+        "gst_atomic_queue_peek",
+        "gst_atomic_queue_pop",
+        "gst_atomic_queue_push",
+        "gst_atomic_queue_ref",
+        "gst_atomic_queue_unref",
+        "gst_bin_add",
+        "gst_bin_add_many",
+        "gst_bin_find_unlinked_pad",
+        "gst_bin_flags_get_type",
+        "gst_bin_get_by_interface"
+      ]
+    },
+    {
+      "relative_path": "libgstrtp-1.0.so.0",
+      "size_bytes": 209200,
+      "sha256": "e9a3ca31710729065e48f7fbf5a7a6dd53d3235e382967b0c62306a164f757c2",
+      "soname": "libgstrtp-1.0.so.0",
+      "needed_libraries": [
+        "libpthread.so.0",
+        "libgstaudio-1.0.so.0",
+        "libgsttag-1.0.so.0",
+        "libgstbase-1.0.so.0",
+        "libgstreamer-1.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libintl.so.8",
+        "libm.so.6",
+        "libz.so.1",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 216,
+      "exported_symbols_sample": [
+        "gst_buffer_add_rtp_source_meta",
+        "gst_buffer_get_rtp_source_meta",
+        "gst_rtcp_buffer_add_packet",
+        "gst_rtcp_buffer_get_first_packet",
+        "gst_rtcp_buffer_get_packet_count",
+        "gst_rtcp_buffer_map",
+        "gst_rtcp_buffer_new",
+        "gst_rtcp_buffer_new_copy_data",
+        "gst_rtcp_buffer_new_take_data",
+        "gst_rtcp_buffer_unmap",
+        "gst_rtcp_buffer_validate",
+        "gst_rtcp_buffer_validate_data",
+        "gst_rtcp_buffer_validate_data_reduced",
+        "gst_rtcp_buffer_validate_reduced",
+        "gst_rtcpfb_type_get_type",
+        "gst_rtcp_ntp_to_unix",
+        "gst_rtcp_packet_add_profile_specific_ext",
+        "gst_rtcp_packet_add_rb",
+        "gst_rtcp_packet_app_get_data",
+        "gst_rtcp_packet_app_get_data_length",
+        "gst_rtcp_packet_app_get_name",
+        "gst_rtcp_packet_app_get_ssrc",
+        "gst_rtcp_packet_app_get_subtype",
+        "gst_rtcp_packet_app_set_data_length",
+        "gst_rtcp_packet_app_set_name"
+      ]
+    },
+    {
+      "relative_path": "libgsttag-1.0.so.0",
+      "size_bytes": 268280,
+      "sha256": "24f400c74cbef3386fca4fa3b0ef6f1d39fc816dc2a5dfc6c3d020fcb2c977df",
+      "soname": "libgsttag-1.0.so.0",
+      "needed_libraries": [
+        "libgstbase-1.0.so.0",
+        "libgstreamer-1.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libintl.so.8",
+        "libm.so.6",
+        "libz.so.1",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 52,
+      "exported_symbols_sample": [
+        "gst_tag_check_language_code",
+        "gst_tag_demux_get_type",
+        "gst_tag_demux_result_get_type",
+        "gst_tag_freeform_string_to_utf8",
+        "gst_tag_from_id3_tag",
+        "gst_tag_from_id3_user_tag",
+        "gst_tag_from_vorbis_tag",
+        "gst_tag_get_id3v2_tag_size",
+        "gst_tag_get_language_code_iso_639_1",
+        "gst_tag_get_language_code_iso_639_2B",
+        "gst_tag_get_language_code_iso_639_2T",
+        "gst_tag_get_language_codes",
+        "gst_tag_get_language_name",
+        "gst_tag_get_license_description",
+        "gst_tag_get_license_flags",
+        "gst_tag_get_license_jurisdiction",
+        "gst_tag_get_license_nick",
+        "gst_tag_get_licenses",
+        "gst_tag_get_license_title",
+        "gst_tag_get_license_version",
+        "gst_tag_id3_genre_count",
+        "gst_tag_id3_genre_get",
+        "gst_tag_image_data_to_image_sample",
+        "gst_tag_image_type_get_type",
+        "gst_tag_license_flags_get_type"
+      ]
+    },
+    {
+      "relative_path": "libgstvideo-1.0.so.0",
+      "size_bytes": 975136,
+      "sha256": "1e16a7c3d8e8b37f12e40a08a572bd19232cd4e9f278dcac72493037d092c4cc",
+      "soname": "libgstvideo-1.0.so.0",
+      "needed_libraries": [
+        "libgstallocators-1.0.so.0",
+        "libgstreamer-1.0.so.0",
+        "libgobject-2.0.so.0",
+        "libglib-2.0.so.0",
+        "libintl.so.8",
+        "libgstbase-1.0.so.0",
+        "libm.so.6",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 494,
+      "exported_symbols_sample": [
+        "gst_ancillary_meta_api_get_type",
+        "gst_ancillary_meta_field_get_type",
+        "gst_ancillary_meta_get_info",
+        "gst_buffer_add_ancillary_meta",
+        "gst_buffer_add_video_afd_meta",
+        "gst_buffer_add_video_affine_transformation_meta",
+        "gst_buffer_add_video_bar_meta",
+        "gst_buffer_add_video_caption_meta",
+        "gst_buffer_add_video_codec_alpha_meta",
+        "gst_buffer_add_video_gl_texture_upload_meta",
+        "gst_buffer_add_video_meta",
+        "gst_buffer_add_video_meta_full",
+        "gst_buffer_add_video_overlay_composition_meta",
+        "gst_buffer_add_video_region_of_interest_meta",
+        "gst_buffer_add_video_region_of_interest_meta_id",
+        "gst_buffer_add_video_sei_user_data_unregistered_meta",
+        "gst_buffer_add_video_time_code_meta",
+        "gst_buffer_add_video_time_code_meta_full",
+        "gst_buffer_get_video_meta",
+        "gst_buffer_get_video_meta_id",
+        "gst_buffer_get_video_region_of_interest_meta_id",
+        "gst_buffer_pool_config_get_video_alignment",
+        "gst_buffer_pool_config_set_video_alignment",
+        "gst_color_balance_channel_get_type",
+        "gst_color_balance_get_balance_type"
+      ]
+    },
+    {
+      "relative_path": "libintl.so.8",
+      "size_bytes": 6288,
+      "sha256": "f50f3ab34be7b3392f2db82bd67d50e133b35fa41d352dc3b3a97b70b0ffd960",
+      "soname": "libintl.so.8",
+      "needed_libraries": [
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 11,
+      "exported_symbols_sample": [
+        "g_libintl_bindtextdomain",
+        "g_libintl_bind_textdomain_codeset",
+        "g_libintl_dcgettext",
+        "g_libintl_dcngettext",
+        "g_libintl_dgettext",
+        "g_libintl_dngettext",
+        "g_libintl_gettext",
+        "g_libintl_ngettext",
+        "g_libintl_textdomain",
+        "_nl_msg_cat_cntr",
+        "_proxy_libintl_deinit"
+      ]
+    },
+    {
+      "relative_path": "libopus.so.0",
+      "size_bytes": 565744,
+      "sha256": "1fe4d27a500e6997922cde8299c1622ddc014de1ea5149326479fda68a64f8d3",
+      "soname": "libopus.so.0",
+      "needed_libraries": [
+        "libm.so.6",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 87,
+      "exported_symbols_sample": [
+        "opus_decode",
+        "opus_decode24",
+        "opus_decode_float",
+        "opus_decoder_create",
+        "opus_decoder_ctl",
+        "opus_decoder_destroy",
+        "opus_decoder_dred_decode",
+        "opus_decoder_dred_decode24",
+        "opus_decoder_dred_decode_float",
+        "opus_decoder_get_nb_samples",
+        "opus_decoder_get_size",
+        "opus_decoder_init",
+        "opus_dred_alloc",
+        "opus_dred_decoder_create",
+        "opus_dred_decoder_ctl",
+        "opus_dred_decoder_destroy",
+        "opus_dred_decoder_get_size",
+        "opus_dred_decoder_init",
+        "opus_dred_free",
+        "opus_dred_get_size",
+        "opus_dred_parse",
+        "opus_dred_process",
+        "opus_encode",
+        "opus_encode24",
+        "opus_encode_float"
+      ]
+    },
+    {
+      "relative_path": "libpcre2-8.so.0",
+      "size_bytes": 442424,
+      "sha256": "e39519b242f40686734ed8d0218f68cac24f0e956ec64c8c1b49b9da5cc9788b",
+      "soname": "libpcre2-8.so.0",
+      "needed_libraries": [
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 79,
+      "exported_symbols_sample": [
+        "pcre2_callout_enumerate_8",
+        "pcre2_code_copy_8",
+        "pcre2_code_copy_with_tables_8",
+        "pcre2_code_free_8",
+        "pcre2_compile_8",
+        "pcre2_compile_context_copy_8",
+        "pcre2_compile_context_create_8",
+        "pcre2_compile_context_free_8",
+        "pcre2_config_8",
+        "pcre2_convert_context_copy_8",
+        "pcre2_convert_context_create_8",
+        "pcre2_convert_context_free_8",
+        "pcre2_converted_pattern_free_8",
+        "pcre2_dfa_match_8",
+        "pcre2_general_context_copy_8",
+        "pcre2_general_context_create_8",
+        "pcre2_general_context_free_8",
+        "pcre2_get_error_message_8",
+        "pcre2_get_mark_8",
+        "pcre2_get_match_data_heapframes_size_8",
+        "pcre2_get_match_data_size_8",
+        "pcre2_get_ovector_count_8",
+        "pcre2_get_ovector_pointer_8",
+        "pcre2_get_startchar_8",
+        "pcre2_jit_compile_8"
+      ]
+    },
+    {
+      "relative_path": "libz.so.1",
+      "size_bytes": 109296,
+      "sha256": "6c5d765f42d9368cc4bdbd11f725c1bcf6b14b78322033d3c94f787fc6261f5e",
+      "soname": "libz.so.1",
+      "needed_libraries": [
+        "libpthread.so.0",
+        "libc.so.6"
+      ],
+      "exported_symbol_count": 95,
+      "exported_symbols_sample": [
+        "adler32",
+        "adler32_combine@@ZLIB_1.2.2",
+        "adler32_combine64@@ZLIB_1.2.3.3",
+        "adler32_z@@ZLIB_1.2.9",
+        "compress",
+        "compress2",
+        "compress2_z@@ZLIB_1.3.2",
+        "compressBound@@ZLIB_1.2.0",
+        "compressBound_z@@ZLIB_1.3.2",
+        "compress_z@@ZLIB_1.3.2",
+        "crc32",
+        "crc32_combine@@ZLIB_1.2.2",
+        "crc32_combine64@@ZLIB_1.2.3.3",
+        "crc32_combine_gen@@ZLIB_1.2.12",
+        "crc32_combine_gen64@@ZLIB_1.2.12",
+        "crc32_combine_op@@ZLIB_1.2.12",
+        "crc32_z@@ZLIB_1.2.9",
+        "deflate",
+        "deflateBound@@ZLIB_1.2.0",
+        "deflateBound_z@@ZLIB_1.3.2",
+        "deflateCopy",
+        "deflateEnd",
+        "deflateGetDictionary@@ZLIB_1.2.9",
+        "deflateInit_",
+        "deflateInit2_"
+      ]
+    }
+  ]
+}

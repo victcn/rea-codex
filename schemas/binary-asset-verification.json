@@ -1,0 +1,53 @@
+{
+  "verified_asset_regions": 6,
+  "regions": [
+    {
+      "name": "models.json (11 models incl. 3 hidden)",
+      "binary": "bin/codex",
+      "offset": "0xe833a82",
+      "length": 472071,
+      "sha256": "73a732ebcb05d2d8fae34c118312639d8a78a608db01efe57d9cb62045f6fb58",
+      "verified_header": "{\n  \"models\": [\n    {\n      \"slu"
+    },
+    {
+      "name": "app-server-protocol-stable.zst",
+      "binary": "bin/codex",
+      "offset": "0xe5c6d6f",
+      "length": 158034,
+      "sha256": "ed720775cdc264c7c5a930d582c56a27f5f8b18408187f783f93b9713ed40d48",
+      "verified_magic": "28b52ffd"
+    },
+    {
+      "name": "app-server-protocol-experimental.zst",
+      "binary": "bin/codex",
+      "offset": "0xe5ed6c1",
+      "length": 162901,
+      "sha256": "41d34da4227eadccf971272b9a02dfc6679e23a9992cce1d265ac01a20ab38e3",
+      "verified_magic": "28b52ffd"
+    },
+    {
+      "name": "Syntect ThemeSet (bincode + 32 zlib themes)",
+      "binary": "bin/codex",
+      "offset": "0xecd695e",
+      "length": 62593,
+      "sha256": "be28f0c1a167469c5bd1e5311d4d3503e6503b378791f2afb9e3e5f2f7f4642e",
+      "verified_magic": "2000000000000000"
+    },
+    {
+      "name": "Syntect SyntaxSet (bincode + 220 zlib syntaxes)",
+      "binary": "bin/codex",
+      "offset": "0xece5ddf",
+      "length": 983676,
+      "sha256": "8a99b1a494e79f13c919c30c8e32df65ac21aaf103fa7e0688770fcd99ee0f91",
+      "verified_magic": "dc00000000000000"
+    },
+    {
+      "name": "V8 Startup Snapshot Blob",
+      "binary": "bin/codex-code-mode-host",
+      "offset": "0x2fb1980",
+      "length": 10822192,
+      "sha256": "1cf67874b5a87a8363a86fb3f81e3cbbed54d389062dab8fb52308d5cf8c8612",
+      "verified_magic": "9000da27"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# Local isolated runtime environments
+/.isolated-env/
+/.codex/
+/.claude/
+
+# Build & runtime caches
+/node_modules/
+/target/
+/dist/
+__pycache__/
+*.pyc
+*.pyo
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Secrets & local env overrides
+.env
+.env.*
+!.env.example
+
+# Temporary & log files
+*.log
+*.tmp
+/tmp/

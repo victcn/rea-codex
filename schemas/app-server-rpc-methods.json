@@ -1,0 +1,927 @@
+[
+  {
+    "relro_vaddr": "0x114b7d78",
+    "rodata_vaddr": "0xe623f53",
+    "method_or_event": "initialize"
+  },
+  {
+    "relro_vaddr": "0x114b7d88",
+    "rodata_vaddr": "0xe620ecb",
+    "method_or_event": "server/diagnostics"
+  },
+  {
+    "relro_vaddr": "0x114b7d98",
+    "rodata_vaddr": "0xe620edd",
+    "method_or_event": "userVerification/status"
+  },
+  {
+    "relro_vaddr": "0x114b7da8",
+    "rodata_vaddr": "0xe620ef4",
+    "method_or_event": "userVerification/enroll"
+  },
+  {
+    "relro_vaddr": "0x114b7db8",
+    "rodata_vaddr": "0xe620f0b",
+    "method_or_event": "userVerification/delete"
+  },
+  {
+    "relro_vaddr": "0x114b7dc8",
+    "rodata_vaddr": "0xe620f22",
+    "method_or_event": "userVerification/verify"
+  },
+  {
+    "relro_vaddr": "0x114b7dd8",
+    "rodata_vaddr": "0xe620f39",
+    "method_or_event": "userVerification/cancel"
+  },
+  {
+    "relro_vaddr": "0x114b7de8",
+    "rodata_vaddr": "0xe623f5d",
+    "method_or_event": "thread/start"
+  },
+  {
+    "relro_vaddr": "0x114b7df8",
+    "rodata_vaddr": "0xe623f69",
+    "method_or_event": "thread/resume"
+  },
+  {
+    "relro_vaddr": "0x114b7e08",
+    "rodata_vaddr": "0xe623f76",
+    "method_or_event": "thread/fork"
+  },
+  {
+    "relro_vaddr": "0x114b7e18",
+    "rodata_vaddr": "0xe623f81",
+    "method_or_event": "thread/archive"
+  },
+  {
+    "relro_vaddr": "0x114b7e28",
+    "rodata_vaddr": "0xe623f8f",
+    "method_or_event": "thread/delete"
+  },
+  {
+    "relro_vaddr": "0x114b7e38",
+    "rodata_vaddr": "0xe623f9c",
+    "method_or_event": "thread/unsubscribe"
+  },
+  {
+    "relro_vaddr": "0x114b7e48",
+    "rodata_vaddr": "0xe620f50",
+    "method_or_event": "thread/increment_elicitation"
+  },
+  {
+    "relro_vaddr": "0x114b7e58",
+    "rodata_vaddr": "0xe620f6c",
+    "method_or_event": "thread/decrement_elicitation"
+  },
+  {
+    "relro_vaddr": "0x114b7e68",
+    "rodata_vaddr": "0xe623fae",
+    "method_or_event": "thread/name/set"
+  },
+  {
+    "relro_vaddr": "0x114b7e78",
+    "rodata_vaddr": "0xe620f88",
+    "method_or_event": "thread/prediction/request"
+  },
+  {
+    "relro_vaddr": "0x114b7e88",
+    "rodata_vaddr": "0xe623fbd",
+    "method_or_event": "thread/goal/set"
+  },
+  {
+    "relro_vaddr": "0x114b7e98",
+    "rodata_vaddr": "0xe623fcc",
+    "method_or_event": "thread/goal/get"
+  },
+  {
+    "relro_vaddr": "0x114b7ea8",
+    "rodata_vaddr": "0xe623fdb",
+    "method_or_event": "thread/goal/clear"
+  },
+  {
+    "relro_vaddr": "0x114b7eb8",
+    "rodata_vaddr": "0xe3cff00",
+    "method_or_event": "thread/queue/add"
+  },
+  {
+    "relro_vaddr": "0x114b7ec8",
+    "rodata_vaddr": "0xe620fa1",
+    "method_or_event": "thread/queue/list"
+  },
+  {
+    "relro_vaddr": "0x114b7ed8",
+    "rodata_vaddr": "0xe620fb2",
+    "method_or_event": "thread/queue/update"
+  },
+  {
+    "relro_vaddr": "0x114b7ee8",
+    "rodata_vaddr": "0xe620fc5",
+    "method_or_event": "thread/queue/delete"
+  },
+  {
+    "relro_vaddr": "0x114b7ef8",
+    "rodata_vaddr": "0xe620fd8",
+    "method_or_event": "thread/queue/reorder"
+  },
+  {
+    "relro_vaddr": "0x114b7f08",
+    "rodata_vaddr": "0xe620fec",
+    "method_or_event": "thread/queue/start"
+  },
+  {
+    "relro_vaddr": "0x114b7f18",
+    "rodata_vaddr": "0xe623fec",
+    "method_or_event": "thread/metadata/update"
+  },
+  {
+    "relro_vaddr": "0x114b7f28",
+    "rodata_vaddr": "0xe624002",
+    "method_or_event": "thread/attachment/add"
+  },
+  {
+    "relro_vaddr": "0x114b7f38",
+    "rodata_vaddr": "0xe624017",
+    "method_or_event": "thread/attachment/list"
+  },
+  {
+    "relro_vaddr": "0x114b7f48",
+    "rodata_vaddr": "0xe62402d",
+    "method_or_event": "thread/attachmentOwner/list"
+  },
+  {
+    "relro_vaddr": "0x114b7f58",
+    "rodata_vaddr": "0xe624048",
+    "method_or_event": "thread/attachment/remove"
+  },
+  {
+    "relro_vaddr": "0x114b7f68",
+    "rodata_vaddr": "0xe624060",
+    "method_or_event": "thread/section/move"
+  },
+  {
+    "relro_vaddr": "0x114b7f78",
+    "rodata_vaddr": "0xe621024",
+    "method_or_event": "thread/settings/update"
+  },
+  {
+    "relro_vaddr": "0x114b7f88",
+    "rodata_vaddr": "0xe62103a",
+    "method_or_event": "thread/memoryMode/set"
+  },
+  {
+    "relro_vaddr": "0x114b7f98",
+    "rodata_vaddr": "0xe62104f",
+    "method_or_event": "memory/status"
+  },
+  {
+    "relro_vaddr": "0x114b7fa8",
+    "rodata_vaddr": "0xe62105c",
+    "method_or_event": "memory/reset"
+  },
+  {
+    "relro_vaddr": "0x114b7fb8",
+    "rodata_vaddr": "0xe3cfb70",
+    "method_or_event": "rollout/compress"
+  },
+  {
+    "relro_vaddr": "0x114b7fc8",
+    "rodata_vaddr": "0xe3cff10",
+    "method_or_event": "thread/unarchive"
+  },
+  {
+    "relro_vaddr": "0x114b7fd8",
+    "rodata_vaddr": "0xe624073",
+    "method_or_event": "thread/compact/start"
+  },
+  {
+    "relro_vaddr": "0x114b7fe8",
+    "rodata_vaddr": "0xe624087",
+    "method_or_event": "thread/shellCommand"
+  },
+  {
+    "relro_vaddr": "0x114b7ff8",
+    "rodata_vaddr": "0xe62409a",
+    "method_or_event": "thread/approveGuardianDeniedAction"
+  },
+  {
+    "relro_vaddr": "0x114b8008",
+    "rodata_vaddr": "0xe4007d7",
+    "method_or_event": "thread/backgroundTerminals/clean"
+  },
+  {
+    "relro_vaddr": "0x114b8018",
+    "rodata_vaddr": "0xe621068",
+    "method_or_event": "thread/backgroundTerminals/list"
+  },
+  {
+    "relro_vaddr": "0x114b8028",
+    "rodata_vaddr": "0xe621087",
+    "method_or_event": "thread/backgroundTerminals/terminate"
+  },
+  {
+    "relro_vaddr": "0x114b8038",
+    "rodata_vaddr": "0xe6240bc",
+    "method_or_event": "thread/revert"
+  },
+  {
+    "relro_vaddr": "0x114b8048",
+    "rodata_vaddr": "0xe6240c9",
+    "method_or_event": "thread/list"
+  },
+  {
+    "relro_vaddr": "0x114b8058",
+    "rodata_vaddr": "0xe6210f6",
+    "method_or_event": "project/list"
+  },
+  {
+    "relro_vaddr": "0x114b8068",
+    "rodata_vaddr": "0xe621102",
+    "method_or_event": "project/read"
+  },
+  {
+    "relro_vaddr": "0x114b8078",
+    "rodata_vaddr": "0xe62110e",
+    "method_or_event": "project/create"
+  },
+  {
+    "relro_vaddr": "0x114b8088",
+    "rodata_vaddr": "0xe62111c",
+    "method_or_event": "project/import"
+  },
+  {
+    "relro_vaddr": "0x114b8098",
+    "rodata_vaddr": "0xe62112a",
+    "method_or_event": "project/update"
+  },
+  {
+    "relro_vaddr": "0x114b80a8",
+    "rodata_vaddr": "0xe621138",
+    "method_or_event": "project/move"
+  },
+  {
+    "relro_vaddr": "0x114b80b8",
+    "rodata_vaddr": "0xe621144",
+    "method_or_event": "project/delete"
+  },
+  {
+    "relro_vaddr": "0x114b80c8",
+    "rodata_vaddr": "0xe6240d4",
+    "method_or_event": "threadSection/list"
+  },
+  {
+    "relro_vaddr": "0x114b80d8",
+    "rodata_vaddr": "0xe6240e6",
+    "method_or_event": "threadSection/create"
+  },
+  {
+    "relro_vaddr": "0x114b80e8",
+    "rodata_vaddr": "0xe6240fa",
+    "method_or_event": "threadSection/update"
+  },
+  {
+    "relro_vaddr": "0x114b80f8",
+    "rodata_vaddr": "0xe62410e",
+    "method_or_event": "threadSection/delete"
+  },
+  {
+    "relro_vaddr": "0x114b8108",
+    "rodata_vaddr": "0xe621152",
+    "method_or_event": "thread/search"
+  },
+  {
+    "relro_vaddr": "0x114b8118",
+    "rodata_vaddr": "0xe62115f",
+    "method_or_event": "thread/searchOccurrences"
+  },
+  {
+    "relro_vaddr": "0x114b8128",
+    "rodata_vaddr": "0xe624122",
+    "method_or_event": "thread/loaded/list"
+  },
+  {
+    "relro_vaddr": "0x114b8138",
+    "rodata_vaddr": "0xe624134",
+    "method_or_event": "thread/read"
+  },
+  {
+    "relro_vaddr": "0x114b8148",
+    "rodata_vaddr": "0xe62413f",
+    "method_or_event": "thread/turns/list"
+  },
+  {
+    "relro_vaddr": "0x114b8158",
+    "rodata_vaddr": "0xe624150",
+    "method_or_event": "thread/items/list"
+  },
+  {
+    "relro_vaddr": "0x114b8168",
+    "rodata_vaddr": "0xe624161",
+    "method_or_event": "thread/inject_items"
+  },
+  {
+    "relro_vaddr": "0x114b8178",
+    "rodata_vaddr": "0xe624174",
+    "method_or_event": "skills/list"
+  },
+  {
+    "relro_vaddr": "0x114b8188",
+    "rodata_vaddr": "0xe62417f",
+    "method_or_event": "skills/extraRoots/set"
+  },
+  {
+    "relro_vaddr": "0x114b8198",
+    "rodata_vaddr": "0xe624194",
+    "method_or_event": "hooks/list"
+  },
+  {
+    "relro_vaddr": "0x114b81a8",
+    "rodata_vaddr": "0xe62419e",
+    "method_or_event": "marketplace/add"
+  },
+  {
+    "relro_vaddr": "0x114b81b8",
+    "rodata_vaddr": "0xe6241ad",
+    "method_or_event": "marketplace/remove"
+  },
+  {
+    "relro_vaddr": "0x114b81c8",
+    "rodata_vaddr": "0xe6241bf",
+    "method_or_event": "marketplace/upgrade"
+  },
+  {
+    "relro_vaddr": "0x114b81d8",
+    "rodata_vaddr": "0xe6241d2",
+    "method_or_event": "plugin/list"
+  },
+  {
+    "relro_vaddr": "0x114b81e8",
+    "rodata_vaddr": "0xe621177",
+    "method_or_event": "plugin/search"
+  },
+  {
+    "relro_vaddr": "0x114b81f8",
+    "rodata_vaddr": "0xe3cff20",
+    "method_or_event": "plugin/installed"
+  },
+  {
+    "relro_vaddr": "0x114b8208",
+    "rodata_vaddr": "0xe3cff30",
+    "method_or_event": "plugin/reconcile"
+  },
+  {
+    "relro_vaddr": "0x114b8218",
+    "rodata_vaddr": "0xe6241dd",
+    "method_or_event": "plugin/read"
+  },
+  {
+    "relro_vaddr": "0x114b8228",
+    "rodata_vaddr": "0xe6241e8",
+    "method_or_event": "plugin/skill/read"
+  },
+  {
+    "relro_vaddr": "0x114b8238",
+    "rodata_vaddr": "0xe6241f9",
+    "method_or_event": "plugin/share/save"
+  },
+  {
+    "relro_vaddr": "0x114b8248",
+    "rodata_vaddr": "0xe62420a",
+    "method_or_event": "plugin/share/updateTargets"
+  },
+  {
+    "relro_vaddr": "0x114b8258",
+    "rodata_vaddr": "0xe624224",
+    "method_or_event": "plugin/share/list"
+  },
+  {
+    "relro_vaddr": "0x114b8268",
+    "rodata_vaddr": "0xe624235",
+    "method_or_event": "plugin/share/checkout"
+  },
+  {
+    "relro_vaddr": "0x114b8278",
+    "rodata_vaddr": "0xe62424a",
+    "method_or_event": "plugin/share/delete"
+  },
+  {
+    "relro_vaddr": "0x114b8288",
+    "rodata_vaddr": "0xe3ebfa8",
+    "method_or_event": "app/read"
+  },
+  {
+    "relro_vaddr": "0x114b8298",
+    "rodata_vaddr": "0xe3ebfb0",
+    "method_or_event": "app/list"
+  },
+  {
+    "relro_vaddr": "0x114b82a8",
+    "rodata_vaddr": "0xe62425d",
+    "method_or_event": "app/installed"
+  },
+  {
+    "relro_vaddr": "0x114b82b8",
+    "rodata_vaddr": "0xe62426a",
+    "method_or_event": "fs/readFile"
+  },
+  {
+    "relro_vaddr": "0x114b82c8",
+    "rodata_vaddr": "0xe624275",
+    "method_or_event": "fs/writeFile"
+  },
+  {
+    "relro_vaddr": "0x114b82d8",
+    "rodata_vaddr": "0xe624281",
+    "method_or_event": "fs/createDirectory"
+  },
+  {
+    "relro_vaddr": "0x114b82e8",
+    "rodata_vaddr": "0xe624293",
+    "method_or_event": "fs/getMetadata"
+  },
+  {
+    "relro_vaddr": "0x114b82f8",
+    "rodata_vaddr": "0xe3cff40",
+    "method_or_event": "fs/readDirectory"
+  },
+  {
+    "relro_vaddr": "0x114b8308",
+    "rodata_vaddr": "0xe6242a1",
+    "method_or_event": "fs/remove"
+  },
+  {
+    "relro_vaddr": "0x114b8318",
+    "rodata_vaddr": "0xe6242aa",
+    "method_or_event": "fs/copy"
+  },
+  {
+    "relro_vaddr": "0x114b8328",
+    "rodata_vaddr": "0xe3ebfb8",
+    "method_or_event": "fs/watch"
+  },
+  {
+    "relro_vaddr": "0x114b8338",
+    "rodata_vaddr": "0xe6242b1",
+    "method_or_event": "fs/unwatch"
+  },
+  {
+    "relro_vaddr": "0x114b8348",
+    "rodata_vaddr": "0xe6242bb",
+    "method_or_event": "skills/config/write"
+  },
+  {
+    "relro_vaddr": "0x114b8358",
+    "rodata_vaddr": "0xe6242ce",
+    "method_or_event": "plugin/install"
+  },
+  {
+    "relro_vaddr": "0x114b8368",
+    "rodata_vaddr": "0xe3cff50",
+    "method_or_event": "plugin/uninstall"
+  },
+  {
+    "relro_vaddr": "0x114b8378",
+    "rodata_vaddr": "0xe6242dc",
+    "method_or_event": "turn/start"
+  },
+  {
+    "relro_vaddr": "0x114b8388",
+    "rodata_vaddr": "0xe621184",
+    "method_or_event": "turn/settings/update"
+  },
+  {
+    "relro_vaddr": "0x114b8398",
+    "rodata_vaddr": "0xe6242e6",
+    "method_or_event": "turn/steer"
+  },
+  {
+    "relro_vaddr": "0x114b83a8",
+    "rodata_vaddr": "0xe6242f0",
+    "method_or_event": "turn/interrupt"
+  },
+  {
+    "relro_vaddr": "0x114b83b8",
+    "rodata_vaddr": "0xe6211d9",
+    "method_or_event": "thread/realtime/start"
+  },
+  {
+    "relro_vaddr": "0x114b83c8",
+    "rodata_vaddr": "0xe6211ee",
+    "method_or_event": "thread/realtime/appendAudio"
+  },
+  {
+    "relro_vaddr": "0x114b83d8",
+    "rodata_vaddr": "0xe621209",
+    "method_or_event": "thread/realtime/appendText"
+  },
+  {
+    "relro_vaddr": "0x114b83e8",
+    "rodata_vaddr": "0xe621223",
+    "method_or_event": "thread/realtime/appendSpeech"
+  },
+  {
+    "relro_vaddr": "0x114b83f8",
+    "rodata_vaddr": "0xe62123f",
+    "method_or_event": "thread/realtime/stop"
+  },
+  {
+    "relro_vaddr": "0x114b8408",
+    "rodata_vaddr": "0xe621253",
+    "method_or_event": "thread/timeline/list"
+  },
+  {
+    "relro_vaddr": "0x114b8418",
+    "rodata_vaddr": "0xe621267",
+    "method_or_event": "thread/realtime/listVoices"
+  },
+  {
+    "relro_vaddr": "0x114b8428",
+    "rodata_vaddr": "0xe6242fe",
+    "method_or_event": "review/start"
+  },
+  {
+    "relro_vaddr": "0x114b8438",
+    "rodata_vaddr": "0xe62430a",
+    "method_or_event": "model/list"
+  },
+  {
+    "relro_vaddr": "0x114b8448",
+    "rodata_vaddr": "0xe624314",
+    "method_or_event": "account/gatewayOAuth/read"
+  },
+  {
+    "relro_vaddr": "0x114b8458",
+    "rodata_vaddr": "0xe62432d",
+    "method_or_event": "account/gatewayOAuth/login"
+  },
+  {
+    "relro_vaddr": "0x114b8468",
+    "rodata_vaddr": "0xe624347",
+    "method_or_event": "account/gatewayOAuth/cancel"
+  },
+  {
+    "relro_vaddr": "0x114b8478",
+    "rodata_vaddr": "0xe624362",
+    "method_or_event": "modelProvider/capabilities/read"
+  },
+  {
+    "relro_vaddr": "0x114b8488",
+    "rodata_vaddr": "0xe624381",
+    "method_or_event": "experimentalFeature/list"
+  },
+  {
+    "relro_vaddr": "0x114b8498",
+    "rodata_vaddr": "0xe624399",
+    "method_or_event": "permissionProfile/list"
+  },
+  {
+    "relro_vaddr": "0x114b84a8",
+    "rodata_vaddr": "0xe6243af",
+    "method_or_event": "experimentalFeature/enablement/set"
+  },
+  {
+    "relro_vaddr": "0x114b84b8",
+    "rodata_vaddr": "0xe621281",
+    "method_or_event": "remoteControl/enable"
+  },
+  {
+    "relro_vaddr": "0x114b84c8",
+    "rodata_vaddr": "0xe621295",
+    "method_or_event": "remoteControl/disable"
+  },
+  {
+    "relro_vaddr": "0x114b84d8",
+    "rodata_vaddr": "0xe6212aa",
+    "method_or_event": "remoteControl/status/read"
+  },
+  {
+    "relro_vaddr": "0x114b84e8",
+    "rodata_vaddr": "0xe6212c3",
+    "method_or_event": "remoteControl/pairing/start"
+  },
+  {
+    "relro_vaddr": "0x114b84f8",
+    "rodata_vaddr": "0xe6212de",
+    "method_or_event": "remoteControl/pairing/status"
+  },
+  {
+    "relro_vaddr": "0x114b8508",
+    "rodata_vaddr": "0xe6212fa",
+    "method_or_event": "remoteControl/client/list"
+  },
+  {
+    "relro_vaddr": "0x114b8518",
+    "rodata_vaddr": "0xe621313",
+    "method_or_event": "remoteControl/client/revoke"
+  },
+  {
+    "relro_vaddr": "0x114b8528",
+    "rodata_vaddr": "0xe62132e",
+    "method_or_event": "collaborationMode/list"
+  },
+  {
+    "relro_vaddr": "0x114b8538",
+    "rodata_vaddr": "0xe621344",
+    "method_or_event": "mock/experimentalMethod"
+  },
+  {
+    "relro_vaddr": "0x114b8548",
+    "rodata_vaddr": "0xe62135b",
+    "method_or_event": "environment/add"
+  },
+  {
+    "relro_vaddr": "0x114b8558",
+    "rodata_vaddr": "0xe3c81b0",
+    "method_or_event": "environment/info"
+  },
+  {
+    "relro_vaddr": "0x114b8568",
+    "rodata_vaddr": "0xe62136a",
+    "method_or_event": "environment/status"
+  },
+  {
+    "relro_vaddr": "0x114b8578",
+    "rodata_vaddr": "0xe6243d1",
+    "method_or_event": "mcpServer/oauth/login"
+  },
+  {
+    "relro_vaddr": "0x114b8588",
+    "rodata_vaddr": "0xe6243e6",
+    "method_or_event": "config/mcpServer/reload"
+  },
+  {
+    "relro_vaddr": "0x114b8598",
+    "rodata_vaddr": "0xe6243fd",
+    "method_or_event": "mcpServerStatus/list"
+  },
+  {
+    "relro_vaddr": "0x114b85a8",
+    "rodata_vaddr": "0xe624411",
+    "method_or_event": "mcpServer/resource/read"
+  },
+  {
+    "relro_vaddr": "0x114b85b8",
+    "rodata_vaddr": "0xe62137c",
+    "method_or_event": "mcpServer/event/stream/start"
+  },
+  {
+    "relro_vaddr": "0x114b85c8",
+    "rodata_vaddr": "0xe621398",
+    "method_or_event": "mcpServer/event/stream/stop"
+  },
+  {
+    "relro_vaddr": "0x114b85d8",
+    "rodata_vaddr": "0xe624428",
+    "method_or_event": "mcpServer/tool/call"
+  },
+  {
+    "relro_vaddr": "0x114b85e8",
+    "rodata_vaddr": "0xe62443b",
+    "method_or_event": "windowsSandbox/setupStart"
+  },
+  {
+    "relro_vaddr": "0x114b85f8",
+    "rodata_vaddr": "0xe624454",
+    "method_or_event": "windowsSandbox/readiness"
+  },
+  {
+    "relro_vaddr": "0x114b8608",
+    "rodata_vaddr": "0xe62446c",
+    "method_or_event": "account/login/start"
+  },
+  {
+    "relro_vaddr": "0x114b8618",
+    "rodata_vaddr": "0xe621424",
+    "method_or_event": "account/bedrock/discover"
+  },
+  {
+    "relro_vaddr": "0x114b8628",
+    "rodata_vaddr": "0xe62143c",
+    "method_or_event": "account/bedrock/setup"
+  },
+  {
+    "relro_vaddr": "0x114b8638",
+    "rodata_vaddr": "0xe621451",
+    "method_or_event": "account/bedrock/checkGovCloudRequirements"
+  },
+  {
+    "relro_vaddr": "0x114b8648",
+    "rodata_vaddr": "0xe62447f",
+    "method_or_event": "account/login/cancel"
+  },
+  {
+    "relro_vaddr": "0x114b8658",
+    "rodata_vaddr": "0xe624493",
+    "method_or_event": "account/logout"
+  },
+  {
+    "relro_vaddr": "0x114b8668",
+    "rodata_vaddr": "0xe6244a1",
+    "method_or_event": "account/rateLimits/read"
+  },
+  {
+    "relro_vaddr": "0x114b8678",
+    "rodata_vaddr": "0xe6244b8",
+    "method_or_event": "account/rateLimitResetCredit/consume"
+  },
+  {
+    "relro_vaddr": "0x114b8688",
+    "rodata_vaddr": "0xe6244dc",
+    "method_or_event": "account/usage/read"
+  },
+  {
+    "relro_vaddr": "0x114b8698",
+    "rodata_vaddr": "0xe6244ee",
+    "method_or_event": "account/workspaceMessages/read"
+  },
+  {
+    "relro_vaddr": "0x114b86a8",
+    "rodata_vaddr": "0xe4007f7",
+    "method_or_event": "account/sendAddCreditsNudgeEmail"
+  },
+  {
+    "relro_vaddr": "0x114b86b8",
+    "rodata_vaddr": "0xe62450c",
+    "method_or_event": "feedback/upload"
+  },
+  {
+    "relro_vaddr": "0x114b86c8",
+    "rodata_vaddr": "0xe62451b",
+    "method_or_event": "command/exec"
+  },
+  {
+    "relro_vaddr": "0x114b86d8",
+    "rodata_vaddr": "0xe624527",
+    "method_or_event": "command/exec/write"
+  },
+  {
+    "relro_vaddr": "0x114b86e8",
+    "rodata_vaddr": "0xe624539",
+    "method_or_event": "command/exec/terminate"
+  },
+  {
+    "relro_vaddr": "0x114b86f8",
+    "rodata_vaddr": "0xe62454f",
+    "method_or_event": "command/exec/resize"
+  },
+  {
+    "relro_vaddr": "0x114b8708",
+    "rodata_vaddr": "0xe621498",
+    "method_or_event": "process/spawn"
+  },
+  {
+    "relro_vaddr": "0x114b8718",
+    "rodata_vaddr": "0xe6214a5",
+    "method_or_event": "process/writeStdin"
+  },
+  {
+    "relro_vaddr": "0x114b8728",
+    "rodata_vaddr": "0xe6214b7",
+    "method_or_event": "process/kill"
+  },
+  {
+    "relro_vaddr": "0x114b8738",
+    "rodata_vaddr": "0xe6214c3",
+    "method_or_event": "process/resizePty"
+  },
+  {
+    "relro_vaddr": "0x114b8748",
+    "rodata_vaddr": "0xe624562",
+    "method_or_event": "config/read"
+  },
+  {
+    "relro_vaddr": "0x114b8758",
+    "rodata_vaddr": "0xe62456d",
+    "method_or_event": "externalAgentConfig/detect"
+  },
+  {
+    "relro_vaddr": "0x114b8768",
+    "rodata_vaddr": "0xe624587",
+    "method_or_event": "externalAgentConfig/import"
+  },
+  {
+    "relro_vaddr": "0x114b8778",
+    "rodata_vaddr": "0xe6245a1",
+    "method_or_event": "externalAgentConfig/import/recordHistory"
+  },
+  {
+    "relro_vaddr": "0x114b8788",
+    "rodata_vaddr": "0xe6245c9",
+    "method_or_event": "externalAgentConfig/import/readHistories"
+  },
+  {
+    "relro_vaddr": "0x114b8798",
+    "rodata_vaddr": "0xe6245f1",
+    "method_or_event": "config/value/write"
+  },
+  {
+    "relro_vaddr": "0x114b87a8",
+    "rodata_vaddr": "0xe624603",
+    "method_or_event": "config/batchWrite"
+  },
+  {
+    "relro_vaddr": "0x114b87b8",
+    "rodata_vaddr": "0xe624614",
+    "method_or_event": "configRequirements/read"
+  },
+  {
+    "relro_vaddr": "0x114b87c8",
+    "rodata_vaddr": "0xe62462b",
+    "method_or_event": "account/read"
+  },
+  {
+    "relro_vaddr": "0x114b87d8",
+    "rodata_vaddr": "0xe624637",
+    "method_or_event": "getConversationSummary"
+  },
+  {
+    "relro_vaddr": "0x114b87e8",
+    "rodata_vaddr": "0xe62464d",
+    "method_or_event": "gitDiffToRemote"
+  },
+  {
+    "relro_vaddr": "0x114b87f8",
+    "rodata_vaddr": "0xe62465c",
+    "method_or_event": "getAuthStatus"
+  },
+  {
+    "relro_vaddr": "0x114b8808",
+    "rodata_vaddr": "0xe624669",
+    "method_or_event": "fuzzyFileSearch"
+  },
+  {
+    "relro_vaddr": "0x114b8818",
+    "rodata_vaddr": "0xe6214d4",
+    "method_or_event": "fuzzyFileSearch/sessionStart"
+  },
+  {
+    "relro_vaddr": "0x114b8828",
+    "rodata_vaddr": "0xe6214f0",
+    "method_or_event": "fuzzyFileSearch/sessionUpdate"
+  },
+  {
+    "relro_vaddr": "0x114b8838",
+    "rodata_vaddr": "0xe62150d",
+    "method_or_event": "fuzzyFileSearch/sessionStop"
+  },
+  {
+    "relro_vaddr": "0x114b8848",
+    "rodata_vaddr": "0xe6205ed",
+    "method_or_event": "error"
+  },
+  {
+    "relro_vaddr": "0x114b8858",
+    "rodata_vaddr": "0xe6205f2",
+    "method_or_event": "thread/started"
+  },
+  {
+    "relro_vaddr": "0x114b8868",
+    "rodata_vaddr": "0xe620600",
+    "method_or_event": "thread/status/changed"
+  },
+  {
+    "relro_vaddr": "0x114b8878",
+    "rodata_vaddr": "0xe620615",
+    "method_or_event": "thread/archived"
+  },
+  {
+    "relro_vaddr": "0x114b8888",
+    "rodata_vaddr": "0xe620624",
+    "method_or_event": "thread/deleted"
+  },
+  {
+    "relro_vaddr": "0x114b8898",
+    "rodata_vaddr": "0xe620632",
+    "method_or_event": "thread/unarchived"
+  },
+  {
+    "relro_vaddr": "0x114b88a8",
+    "rodata_vaddr": "0xe620643",
+    "method_or_event": "thread/closed"
+  },
+  {
+    "relro_vaddr": "0x114b88b8",
+    "rodata_vaddr": "0xe620650",
+    "method_or_event": "thread/reverted"
+  },
+  {
+    "relro_vaddr": "0x114b88c8",
+    "rodata_vaddr": "0xe62065f",
+    "method_or_event": "skills/changed"
+  },
+  {
+    "relro_vaddr": "0x114b88d8",
+    "rodata_vaddr": "0xe62066d",
+    "method_or_event": "thread/name/updated"
+  },
+  {
+    "relro_vaddr": "0x114b88e8",
+    "rodata_vaddr": "0xe620680",
+    "method_or_event": "thread/attachment/updated"
+  },
+  {
+    "relro_vaddr": "0x114b88f8",
+    "rodata_vaddr": "0xe620699",
+    "method_or_event": "thread/goal/updated"
+  }
+]

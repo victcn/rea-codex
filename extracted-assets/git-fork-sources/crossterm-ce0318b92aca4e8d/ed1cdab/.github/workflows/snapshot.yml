@@ -1,0 +1,46 @@
+# Keep pushed branch tips reachable if we later rebase the fork onto upstream.
+name: Create snapshot tag
+
+on:
+  push:
+    branches:
+      - master
+
+permissions: {}
+
+# Serialize reruns of the same commit without canceling tags for other commits.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.sha }}
+  cancel-in-progress: false
+
+jobs:
+  create-snapshot:
+    if: ${{ !github.event.deleted }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - name: Create snapshot tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          tag="snapshot-$GITHUB_SHA"
+          existing_sha="$(
+            gh api "repos/$GITHUB_REPOSITORY/git/matching-refs/tags/$tag" \
+              --jq ".[] | select(.ref == \"refs/tags/$tag\") | .object.sha"
+          )"
+
+          if [ -n "$existing_sha" ]; then
+            if [ "$existing_sha" != "$GITHUB_SHA" ]; then
+              echo "::error::Tag $tag already points to a different object."
+              exit 1
+            fi
+            echo "Tag $tag already exists."
+            exit 0
+          fi
+
+          gh api --method POST "repos/$GITHUB_REPOSITORY/git/refs" \
+            -f ref="refs/tags/$tag" \
+            -f sha="$GITHUB_SHA"

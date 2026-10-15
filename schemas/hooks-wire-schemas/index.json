@@ -1,0 +1,163 @@
+[
+  {
+    "path": "schemas/hooks-wire-schemas/post-tool-use.command.input.schema.json",
+    "bytes": 1386,
+    "sha256": "8ea1e4bccb262fad05b85c300d562d2653c5a64118d6a2c5704468fc4ea836a9",
+    "rodata_vaddr": "0xe7b1c5c",
+    "title": "post-tool-use.command.input"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/post-tool-use.command.output.schema.json",
+    "bytes": 1441,
+    "sha256": "a823d0e2c941e98d7d3af825dfdb0b1dfa6a935696ff8b8529e8e83232a1b0c8",
+    "rodata_vaddr": "0xe7b21e2",
+    "title": "post-tool-use.command.output"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/permission-request.command.input.schema.json",
+    "bytes": 1279,
+    "sha256": "75c73d7a38cfc0e73ef06bd1fc506a44d25874522069ec4fb85e0bf1e7d6b8fb",
+    "rodata_vaddr": "0xe7b2783",
+    "title": "permission-request.command.input"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/permission-request.command.output.schema.json",
+    "bytes": 2346,
+    "sha256": "749c73245b4b6d43537c3049f76720ab1c2bd48d7e4752b744b376925b9d57a1",
+    "rodata_vaddr": "0xe7b2ca3",
+    "title": "permission-request.command.output"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/post-compact.command.input.schema.json",
+    "bytes": 1071,
+    "sha256": "4a4b3f3022c939a15ab12e95f5c5c17b18bb20f74fe962ae0a51b2a3e76e63f9",
+    "rodata_vaddr": "0xe7b35e7",
+    "title": "post-compact.command.input"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/post-compact.command.output.schema.json",
+    "bytes": 475,
+    "sha256": "48355bfcb568259cf396beb6ade2ac32827f50bf6a3c20b395c337dce184cbed",
+    "rodata_vaddr": "0xe7b3a31",
+    "title": "post-compact.command.output"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/pre-tool-use.command.input.schema.json",
+    "bytes": 1336,
+    "sha256": "fabed428f0fe75767c5700208b166da5faef4e031d601dfc8bff2f96d340c682",
+    "rodata_vaddr": "0xe7b3c26",
+    "title": "pre-tool-use.command.input"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/pre-tool-use.command.output.schema.json",
+    "bytes": 1907,
+    "sha256": "e684f81c63fbb5972892f6a848b49fec68c8ce137931651093d2dd1da56a1dd6",
+    "rodata_vaddr": "0xe7b4179",
+    "title": "pre-tool-use.command.output"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/pre-compact.command.input.schema.json",
+    "bytes": 1069,
+    "sha256": "065f0ae3cd628ac9af8c0cf9bd1d5a673bcbd5ea1d7dcdc0c6437f34dd0189d9",
+    "rodata_vaddr": "0xe7b4905",
+    "title": "pre-compact.command.input"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/pre-compact.command.output.schema.json",
+    "bytes": 474,
+    "sha256": "c392f3054ae6750f427d4dec07380fd67e8c58a7939a35d5c69bfa070c7ca032",
+    "rodata_vaddr": "0xe7b4d4c",
+    "title": "pre-compact.command.output"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/session-start.command.input.schema.json",
+    "bytes": 1076,
+    "sha256": "54168cf0bb3641bbc55dcdc58aa3803651d4f24499339061f3e9bb0ef9095633",
+    "rodata_vaddr": "0xe7b4f41",
+    "title": "session-start.command.input"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/session-start.command.output.schema.json",
+    "bytes": 1061,
+    "sha256": "f375e6de1c59ecbabd8c1aff05a67976d0f3aa2ef061808838de4c7c20be1c71",
+    "rodata_vaddr": "0xe7b5391",
+    "title": "session-start.command.output"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/session-end.command.input.schema.json",
+    "bytes": 717,
+    "sha256": "23b1b69f92fa8ac29f8319478984b5aa5aaf09e5ca355ce90aa010452937e41c",
+    "rodata_vaddr": "0xe7b57cf",
+    "title": "session-end.command.input"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/subagent-start.command.input.schema.json",
+    "bytes": 1197,
+    "sha256": "ce7dc9b5ae8826d1e0c59ffcea793e558aebceb7917a2eb9bb2edd8a7ac37aa9",
+    "rodata_vaddr": "0xe7b5ab8",
+    "title": "subagent-start.command.input"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/subagent-start.command.output.schema.json",
+    "bytes": 1065,
+    "sha256": "34e8ec95393d2aa930d7932a34c3fb29a5e5f90c264fdbcc581393c5838b4660",
+    "rodata_vaddr": "0xe7b5f82",
+    "title": "subagent-start.command.output"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/subagent-stop.command.input.schema.json",
+    "bytes": 1502,
+    "sha256": "94dc8df29f4691195ac2338ae6de876230e5100a10b94ef48df4e732424b5df5",
+    "rodata_vaddr": "0xe7b63c6",
+    "title": "subagent-stop.command.input"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/subagent-stop.command.output.schema.json",
+    "bytes": 972,
+    "sha256": "8ba2cd7899ae4544193764e67e988235edebe984abe5788634d123bbf13e3e3a",
+    "rodata_vaddr": "0xe7b69c0",
+    "title": "subagent-stop.command.output"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/user-prompt-submit.command.input.schema.json",
+    "bytes": 1230,
+    "sha256": "e6b923bc519896197c44c4fc267a9d115cef24ac418dde9c27db699f4e3b65fd",
+    "rodata_vaddr": "0xe7b6d8c",
+    "title": "user-prompt-submit.command.input"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/user-prompt-submit.command.output.schema.json",
+    "bytes": 1390,
+    "sha256": "5e290303db710f3ccc12f4a2744e8586e7749b3ca2b6bf9f57781ed75bf17b2b",
+    "rodata_vaddr": "0xe7b727b",
+    "title": "user-prompt-submit.command.output"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/stop.command.input.schema.json",
+    "bytes": 1241,
+    "sha256": "7db4793c404b5c46b230c27b9507eb1a558fd958689d8715221c5dd81351a06a",
+    "rodata_vaddr": "0xe7b77fb",
+    "title": "stop.command.input"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/stop.command.output.schema.json",
+    "bytes": 963,
+    "sha256": "dc2b30e84c97beca5825aa64ca46e1337e402781dc5a9142b67111d10523f15c",
+    "rodata_vaddr": "0xe7b7ce7",
+    "title": "stop.command.output"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/interrupt.command.input.schema.json",
+    "bytes": 1056,
+    "sha256": "be37402db3524543efe1e4058e6b9a3a53f7dd8f7791a9b75bb2accf7842196e",
+    "rodata_vaddr": "0xe7b80c1",
+    "title": "interrupt.command.input"
+  },
+  {
+    "path": "schemas/hooks-wire-schemas/interrupt.command.output.schema.json",
+    "bytes": 248,
+    "sha256": "d9a3fe9ed8ffd9e920d8bf1e49d2c1af49cf63b0c3cf526e568511dc998f824a",
+    "rodata_vaddr": "0xe7b84f9",
+    "title": "interrupt.command.output"
+  }
+]

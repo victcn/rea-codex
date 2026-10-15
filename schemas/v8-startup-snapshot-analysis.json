@@ -1,0 +1,31 @@
+{
+  "binary": "/usr/local/lib/node_modules/@openai/codex/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/bin/codex-code-mode-host",
+  "binary_sha256": "ec71830690a7c0024916ee0c99fbdc635bc6e747ff665ea4f03a8389bbcb6b30",
+  "snapshot_file_offset": "0x2fb1980",
+  "snapshot_byte_length": 10822192,
+  "snapshot_sha256": "1cf67874b5a87a8363a86fb3f81e3cbbed54d389062dab8fb52308d5cf8c8612",
+  "magic_hex": "0x27da0090",
+  "version_hash_hex": "0x14",
+  "header_strings": [
+    "CmnD",
+    " Copyright (C) 2016 and later: Unicode, Inc. and others. License & terms of use: http://www.unicode.org/copyright.html "
+  ],
+  "unique_identifier_count": 6391,
+  "code_mode_globals": [
+    "tools",
+    "ALL_TOOLS",
+    "codex.enabled",
+    "exit",
+    "notify",
+    "store",
+    "text",
+    "add_content",
+    "load_image"
+  ],
+  "embedded_promise_combinators_extracted": true,
+  "extracted_files": [
+    "extracted-assets/code-mode-v8-snapshot/v8-promise-combinators.js",
+    "extracted-assets/code-mode-v8-snapshot/v8-snapshot-header-64k.bin",
+    "extracted-assets/code-mode-v8-snapshot/v8-snapshot-strings.txt"
+  ]
+}

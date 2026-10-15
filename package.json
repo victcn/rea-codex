@@ -1,0 +1,22 @@
+{
+  "name": "rea-codex-reconstructed",
+  "version": "0.162.1",
+  "description": "REA 100% Full Source, Embedded Asset, Protocol Schema, and Binary Address Mapping of OpenAI Codex CLI v0.162.1",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bin": {
+    "codex": "./bin/codex"
+  },
+  "scripts": {
+    "start": "./bin/codex",
+    "isolated": "./scripts/run-isolated.sh",
+    "extract": "python3 ./scripts/extract-codex-artifacts.py && python3 ./scripts/extract-all-remaining.py",
+    "extract-deep": "python3 ./scripts/extract-deep-components.py && python3 ./scripts/fetch-git-fork-sources.py",
+    "map-addresses": "python3 ./scripts/build-binary-address-map.py",
+    "inspect": "python3 ./scripts/inspect-binary-assets.py",
+    "analyze-repo": "python3 ./scripts/run-repository-analyzer.py",
+    "rebuild-all": "npm run extract && npm run extract-deep && npm run map-addresses && npm run analyze-repo",
+    "test": "python3 ./scripts/self-test.py",
+    "pack": "python3 ./scripts/pack-release.py"
+  }
+}

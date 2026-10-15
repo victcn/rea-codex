@@ -1,0 +1,2 @@
+start: begin_patch environment_id? hunk+ end_patch
+environment_id: "*** Environment ID: " filename LFThe `apply_patch` tool can be used to edit files. This is a FREEFORM tool, so do not wrap the patch in JSON.request_user_input can only be used by the root thread
